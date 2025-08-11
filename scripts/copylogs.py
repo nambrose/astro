@@ -35,3 +35,6 @@ copyFiles(src_path_prefix + "AppData\\local\\NINA\\AutoFocus" , dest_path_prefix
 
 #Copy Plate Solve failures
 copyFiles(src_path_prefix + "AppData\\local\\NINA\\PlateSolver\\Failed" , dest_path_prefix + "NINA\\PlateSolveFailed\\")
+
+#Copy Plate PHD Logs
+copyFiles(src_path_prefix + "Onedrive\\Documents\\PHD2" , dest_path_prefix + "PHD\\Logs")
