@@ -5922,3 +5922,147 @@ System.Threading.Tasks.TaskCanceledException: A task was canceled.
 2025-09-06T11:16:16.3124|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
 2025-09-06T11:16:17.1069|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
 2025-09-06T11:16:17.1071|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 19:50:27h, Offset: -60
+2025-09-06T19:50:57.2226|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 19:49:5h, Offset: -60
+2025-09-06T19:50:57.2231|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-06T19:50:58.0173|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-06T19:50:58.0177|INFO|SequenceItem.cs|Run|208|Starting Category: Connector, Item: ConnectAllEquipment
+2025-09-06T19:50:58.0183|INFO|ConnectAllEquipment.cs|Execute|167|Camera is already connected
+2025-09-06T19:50:58.0184|INFO|ConnectAllEquipment.cs|Execute|167|Filter Wheel is already connected
+2025-09-06T19:50:58.0185|INFO|ConnectAllEquipment.cs|Execute|167|Focuser is already connected
+2025-09-06T19:50:58.0192|INFO|ConnectAllEquipment.cs|Execute|167|Telescope is already connected
+2025-09-06T19:50:58.0194|INFO|ConnectAllEquipment.cs|Execute|167|Guider is already connected
+2025-09-06T19:50:58.0201|INFO|ConnectAllEquipment.cs|Execute|167|Weather is already connected
+2025-09-06T19:50:58.0203|INFO|ConnectAllEquipment.cs|Execute|167|Safety Monitor is already connected
+2025-09-06T19:50:58.0204|INFO|SequenceItem.cs|Run|254|Finishing Category: Connector, Item: ConnectAllEquipment
+2025-09-06T19:50:58.0207|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 4
+2025-09-06T19:50:58.0209|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.ParallelContainer, Strategy: ParallelStrategy, Items[CREATED]: 4
+2025-09-06T19:50:58.0212|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2025-09-06T19:50:58.0232|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: 0, Duration: 0
+2025-09-06T19:50:58.0236|INFO|CameraVM.cs|CoolCamera|139|Cooling Camera. Target: 0 Duration: 00:00:00
+2025-09-06T19:50:58.0257|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: CoolCamera, Temperature: 0, Duration: 0
+2025-09-06T19:50:58.0259|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-06T19:50:58.0301|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 20:49:5h, Offset: 0
+2025-09-06T19:50:58.0320|INFO|PHD2Guider.cs|StopGuiding|700|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2025-09-06T19:50:58.0327|INFO|TelescopeVM.cs|FindHome|281|Mount ordered to locate home position
+2025-09-06T19:50:58.0337|ERROR|TelescopeVM.cs|FindHome|341|Mount cannot locate home because it is already at the home position
+2025-09-06T19:50:58.0339|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2025-09-06T19:50:58.6698|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-06T20:49:06.4169|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 20:49:5h, Offset: 0
+2025-09-06T20:49:06.4172|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.ParallelContainer, Strategy: ParallelStrategy, Items[FINISHED]: 4
+2025-09-06T20:49:06.4173|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 2, Triggers: Category: Ground Station, Item: Failures to Telegram
+2025-09-06T20:49:06.4174|INFO|SequenceItem.cs|Run|254|Finishing Template Container Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Startup
+2025-09-06T20:49:06.4174|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Startup
+2025-09-06T20:49:06.4175|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2025-09-06T20:49:06.4176|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2025-09-06T20:49:06.4177|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: TimeCondition, Time: 6:22:16h, 
+2025-09-06T20:49:06.4179|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.DeepSkyObjectContainer, Strategy: SequentialStrategy, Items[CREATED]: 8, Triggers: Trigger: MeridianFlipTriggerTrigger: RestoreGuidingTrigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to Telegram, Target: KN26 RA: 21:21:39; Dec: 38° 28' 33"; Epoch: J2000 0
+2025-09-06T20:49:06.4181|INFO|WhenCommon.cs|ShouldTrigger|360|ShouldTrigger TRUE from InterruptWhen, setting TriggerRunner
+2025-09-06T20:49:06.4181|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:06.4182|INFO|WhenCommon.cs|ShouldTrigger|364|ShouldTrigger TRUE, setting TriggerRunner
+2025-09-06T20:49:06.4182|INFO|WhenCommon.cs|InterruptWhen|305|Interrupting current Instruction Set
+2025-09-06T20:49:06.4184|INFO|SequenceTrigger.cs|Run|114|Starting Trigger: WhenUnsafe
+2025-09-06T20:49:06.4185|INFO|WhenCommon.cs|Execute|377|Execute 0
+2025-09-06T20:49:06.4185|INFO|WhenCommon.cs|Execute|379|When: Execute in critical section; return
+2025-09-06T20:49:06.4185|INFO|WhenCommon.cs|InterruptWhen|315|Canceling sequence...
+2025-09-06T20:49:06.4186|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-06T20:49:06.4217|ERROR|TelegramCommon.cs|SendTelegram|41|Error sending to Telegram: A task was canceled.
+2025-09-06T20:49:06.4238|INFO|Sequencer.cs|Start|85|Sequence run was cancelled
+2025-09-06T20:49:06.4375|INFO|Sequence2VM.cs|StartSequence|490|Advanced Sequence finished
+2025-09-06T20:49:07.4281|INFO|WhenCommon.cs|InterruptWhen|322|Sequence longer running
+2025-09-06T20:49:07.4287|WARNING|WhenCommon.cs|CheckSlewing|254|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2025-09-06T20:49:07.4294|INFO|Sequence2VM.cs|StartSequence|485|Advanced Sequence starting
+2025-09-06T20:49:07.4312|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3
+2025-09-06T20:49:07.4315|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2025-09-06T20:49:07.4317|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2025-09-06T20:49:07.4319|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2025-09-06T20:49:07.4321|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: TimeCondition, Time: 6:22:16h, 
+2025-09-06T20:49:07.4328|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.DeepSkyObjectContainer, Strategy: SequentialStrategy, Items[CREATED]: 8, Triggers: Trigger: MeridianFlipTriggerTrigger: RestoreGuidingTrigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to Telegram, Target: KN26 RA: 21:21:39; Dec: 38° 28' 33"; Epoch: J2000 0
+2025-09-06T20:49:07.4331|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:07.4333|INFO|WhenCommon.cs|ShouldTrigger|364|ShouldTrigger TRUE, setting TriggerRunner
+2025-09-06T20:49:07.4334|INFO|SequenceTrigger.cs|Run|114|Starting Trigger: WhenUnsafe
+2025-09-06T20:49:07.4336|INFO|WhenCommon.cs|Execute|377|Execute 0
+2025-09-06T20:49:07.4337|INFO|WhenCommon.cs|Execute|391|When: running TriggerRunner, InFlight -> true, Triggered -> false
+2025-09-06T20:49:07.4338|WARNING|WhenCommon.cs|CheckSlewing|254|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2025-09-06T20:49:07.4339|INFO|SequenceItem.cs|Run|208|Starting Category: , Container: WhenPlugin.When.IfContainer, Strategy: SequentialStrategy, Items[CREATED]: 4
+2025-09-06T20:49:07.4342|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:07.4343|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-06T20:49:08.1644|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-06T20:49:08.1649|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:08.1650|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2025-09-06T20:49:08.1704|INFO|PHD2Guider.cs|StopGuiding|700|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2025-09-06T20:49:08.1706|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2025-09-06T20:49:08.1710|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:08.1715|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2025-09-06T20:49:08.1775|INFO|PHD2Guider.cs|StopGuiding|700|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2025-09-06T20:49:08.1777|INFO|TelescopeVM.cs|FindHome|281|Mount ordered to locate home position
+2025-09-06T20:49:08.1788|ERROR|TelescopeVM.cs|FindHome|341|Mount cannot locate home because it is already at the home position
+2025-09-06T20:49:08.1790|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2025-09-06T20:49:08.2313|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2025-09-06T20:49:08.2314|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Safety), Item: OnceSafe
+2025-09-07T06:22:16.3573|INFO|TimeCondition.cs|Check|248|TimeCondition finished.
+2025-09-07T06:22:16.3578|INFO|TimeCondition.cs|InterruptWhenTimeIsUp|62|Time limit exceeded - Interrupting current Instruction Set
+2025-09-07T06:22:16.3629|INFO|WhenCommon.cs|Execute|407|When: Execute done; InFlight -> false, Triggered false
+2025-09-07T06:22:16.3636|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-07T06:22:16.3682|ERROR|TelegramCommon.cs|SendTelegram|41|Error sending to Telegram: A task was canceled.
+2025-09-07T06:22:16.3713|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: TimeCondition, Time: 6:22:16h, 
+2025-09-07T06:22:16.3718|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2025-09-07T06:22:16.3720|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2025-09-07T06:22:16.3723|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Sequence End
+2025-09-07T06:22:16.3725|INFO|SequenceItem.cs|Run|208|Starting Template Container Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Sequence End
+2025-09-07T06:22:16.3726|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2025-09-07T06:22:16.3728|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-07T06:22:17.0781|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-07T06:22:17.0785|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.ParallelContainer, Strategy: ParallelStrategy, Items[CREATED]: 3
+2025-09-07T06:22:17.0787|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2025-09-07T06:22:17.0809|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 0
+2025-09-07T06:22:17.0815|INFO|CameraVM.cs|WarmCamera|162|Warming Camera. Duration: 00:00:00
+2025-09-07T06:22:17.0828|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2025-09-07T06:22:17.0849|INFO|PHD2Guider.cs|StopGuiding|700|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2025-09-07T06:22:17.0851|INFO|TelescopeVM.cs|FindHome|281|Mount ordered to locate home position
+2025-09-07T06:22:17.0907|INFO|PHD2Guider.cs|StopGuiding|700|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2025-09-07T06:22:17.0909|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2025-09-07T06:22:17.1004|ERROR|TelescopeVM.cs|FindHome|341|Mount cannot locate home because it is already at the home position
+2025-09-07T06:22:17.1006|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2025-09-07T06:26:09.3924|INFO|CameraVM.cs|WarmCamera|180|Could not reach warming temperature. Most likley due to ambient temperature being lower. Continuing...
+2025-09-07T06:26:29.4472|INFO|CameraVM.cs|WarmCamera|187|Turning cooler off
+2025-09-07T06:26:29.4529|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: WarmCamera, Duration: 0
+2025-09-07T06:26:29.4532|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.ParallelContainer, Strategy: ParallelStrategy, Items[FINISHED]: 3
+2025-09-07T06:26:29.4539|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 2
+2025-09-07T06:26:29.4541|INFO|SequenceItem.cs|Run|208|Starting Category: Connector, Item: DisconnectAllEquipment
+2025-09-07T06:26:29.5194|INFO|CameraVM.cs|Disconnect|645|Disconnected Camera
+2025-09-07T06:26:29.5199|INFO|AscomDevice.cs|Disconnect|299|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel (1)
+2025-09-07T06:26:29.5380|INFO|FilterWheelVM.cs|Disconnect|324|Disconnected Filter Wheel
+2025-09-07T06:26:29.5394|INFO|AscomDevice.cs|Disconnect|299|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser (1)
+2025-09-07T06:26:29.5852|INFO|FocuserVM.cs|Disconnect|426|Disconnected Focuser
+2025-09-07T06:26:29.5856|INFO|DisconnectAllEquipment.cs|Execute|139|Rotator is already disconnected
+2025-09-07T06:26:29.5866|INFO|AscomDevice.cs|Disconnect|299|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2025-09-07T06:26:29.6370|INFO|TelescopeVM.cs|Disconnect|763|Disconnected mount
+2025-09-07T06:26:29.6380|INFO|DisconnectAllEquipment.cs|Execute|139|Switch is already disconnected
+2025-09-07T06:26:29.6381|INFO|DisconnectAllEquipment.cs|Execute|139|Flat Panel is already disconnected
+2025-09-07T06:26:29.6393|INFO|AscomDevice.cs|Disconnect|299|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2025-09-07T06:26:29.6776|INFO|WeatherDataVM.cs|Disconnect|292|Disconnected Weather Device
+2025-09-07T06:26:29.6784|INFO|DisconnectAllEquipment.cs|Execute|139|Dome is already disconnected
+2025-09-07T06:26:29.6795|INFO|AscomDevice.cs|Disconnect|299|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File SafetyMonitor
+2025-09-07T06:26:29.6854|INFO|SafetyMonitorVM.cs|Disconnect|208|Disconnected Safety Monitor
+2025-09-07T06:26:29.6859|INFO|SequenceItem.cs|Run|254|Finishing Category: Connector, Item: DisconnectAllEquipment
+2025-09-07T06:26:29.6860|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-07T06:26:30.3427|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-07T06:26:30.3432|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 2
+2025-09-07T06:26:30.3433|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2025-09-07T06:26:30.3434|INFO|SequenceItem.cs|Run|254|Finishing Template Container Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Sequence End
+2025-09-07T06:26:30.3434|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Sequence End
+2025-09-07T06:26:30.3435|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2025-09-07T06:26:30.3436|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3
+2025-09-07T06:26:30.3437|INFO|Sequence2VM.cs|StartSequence|490|Advanced Sequence finished
+2025-09-07T06:26:30.3450|INFO|WhenCommon.cs|InterruptWhen|330|Restarting sequence, Triggered -> true
+2025-09-07T14:56:45.4360|INFO|ApplicationVM.cs|Closing|288|Application shutting down
+2025-09-07T14:56:45.4846|INFO|DomeVM.cs|Disconnect|336|Disconnected Dome Device
+2025-09-07T14:56:45.4881|INFO|FlatDeviceVM.cs|Disconnect|279|Disconnected Flat Device
+2025-09-07T14:56:45.4898|INFO|CameraVM.cs|Disconnect|645|Disconnected Camera
+2025-09-07T14:56:45.4903|INFO|TelescopeVM.cs|Disconnect|763|Disconnected mount
+2025-09-07T14:56:45.4908|INFO|FilterWheelVM.cs|Disconnect|324|Disconnected Filter Wheel
+2025-09-07T14:56:45.4913|INFO|FocuserVM.cs|Disconnect|426|Disconnected Focuser
+2025-09-07T14:56:45.4942|INFO|RotatorVM.cs|Disconnect|438|Disconnected Rotator
+2025-09-07T14:56:45.4966|INFO|SwitchVM.cs|Disconnect|298|Disconnected Switch
+2025-09-07T14:56:45.4971|INFO|WeatherDataVM.cs|Disconnect|292|Disconnected Weather Device
+2025-09-07T14:56:45.4975|INFO|SafetyMonitorVM.cs|Disconnect|208|Disconnected Safety Monitor
