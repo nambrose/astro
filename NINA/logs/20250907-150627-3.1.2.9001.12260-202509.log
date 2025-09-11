@@ -3968,3 +3968,24 @@ System.OperationCanceledException: The operation was canceled.
 2025-09-10T06:28:21.6685|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
 2025-09-10T06:28:21.6686|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3
 2025-09-10T06:28:21.6702|INFO|Sequence2VM.cs|StartSequence|490|Advanced Sequence finished
+2025-09-10T09:22:30.9355|INFO|Sequence2VM.cs|StartSequence|485|Advanced Sequence starting
+2025-09-10T09:22:32.9834|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3
+2025-09-10T09:22:32.9836|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2025-09-10T09:22:32.9837|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Startup
+2025-09-10T09:22:32.9838|INFO|SequenceItem.cs|Run|208|Starting Template Container Category: Powerups (Misc), Item: TemplateByReference, TemplateName: Startup
+2025-09-10T09:22:32.9839|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 2, Triggers: Category: Ground Station, Item: Failures to Telegram
+2025-09-10T09:22:32.9840|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 4
+2025-09-10T09:22:32.9841|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2025-09-10T09:22:33.7278|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2025-09-10T09:22:33.7281|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 19:44:58h, Offset: -60
+2025-09-10T09:58:03.8426|INFO|ApplicationVM.cs|Closing|288|Application shutting down
+2025-09-10T09:58:03.9641|INFO|DomeVM.cs|Disconnect|336|Disconnected Dome Device
+2025-09-10T09:58:03.9682|INFO|FlatDeviceVM.cs|Disconnect|279|Disconnected Flat Device
+2025-09-10T09:58:03.9694|INFO|CameraVM.cs|Disconnect|645|Disconnected Camera
+2025-09-10T09:58:03.9700|INFO|TelescopeVM.cs|Disconnect|763|Disconnected mount
+2025-09-10T09:58:03.9704|INFO|FilterWheelVM.cs|Disconnect|324|Disconnected Filter Wheel
+2025-09-10T09:58:03.9709|INFO|FocuserVM.cs|Disconnect|426|Disconnected Focuser
+2025-09-10T09:58:03.9740|INFO|RotatorVM.cs|Disconnect|438|Disconnected Rotator
+2025-09-10T09:58:03.9778|INFO|SwitchVM.cs|Disconnect|298|Disconnected Switch
+2025-09-10T09:58:03.9784|INFO|WeatherDataVM.cs|Disconnect|292|Disconnected Weather Device
+2025-09-10T09:58:03.9788|INFO|SafetyMonitorVM.cs|Disconnect|208|Disconnected Safety Monitor
