@@ -1,0 +1,217 @@
+{
+  "FinalHFR": 1.7802056542554041,
+  "Region": null,
+  "HocusFocusStarDetectionOptions": {
+    "DebugMode": false,
+    "UseAdvanced": false,
+    "ModelPSF": true,
+    "StarMeasurementNoiseReductionEnabled": false,
+    "PSFFitType": 0,
+    "Simple_NoiseLevel": 0,
+    "Simple_PixelScale": 0,
+    "Simple_FocusRange": 0,
+    "HotpixelFiltering": true,
+    "HotpixelThresholdingEnabled": true,
+    "UseAutoFocusCrop": true,
+    "NoiseReductionRadius": 4,
+    "NoiseClippingMultiplier": 4.0,
+    "StarClippingMultiplier": 2.0,
+    "StructureLayers": 4,
+    "StarCenterTolerance": 0.3,
+    "StarPeakResponse": 0.75,
+    "MaxDistortion": 0.5,
+    "BrightnessSensitivity": 10.0,
+    "StarBackgroundBoxExpansion": 3,
+    "MinStarBoundingBoxSize": 5,
+    "MinHFR": 1.5,
+    "StructureDilationSize": 3,
+    "StructureDilationCount": 0,
+    "PixelSampleSize": 1.0,
+    "IntermediateSavePath": "C:\\Users\\nicka\\AppData\\Local\\NINA\\HocusFocusIntermediate",
+    "SaveIntermediateImages": false,
+    "PSFParallelPartitionSize": 100,
+    "PSFResolution": 10,
+    "PSFFitThreshold": 0.9,
+    "UsePSFAbsoluteDeviation": false,
+    "HotpixelThreshold": 0.001,
+    "SaturationThreshold": 0.99,
+    "MeasurementAverage": 0
+  },
+  "HocusFocusAutoFocusOptions": {
+    "MaxConcurrent": 0,
+    "FastFocusModeEnabled": false,
+    "FastStepSize": 1,
+    "FastOffsetSteps": 4,
+    "FastThreshold_Seconds": 3600,
+    "FastThreshold_Celcius": 5,
+    "FastThreshold_FocuserPosition": 100,
+    "ValidateHfrImprovement": true,
+    "HFRImprovementThreshold": 0.15,
+    "AutoFocusTimeoutSeconds": 600,
+    "SavePath": "C:\\Users\\nicka\\Documents\\NINA-AF-Images",
+    "Save": false,
+    "LastSelectedLoadPath": "",
+    "FocuserOffset": 0,
+    "MaxOutlierRejections": 1,
+    "OutlierRejectionConfidence": 0.9,
+    "UnevenHyperbolicFitEnabled": true,
+    "WeightedHyperbolicFitEnabled": true
+  },
+  "FocuserOptions": {
+    "Id": "ASCOM.EAF.Focuser",
+    "LastDeviceName": "ZWO Focuser (ASCOM)",
+    "UseFilterWheelOffsets": true,
+    "AutoFocusStepSize": 23,
+    "AutoFocusInitialOffsetSteps": 6,
+    "AutoFocusExposureTime": 3.0,
+    "AutoFocusMethod": 0,
+    "ContrastDetectionMethod": 2,
+    "AutoFocusDisableGuiding": true,
+    "FocuserSettleTime": 1,
+    "AutoFocusTotalNumberOfAttempts": 3,
+    "AutoFocusNumberOfFramesPerPoint": 1,
+    "AutoFocusInnerCropRatio": 1.0,
+    "AutoFocusOuterCropRatio": 1.0,
+    "BacklashIn": 300,
+    "BacklashOut": 0,
+    "AutoFocusBinning": 1,
+    "AutoFocusUseBrightestStars": 0,
+    "AutoFocusCurveFitting": 3,
+    "BacklashCompensationModel": 1,
+    "AutoFocusTimeoutSeconds": 600,
+    "RSquaredThreshold": 0.7
+  },
+  "Version": 2,
+  "Filter": "L",
+  "AutoFocuserName": "Hocus Focus",
+  "StarDetectorName": "Hocus Focus",
+  "Timestamp": "2025-10-30T21:43:20.9201731-05:00",
+  "Temperature": 17.479999542236328,
+  "Method": "STARHFR",
+  "Fitting": "HYPERBOLIC",
+  "InitialFocusPoint": {
+    "Position": 386380.0,
+    "Value": 2.04598648991697,
+    "Error": 0.0
+  },
+  "CalculatedFocusPoint": {
+    "Position": 386331.66636798,
+    "Value": 1.769482718429603,
+    "Error": 0.0
+  },
+  "PreviousFocusPoint": {
+    "Position": 386331.66636798,
+    "Value": 1.769482718429603,
+    "Error": 0.0
+  },
+  "MeasurePoints": [
+    {
+      "Position": 386196.0,
+      "Value": 7.339223859228316,
+      "Error": 0.1622879638888417
+    },
+    {
+      "Position": 386219.0,
+      "Value": 5.968142436393769,
+      "Error": 0.17741256863214971
+    },
+    {
+      "Position": 386242.0,
+      "Value": 4.802687849179377,
+      "Error": 0.2002806819053653
+    },
+    {
+      "Position": 386265.0,
+      "Value": 3.6095970568504345,
+      "Error": 0.21391665543773186
+    },
+    {
+      "Position": 386288.0,
+      "Value": 2.6929459505104205,
+      "Error": 0.19014419375286273
+    },
+    {
+      "Position": 386311.0,
+      "Value": 1.9932748741820265,
+      "Error": 0.13706046818954154
+    },
+    {
+      "Position": 386334.0,
+      "Value": 1.7633385720581187,
+      "Error": 0.10517159442590618
+    },
+    {
+      "Position": 386357.0,
+      "Value": 1.8110279990899067,
+      "Error": 0.1626187949286304
+    },
+    {
+      "Position": 386380.0,
+      "Value": 2.071561763850828,
+      "Error": 0.26787235501353335
+    },
+    {
+      "Position": 386403.0,
+      "Value": 2.3955106589485538,
+      "Error": 0.4171592511130726
+    },
+    {
+      "Position": 386426.0,
+      "Value": 2.706152246052982,
+      "Error": 0.553306828520288
+    },
+    {
+      "Position": 386449.0,
+      "Value": 3.079146595581817,
+      "Error": 0.6772466699350801
+    },
+    {
+      "Position": 386472.0,
+      "Value": 3.4011690642995074,
+      "Error": 0.9406061731186215
+    },
+    {
+      "Position": 386495.0,
+      "Value": 3.884081651914522,
+      "Error": 1.241461448220646
+    },
+    {
+      "Position": 386518.0,
+      "Value": 4.4328405688260295,
+      "Error": 1.3796970661768286
+    }
+  ],
+  "Intersections": {
+    "TrendLineIntersection": {
+      "Position": 386324.0,
+      "Value": 1.1939528858601989,
+      "Error": 0.0
+    },
+    "HyperbolicMinimum": {
+      "Position": 386331.66636798,
+      "Value": 1.769482718429603,
+      "Error": 0.0
+    },
+    "QuadraticMinimum": null,
+    "GaussianMaximum": null
+  },
+  "Fittings": {
+    "Quadratic": "",
+    "Hyperbolic": "y = min(max(0, (386331.666 - x) / 23), 1) * 3.527/57.325 * √((x - 386331.666)² + 57.325²) + (1 - min(max(0, (386331.666 - x) / 23), 1)) * 3.527/125.547 * √((x - 386331.666)² + 125.547²) + -1.757",
+    "Gaussian": "",
+    "LeftTrend": "y = -0.04620130464204381 * x + 17849.872433058878",
+    "RightTrend": "y = 0.015393945702069005 * x + -5945.8586142711765"
+  },
+  "RSquares": {
+    "Quadratic": "NaN",
+    "Hyperbolic": 0.9994118707254752,
+    "LeftTrend": 0.9901622111120575,
+    "RightTrend": 0.9919884118970872
+  },
+  "BacklashCompensation": {
+    "BacklashCompensationModel": "OVERSHOOT",
+    "BacklashIN": 300,
+    "BacklashOUT": 0
+  },
+  "Duration": "00:03:54.3340466"
+}
