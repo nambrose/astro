@@ -66,9 +66,9 @@
                     "$id": "11",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 4,
+                    "Minutes": 5,
                     "MinutesOffset": -30,
-                    "Seconds": 52,
+                    "Seconds": 50,
                     "SelectedProvider": {
                       "$id": "12",
                       "$type": "NINA.Sequencer.Utility.DateTimeProvider.NauticalDuskProvider, NINA.Sequencer"
@@ -160,9 +160,9 @@
                     "$id": "20",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 19,
+                    "Minutes": 20,
                     "MinutesOffset": -15,
-                    "Seconds": 52,
+                    "Seconds": 50,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -230,7 +230,7 @@
                     "$id": "28",
                     "$type": "NINA.Sequencer.Conditions.TimeCondition, NINA.Sequencer",
                     "Hours": 6,
-                    "Minutes": 35,
+                    "Minutes": 36,
                     "MinutesOffset": 0,
                     "Seconds": 12,
                     "SelectedProvider": {
@@ -260,9 +260,9 @@
                     "$id": "32",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 19,
+                    "Minutes": 20,
                     "MinutesOffset": -15,
-                    "Seconds": 52,
+                    "Seconds": 50,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -375,9 +375,9 @@
                     "$id": "43",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 34,
+                    "Minutes": 35,
                     "MinutesOffset": 0,
-                    "Seconds": 52,
+                    "Seconds": 50,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -648,7 +648,7 @@
                                   {
                                     "$id": "75",
                                     "$type": "DaleGhent.NINA.GroundStation.SendToTelegram.SendToTelegram, DaleGhent.NINA.GroundStation",
-                                    "Message": "Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ HFR: {Image_HFR} FWHM: {Image_FWHM} RMS: {Image_RMS} Altitude: {Altitude} EXP: {Image_ExposureTime}",
+                                    "Message": "Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: {Image_ExposureTime} HFR: {Image_HFR} FWHM: {Image_FWHM}  Altitude: {Altitude} ",
                                     "DoNotNotify": false,
                                     "Parent": {
                                       "$ref": "68"
@@ -724,7 +724,7 @@
                                     "$id": "85",
                                     "$type": "DaleGhent.NINA.GroundStation.SendToPushover.SendToPushover, DaleGhent.NINA.GroundStation",
                                     "Title": "IMAGE: $$TARGET_NAME$$",
-                                    "Message": "Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ HFR: {Image_HFR} FWHM: {Image_FWHM} RMS: {Image_RMS} Altitude: {Altitude} EXP: {Image_ExposureTime}",
+                                    "Message": "Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: {Image_ExposureTime} HFR: {Image_HFR} FWHM: {Image_FWHM}  Altitude: {Altitude} ",
                                     "Priority": 0,
                                     "NotificationSound": 1,
                                     "Parent": {
