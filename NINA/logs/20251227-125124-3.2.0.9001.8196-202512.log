@@ -1,0 +1,130 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2025-12-27T12:51:25--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2025-12-27T12:51:24.9238|ERROR|ProfileService.cs|MigrateModularizedSolutionNamespaceChange|445|Failed to migrate profile C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.profile due to 
+System.IO.IOException: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.profile' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at NINA.Profile.ProfileService.MigrateModularizedSolutionNamespaceChange() in /_/NINA.Profile/ProfileService.cs:line 419
+2025-12-27T12:51:25.1637|ERROR|ProfileService.cs|SelectProfile|364
+System.IO.IOException: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.profile' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NINA.Profile.Profile.<Load>g__LoadProfile|142_0(String filePath) in /_/NINA.Profile/Profile.cs:line 339
+   at NINA.Profile.Profile.Load(String path) in /_/NINA.Profile/Profile.cs:line 358
+   at NINA.Profile.ProfileService.SelectProfile(ProfileMeta info) in /_/NINA.Profile/ProfileService.cs:line 335
+2025-12-27T12:51:26.5771|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2025-12-27T12:51:26.6627|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2025-12-27T12:51:26.6943|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2025-12-27T12:51:26.7015|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2025-12-27T12:51:27.7245|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2025-12-27T12:51:27.9006|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2025-12-27T12:51:27.9098|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2025-12-27T12:51:27.9277|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2025-12-27T12:51:28.0978|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2025-12-27T12:51:28.1167|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2025-12-27T12:51:28.1243|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2025-12-27T12:51:28.1375|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2025-12-27T12:51:29.1091|INFO|API.cs|Start|99|Starting Webserver
+2025-12-27T12:51:29.1107|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1889
+2025-12-27T12:51:29.3741|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20251227-125124-3.2.0.9001.8196-202512.log
+2025-12-27T12:51:29.3943|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.14.0 by Christian Palm
+2025-12-27T12:51:29.4448|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2025-12-27T12:51:29.4662|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2025-12-27T12:51:29.4938|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2025-12-27T12:51:29.5226|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2025-12-27T12:51:29.5630|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.9 by Daniel Ludwig
+2025-12-27T12:51:29.5949|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1365|Plugin icon geometry created successfully
+2025-12-27T12:51:29.6254|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1334|DitherStatistics DataTemplates loaded successfully
+2025-12-27T12:51:29.6287|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|383|Quality Assessment setting saved to file: True
+2025-12-27T12:51:29.6289|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|360|Quality Assessment setting loaded from file: True
+2025-12-27T12:51:29.6294|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|716|Subscribed to NINA guider events
+2025-12-27T12:51:29.6319|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1211|Initial PrimaryBrush color: R:189 G:195 B:199
+2025-12-27T12:51:29.6322|INFO|DitherStatisticsVM.cs|.ctor|92|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2025-12-27T12:51:29.6328|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.2.0.4 by Thierry Tschanz
+2025-12-27T12:51:29.6633|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2025-12-27T12:51:29.6875|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2025-12-27T12:51:29.9569|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2025-12-27T12:51:30.2108|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.24 by George Hilios (jokogeo)
+2025-12-27T12:51:30.2388|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.0 by Christian Palm
+2025-12-27T12:51:30.2663|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2025-12-27T12:51:30.3333|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.0.1.7 by Stefan Berg @isbeorn
+2025-12-27T12:51:30.3544|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2025-12-27T12:51:30.3771|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2025-12-27T12:51:30.4131|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2025-12-27T12:51:30.5162|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2025-12-27T12:51:30.6234|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2025-12-27T12:51:30.7551|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2025-12-27T12:51:30.8807|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2025-12-27T12:51:31.2069|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.1 by Marc Blank
+2025-12-27T12:51:31.2283|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2025-12-27T12:51:31.2491|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2025-12-27T12:51:31.2889|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2025-12-27T12:51:31.3334|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2025-12-27T12:51:31.3795|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2025-12-27T12:51:31.6386|INFO|DitherStatisticsVM.cs|ConnectToPHD2|590|Attempting to connect to PHD2...
+2025-12-27T12:51:31.6403|INFO|PHD2Client.cs|ConnectAsync|48|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2025-12-27T12:51:33.0135|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.8.3.0 by Tom Palmer @tcpalmer
+2025-12-27T12:51:33.1099|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.4.2 by Stefan Berg @isbeorn
+2025-12-27T12:51:33.3324|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2025-12-27T12:51:33.4501|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2025-12-27T12:51:33.6210|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2025-12-27T12:51:33.8187|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2025-12-27T12:51:33.9743|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2025-12-27T12:51:33.9766|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2025-12-27T12:51:34.1687|ERROR|PHD2Client.cs|ConnectAsync|69|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2025-12-27T12:51:34.1692|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|619|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2025-12-27T12:51:34.4444|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2025-12-27T12:51:34.5260|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2025-12-27T12:51:34.5405|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2025-12-27T12:51:35.5027|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2025-12-27T12:51:35.5027|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2025-12-27T12:51:35.8902|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2025-12-27T12:51:35.9838|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2025-12-27T12:51:35.9893|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2025-12-27T12:51:36.2283|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2025-12-27T12:51:36.4773|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2025-12-27T12:51:36.4801|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2025-12-27T12:51:36.5083|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2025-12-27T12:51:36.5083|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2025-12-27T12:51:36.5560|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2025-12-27T12:51:37.0986|INFO|PluginFetcher.cs|RequestAll|57|Found 68 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2025-12-27T12:51:38.0702|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2025-12-27T12:51:40.1300|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2025-12-27T12:51:40.1560|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 123.73 GB
+2025-12-27T12:51:40.1868|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2025-12-27T12:51:40.3649|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 42.03 GB
+2025-12-27T12:51:40.3685|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive Z:\: 26.78 GB
+2025-12-27T12:51:40.7459|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1220|Theme color monitoring timer started on UI thread
+2025-12-27T12:51:40.9186|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2025-12-27T12:53:23.0228|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2025-12-27T12:53:23.0893|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2025-12-27T12:53:23.1345|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2025-12-27T12:53:23.1393|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2025-12-27T12:53:23.1518|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2025-12-27T12:53:23.1637|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2025-12-27T12:53:23.1673|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2025-12-27T12:53:23.1710|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2025-12-27T12:53:23.1755|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2025-12-27T12:53:23.1797|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2025-12-27T12:53:23.1842|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2025-12-27T12:53:23.1875|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2025-12-27T12:53:23.7627|INFO|API.cs|StopWatchers|86|Stopping all event watchers
