@@ -65,10 +65,10 @@
                   {
                     "$id": "11",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
-                    "Hours": 18,
-                    "Minutes": 5,
-                    "MinutesOffset": -30,
-                    "Seconds": 50,
+                    "Hours": 17,
+                    "Minutes": 20,
+                    "MinutesOffset": -80,
+                    "Seconds": 28,
                     "SelectedProvider": {
                       "$id": "12",
                       "$type": "NINA.Sequencer.Utility.DateTimeProvider.NauticalDuskProvider, NINA.Sequencer"
@@ -149,7 +149,7 @@
                     "$id": "19",
                     "$type": "NINA.Sequencer.SequenceItem.Camera.CoolCamera, NINA.Sequencer",
                     "Temperature": -15.0,
-                    "Duration": 0.0,
+                    "Duration": 60.0,
                     "Parent": {
                       "$ref": "7"
                     },
@@ -160,9 +160,9 @@
                     "$id": "20",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 20,
+                    "Minutes": 25,
                     "MinutesOffset": -15,
-                    "Seconds": 50,
+                    "Seconds": 28,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -230,9 +230,9 @@
                     "$id": "28",
                     "$type": "NINA.Sequencer.Conditions.TimeCondition, NINA.Sequencer",
                     "Hours": 6,
-                    "Minutes": 36,
+                    "Minutes": 39,
                     "MinutesOffset": 0,
-                    "Seconds": 12,
+                    "Seconds": 23,
                     "SelectedProvider": {
                       "$id": "29",
                       "$type": "NINA.Sequencer.Utility.DateTimeProvider.NauticalDawnProvider, NINA.Sequencer"
@@ -260,9 +260,9 @@
                     "$id": "32",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 20,
+                    "Minutes": 25,
                     "MinutesOffset": -15,
-                    "Seconds": 50,
+                    "Seconds": 28,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -375,9 +375,9 @@
                     "$id": "43",
                     "$type": "NINA.Sequencer.SequenceItem.Utility.WaitForTime, NINA.Sequencer",
                     "Hours": 18,
-                    "Minutes": 35,
+                    "Minutes": 40,
                     "MinutesOffset": 0,
-                    "Seconds": 50,
+                    "Seconds": 28,
                     "SelectedProvider": {
                       "$ref": "12"
                     },
@@ -1679,7 +1679,7 @@
             {
               "$id": "200",
               "$type": "NINA.Sequencer.SequenceItem.Camera.WarmCamera, NINA.Sequencer",
-              "Duration": 0.0,
+              "Duration": 30.0,
               "Parent": {
                 "$ref": "196"
               },
