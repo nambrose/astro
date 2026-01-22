@@ -1,0 +1,794 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-01-20T11:19:30--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-01-20T11:19:30.7013|INFO|App.xaml.cs|OnStartup|170|Launched with command line arguments: --sequencefile C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json --runsequence
+2026-01-20T11:19:33.6721|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-01-20T11:19:34.0249|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-01-20T11:19:34.2989|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-01-20T11:19:34.4021|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-01-20T11:19:35.6769|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-01-20T11:19:36.1986|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-01-20T11:19:36.4086|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-01-20T11:19:36.5714|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-01-20T11:19:37.2011|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-01-20T11:19:37.3820|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-01-20T11:19:37.5293|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-01-20T11:19:37.5324|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-01-20T11:19:43.5961|INFO|API.cs|Start|99|Starting Webserver
+2026-01-20T11:19:43.5978|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1888
+2026-01-20T11:19:43.7701|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20260120-111929-3.2.0.9001.11612-202601.log
+2026-01-20T11:19:43.8098|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.14.0 by Christian Palm
+2026-01-20T11:19:43.9775|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-01-20T11:19:44.1901|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-01-20T11:19:44.3798|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-01-20T11:19:44.4579|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 116.47 GB
+2026-01-20T11:19:44.4650|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-01-20T11:19:44.4668|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 41.51 GB
+2026-01-20T11:19:44.4679|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive Z:\ is not ready
+2026-01-20T11:19:45.2394|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-01-20T11:19:45.5385|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-01-20T11:19:47.0816|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.9 by Daniel Ludwig
+2026-01-20T11:19:48.0801|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1365|Plugin icon geometry created successfully
+2026-01-20T11:19:48.1058|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1334|DitherStatistics DataTemplates loaded successfully
+2026-01-20T11:19:48.1094|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|383|Quality Assessment setting saved to file: True
+2026-01-20T11:19:48.1098|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|360|Quality Assessment setting loaded from file: True
+2026-01-20T11:19:48.1104|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|716|Subscribed to NINA guider events
+2026-01-20T11:19:48.1139|ERROR|DitherStatisticsVM.cs|GetThemeColor|1319|Failed to get theme color 'PrimaryBrush': The calling thread cannot access this object because a different thread owns it.
+2026-01-20T11:19:48.1143|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1211|Initial PrimaryBrush color: R:255 G:255 B:255
+2026-01-20T11:19:48.1144|INFO|DitherStatisticsVM.cs|.ctor|92|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-01-20T11:19:48.1149|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1220|Theme color monitoring timer started on UI thread
+2026-01-20T11:19:48.1151|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.2.0.4 by Thierry Tschanz
+2026-01-20T11:19:48.2863|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-01-20T11:19:48.4997|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-01-20T11:19:48.6189|INFO|DitherStatisticsVM.cs|OnThemeColorTimerTick|1239|Theme color CHANGED! Old: R:255 G:255 B:255 -> New: R:176 G:179 B:185
+2026-01-20T11:19:48.7237|INFO|DitherStatisticsVM.cs|PixelShiftPlot|132|PixelShiftPlot created (lazy loading)
+2026-01-20T11:19:48.7548|INFO|DitherStatisticsVM.cs|SettleTimePlot|173|SettleTimePlot created (lazy loading)
+2026-01-20T11:19:50.1142|INFO|DitherStatisticsVM.cs|ConnectToPHD2|590|Attempting to connect to PHD2...
+2026-01-20T11:19:50.1160|INFO|PHD2Client.cs|ConnectAsync|48|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-01-20T11:19:51.2282|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-01-20T11:19:52.1797|ERROR|PHD2Client.cs|ConnectAsync|69|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-01-20T11:19:52.1803|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|619|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-01-20T11:20:02.2472|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.24 by George Hilios (jokogeo)
+2026-01-20T11:20:03.1146|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.0 by Christian Palm
+2026-01-20T11:20:03.3238|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-01-20T11:20:04.1244|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.0.1.7 by Stefan Berg @isbeorn
+2026-01-20T11:20:04.3345|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-01-20T11:20:04.5302|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-01-20T11:20:04.8431|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-01-20T11:20:05.1855|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-01-20T11:20:05.9198|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-01-20T11:20:06.2240|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-01-20T11:20:07.8833|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-01-20T11:20:08.1388|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.1 by Marc Blank
+2026-01-20T11:20:08.8881|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-01-20T11:20:09.0367|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-01-20T11:20:09.2860|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-01-20T11:20:09.6728|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-01-20T11:20:10.1656|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-01-20T11:20:12.8927|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-01-20T11:20:13.6055|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.8.3.0 by Tom Palmer @tcpalmer
+2026-01-20T11:20:14.0225|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.4.2 by Stefan Berg @isbeorn
+2026-01-20T11:20:15.4557|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2026-01-20T11:20:15.5381|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2026-01-20T11:20:15.9228|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-01-20T11:20:15.9718|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2026-01-20T11:20:16.5729|INFO|Sequence2VM.cs|TryLoadSequenceFile|414|Loading sequence file: C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json
+2026-01-20T11:20:16.6272|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-01-20T11:20:16.6279|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-01-20T11:20:16.7569|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-01-20T11:20:16.8526|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-01-20T11:20:16.8556|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-01-20T11:20:17.2768|INFO|Sequence2VM.cs|TryLoadSequenceFile|420|Starting sequence from command line options
+2026-01-20T11:20:17.2804|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-01-20T11:20:17.3477|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-01-20T11:20:17.3696|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-01-20T11:20:17.3707|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 10
+2026-01-20T11:20:17.3716|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-01-20T11:20:18.0569|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-01-20T11:20:18.0610|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-01-20T11:20:18.0754|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-01-20T11:20:18.0834|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-01-20T11:20:18.1800|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-01-20T11:20:18.1852|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 17:36:16h, Offset: -80
+2026-01-20T11:20:18.1894|INFO|PluginFetcher.cs|RequestAll|57|Found 68 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-01-20T11:20:18.4100|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-01-20T11:20:18.4776|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-01-20T11:20:18.4971|INFO|DockManagerVM.cs|InitializeAvalonDockLayout|366|Initializing imaging tab layout from C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.dock.config
+2026-01-20T11:20:18.6349|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-01-20T11:20:18.6508|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-01-20T11:20:18.8591|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-01-20T11:20:18.8660|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-01-20T11:20:20.5199|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-01-20T17:36:38.9333|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 17:37:6h, Offset: -80
+2026-01-20T17:36:38.9462|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T17:36:39.7898|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T17:36:39.7902|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-01-20T17:36:39.9655|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-01-20T17:36:39.9670|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectAllEquipment
+2026-01-20T17:36:39.9891|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-01-20T17:36:40.0613|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-01-20T17:36:40.0761|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-01-20T17:36:40.0770|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-01-20T17:36:40.0773|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-01-20T17:36:40.2362|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-01-20T17:36:40.2415|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-01-20T17:36:40.2565|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-01-20T17:36:40.4107|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-01-20T17:36:40.4244|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-01-20T17:36:40.4261|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-01-20T17:36:40.4287|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-01-20T17:36:40.4294|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-01-20T17:36:40.4297|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-01-20T17:36:40.4377|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-01-20T17:36:40.4388|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-01-20T17:36:42.4410|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-01-20T17:36:42.4461|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-01-20T17:36:42.5018|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-01-20T17:36:43.0822|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_B with value 50
+2026-01-20T17:36:43.0825|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_R with value 50
+2026-01-20T17:36:43.0827|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_GAMMA with value 50
+2026-01-20T17:36:43.0828|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_HIGH_SPEED_MODE with value 0
+2026-01-20T17:36:43.0829|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_OVERCLOCK with value 0
+2026-01-20T17:36:43.0830|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_PATTERN_ADJUST with value 0
+2026-01-20T17:36:43.0841|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_MONO_BIN with value 0
+2026-01-20T17:36:43.0852|INFO|ASICamera.cs|Initialize|664|Camera ID: ASI533MM
+2026-01-20T17:36:43.0954|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_ANTI_DEW_HEATER with value 0
+2026-01-20T17:36:43.1471|INFO|CameraVM.cs|ChooseCamera|455|Successfully connected Camera. Id: ZWOptical_ZWO ASI533MM Pro_ASI533MM Name: ZWO ASI533MM Pro DisplayName: ZWO ASI533MM Pro (ASI533MM)Driver Version: 1, 39, 0, 0
+2026-01-20T17:36:43.7020|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-01-20T17:36:45.7035|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-01-20T17:36:45.7548|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-01-20T17:36:49.0446|INFO|FilterWheelVM.cs|ChooseFW|279|Successfully connected Filter Wheel. Id: ASCOM.EFW2.FilterWheel Name: ZWO FilterWheel DisplayName: ZWO FilterWheel (ASCOM) Driver Version: 6.0
+2026-01-20T17:36:52.9037|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-01-20T17:36:52.9360|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-01-20T17:36:54.2368|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-01-20T17:36:54.4504|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 2 / 3
+2026-01-20T17:36:54.4521|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-01-20T17:36:54.6530|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 3 / 3
+2026-01-20T17:36:54.6553|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-01-20T17:36:54.6563|INFO|AscomDevice.cs|GetProperty|556|GET Focuser.StepSize failed - Returning last known value 0
+2026-01-20T17:36:54.8935|INFO|FocuserVM.cs|ChooseFocuser|333|Successfully connected Focuser. Id: ASCOM.EAF.Focuser Name: ZWO Focuser DisplayName: ZWO Focuser (ASCOM) Driver Version: 6.0
+2026-01-20T17:36:56.8973|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-01-20T17:36:56.9710|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-01-20T17:36:59.5374|INFO|AscomTelescope.cs|CheckMountTime|845|Mount UTC Time: 2026-01-20 23:36:57Z / System UTC Time: 2026-01-20 23:36:59Z; Difference: 2.146 seconds
+2026-01-20T17:36:59.5861|INFO|AscomTelescope.cs|CheckMountTime|852|System time has been synced to the mount
+2026-01-20T17:36:59.8424|INFO|TelescopeVM.cs|ChooseTelescope|535|Successfully connected mount. Id: ASCOM.iOptron2017.Telescope Name: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount DisplayName: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount (ASCOM) Driver Version: 9.15
+2026-01-20T17:36:59.8547|INFO|PHD2Guider.cs|Connect|205|Connecting to PHD2 server at 127.0.0.1:4400
+2026-01-20T17:37:10.5040|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-01-20T17:37:10.5347|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-01-20T17:37:11.6500|INFO|PHD2Client.cs|ConnectAsync|62|PHD2Client: Connected successfully!
+2026-01-20T17:37:11.6506|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|616|PHD2 Connection Status: Connected
+2026-01-20T17:37:11.6509|INFO|DitherStatisticsVM.cs|ConnectToPHD2|595|Successfully connected to PHD2!
+2026-01-20T17:37:11.6538|INFO|PHD2Client.cs|ReadEventsAsync|102|PHD2Client: Started reading events
+2026-01-20T17:37:11.6894|INFO|PHD2Client.cs|HandleVersion|256|PHD2Client: Connected to PHD2 version 2.6.13.dev8 (Message Protocol v1)
+2026-01-20T17:37:11.6902|INFO|PHD2Client.cs|ProcessEvent|173|PHD2: CalibrationComplete
+2026-01-20T17:37:11.6909|INFO|PHD2Client.cs|HandleAppState|266|PHD2Client: PHD2 AppState: Stopped
+2026-01-20T17:38:14.2214|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.SkyQuality GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-01-20T17:38:14.2287|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.StarFWHM GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-01-20T17:38:14.2419|INFO|WeatherDataVM.cs|ChooseWeatherData|150|Successfully connected Weather Device. Id: ASCOM.SkyAlert.ObservingConditions Name: SkyAlert Observing Conditions DisplayName: SkyAlert Observing Conditions (ASCOM) Driver Version: 1.7
+2026-01-20T17:38:16.2452|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-01-20T17:38:16.2729|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-01-20T17:38:16.7278|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-01-20T17:38:16.7284|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectAllEquipment
+2026-01-20T17:38:16.7292|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-01-20T17:38:16.7355|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-01-20T17:38:16.7376|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-01-20T17:38:16.7404|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-01-20T17:38:16.7409|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-01-20T17:38:16.7419|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-01-20T17:38:16.7426|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T17:38:17.3683|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T17:38:17.3693|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-01-20T17:38:17.5127|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-01-20T17:38:17.5138|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: -15, Duration: 60
+2026-01-20T17:38:17.5175|INFO|CameraVM.cs|CoolCamera|138|Cooling Camera. Target: -15 Duration: 01:00:00
+2026-01-20T17:38:18.7306|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-01-20T18:18:00.8382|INFO|Sequencer.cs|Start|85|Sequence run was cancelled
+2026-01-20T18:18:00.8635|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-01-20T18:18:23.1879|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-01-20T18:18:23.2032|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3
+2026-01-20T18:18:23.2037|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy
+2026-01-20T18:18:23.2040|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy
+2026-01-20T18:18:23.2044|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 11
+2026-01-20T18:18:23.2046|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectAllEquipment
+2026-01-20T18:18:23.2048|INFO|ConnectAllEquipment.cs|Execute|169|Camera is already connected
+2026-01-20T18:18:23.2050|INFO|ConnectAllEquipment.cs|Execute|169|Filter Wheel is already connected
+2026-01-20T18:18:23.2051|INFO|ConnectAllEquipment.cs|Execute|169|Focuser is already connected
+2026-01-20T18:18:23.2052|INFO|ConnectAllEquipment.cs|Execute|169|Mount is already connected
+2026-01-20T18:18:23.2053|INFO|ConnectAllEquipment.cs|Execute|169|Guider is already connected
+2026-01-20T18:18:23.2055|INFO|ConnectAllEquipment.cs|Execute|169|Weather is already connected
+2026-01-20T18:18:23.2056|INFO|ConnectAllEquipment.cs|Execute|169|Safety Monitor is already connected
+2026-01-20T18:18:23.2058|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectAllEquipment
+2026-01-20T18:18:23.2061|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-01-20T18:18:23.2091|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-01-20T18:18:23.2095|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-01-20T18:18:23.2119|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-01-20T18:18:23.2122|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-01-20T18:18:23.2125|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-01-20T18:18:23.2130|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 18:12:6h, Offset: -45
+2026-01-20T18:18:23.2139|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 18:12:6h, Offset: -45
+2026-01-20T18:18:23.2143|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: -15, Duration: 30
+2026-01-20T18:18:23.2146|INFO|CameraVM.cs|CoolCamera|138|Cooling Camera. Target: -15 Duration: 00:30:00
+2026-01-20T18:48:32.8649|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: CoolCamera, Temperature: -15, Duration: 30
+2026-01-20T18:48:32.8662|INFO|SequenceItem.cs|Run|208|Starting Category: Filter Wheel, Item: SwitchFilter, Filter: S
+2026-01-20T18:48:32.8857|INFO|SequenceItem.cs|Run|254|Finishing Category: Filter Wheel, Item: SwitchFilter, Filter: S
+2026-01-20T18:48:32.8862|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 18:57:6h, Offset: 0
+2026-01-20T18:57:06.5999|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 18:57:6h, Offset: 0
+2026-01-20T18:57:06.6023|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 4, Conditions: Condition: TimeSpanCondition, Time: 10:1:0h, 
+2026-01-20T18:57:06.6107|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T18:57:07.3252|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T18:57:07.3267|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-20T18:57:07.3424|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T18:57:07.3626|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:07:09.0865|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:07:09.0887|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:07:09.1022|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:07:10.6188|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_18-57-07__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0040.fits
+2026-01-20T19:07:10.6193|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_18-57-07__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0040.fits. Duration Total: 00:00:01.5306932; BeforeSave: 00:00:00.0001018; BeforeFinalizeImageSaved: 00:00:01.1540154; FinalizeSaveTime: 00:00:00.3765754
+2026-01-20T19:07:11.9367|INFO|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|63|Writing CSV acquisition summary: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:07:12.1412|INFO|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|82|Writing JSON acquisition summary: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:07:12.1546|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:07:12.1983|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:07:12.2153|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:07:12.2374|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T19:17:10.6973|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:17:10.6984|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:17:10.7043|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:17:11.6223|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-07-09__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0041.fits
+2026-01-20T19:17:11.6227|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-07-09__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0041.fits. Duration Total: 00:00:00.9225371; BeforeSave: 00:00:00.0000421; BeforeFinalizeImageSaved: 00:00:00.5979322; FinalizeSaveTime: 00:00:00.3245616
+2026-01-20T19:17:11.7931|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:17:11.7936|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:17:11.7944|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:17:11.8466|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:17:11.8609|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:17:11.8734|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T19:27:12.3248|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:27:12.3254|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:27:12.3307|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:27:13.2096|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-17-10__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0042.fits
+2026-01-20T19:27:13.2099|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-17-10__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0042.fits. Duration Total: 00:00:00.8844182; BeforeSave: 00:00:00.0000258; BeforeFinalizeImageSaved: 00:00:00.5675634; FinalizeSaveTime: 00:00:00.3168284
+2026-01-20T19:27:13.3792|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:27:13.3797|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:27:13.3802|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:27:13.4330|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:27:13.4356|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:27:13.4549|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T19:37:13.9770|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:37:13.9775|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:37:14.0002|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:37:14.8521|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-27-12__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0043.fits
+2026-01-20T19:37:14.8524|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-27-12__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0043.fits. Duration Total: 00:00:00.8754428; BeforeSave: 00:00:00.0000439; BeforeFinalizeImageSaved: 00:00:00.5682911; FinalizeSaveTime: 00:00:00.3071071
+2026-01-20T19:37:15.2736|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:37:15.2742|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:37:15.2750|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:37:15.3340|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:37:15.3369|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:37:15.3603|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T19:47:15.6343|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:47:15.6348|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:47:15.6399|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:47:16.4985|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-37-14__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0044.fits
+2026-01-20T19:47:16.4989|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-37-14__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0044.fits. Duration Total: 00:00:00.8636726; BeforeSave: 00:00:00.0000253; BeforeFinalizeImageSaved: 00:00:00.5593013; FinalizeSaveTime: 00:00:00.3043449
+2026-01-20T19:47:16.9225|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:47:16.9230|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:47:16.9238|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:47:16.9889|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:47:16.9912|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:47:17.0139|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T19:57:17.2986|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:57:17.2993|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-20T19:57:17.3013|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-20T19:57:17.3017|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T19:57:18.1207|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T19:57:18.1214|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-20T19:57:18.1218|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T19:57:18.1433|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T19:57:18.1858|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-47-15__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0045.fits
+2026-01-20T19:57:18.1862|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-47-15__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0045.fits. Duration Total: 00:00:00.8875143; BeforeSave: 00:00:00.0000254; BeforeFinalizeImageSaved: 00:00:00.5613397; FinalizeSaveTime: 00:00:00.3261482
+2026-01-20T19:57:18.3560|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T19:57:18.3564|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T19:57:18.3570|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T19:57:18.4035|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T19:57:18.4069|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T19:57:18.4269|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T20:17:19.8535|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:17:19.8539|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:17:19.8590|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T20:17:20.7580|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-57-18__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0004.fits
+2026-01-20T20:17:20.7584|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_19-57-18__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0004.fits. Duration Total: 00:00:00.9038450; BeforeSave: 00:00:00.0000240; BeforeFinalizeImageSaved: 00:00:00.5957953; FinalizeSaveTime: 00:00:00.3080251
+2026-01-20T20:17:20.9283|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T20:17:20.9288|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T20:17:20.9293|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T20:17:20.9792|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T20:17:20.9820|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T20:17:21.0003|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T20:37:21.5900|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:37:21.5905|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:37:21.6052|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T20:37:22.4567|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-17-19__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0005.fits
+2026-01-20T20:37:22.4571|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-17-19__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0005.fits. Duration Total: 00:00:00.8665107; BeforeSave: 00:00:00.0000294; BeforeFinalizeImageSaved: 00:00:00.5616031; FinalizeSaveTime: 00:00:00.3048773
+2026-01-20T20:37:22.8770|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T20:37:22.8776|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T20:37:22.8783|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T20:37:22.9353|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T20:37:22.9384|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T20:37:22.9565|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T20:57:23.2311|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:57:23.2316|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T20:57:23.2367|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T20:57:24.0949|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-37-21__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0006.fits
+2026-01-20T20:57:24.0952|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-37-21__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0006.fits. Duration Total: 00:00:00.8641028; BeforeSave: 00:00:00.0000173; BeforeFinalizeImageSaved: 00:00:00.5616954; FinalizeSaveTime: 00:00:00.3023895
+2026-01-20T20:57:24.5133|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T20:57:24.5138|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T20:57:24.5145|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T20:57:24.5567|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T20:57:24.5600|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T20:57:24.5795|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T21:17:24.9215|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:17:24.9220|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:17:24.9274|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T21:17:25.7724|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-57-23__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0007.fits
+2026-01-20T21:17:25.7727|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_20-57-23__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0007.fits. Duration Total: 00:00:00.8500596; BeforeSave: 00:00:00.0000245; BeforeFinalizeImageSaved: 00:00:00.5511934; FinalizeSaveTime: 00:00:00.2988412
+2026-01-20T21:17:25.9418|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T21:17:25.9421|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T21:17:25.9426|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T21:17:25.9796|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T21:17:25.9836|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T21:17:26.0034|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T21:37:26.6307|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:37:26.6313|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:37:26.6364|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T21:37:27.4892|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-17-24__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0008.fits
+2026-01-20T21:37:27.4895|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-17-24__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0008.fits. Duration Total: 00:00:00.8575858; BeforeSave: 00:00:00.0000340; BeforeFinalizeImageSaved: 00:00:00.5520685; FinalizeSaveTime: 00:00:00.3054827
+2026-01-20T21:37:27.9106|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T21:37:27.9110|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T21:37:27.9117|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T21:37:27.9588|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T21:37:27.9621|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T21:37:27.9812|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T21:57:28.2545|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:57:28.2551|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-20T21:57:28.2554|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-20T21:57:28.2584|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T21:57:29.0837|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T21:57:29.0843|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-20T21:57:29.0846|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T21:57:29.0897|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T21:57:29.1126|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-37-26__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0009.fits
+2026-01-20T21:57:29.1129|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-37-26__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0009.fits. Duration Total: 00:00:00.8579120; BeforeSave: 00:00:00.0000294; BeforeFinalizeImageSaved: 00:00:00.5554427; FinalizeSaveTime: 00:00:00.3024393
+2026-01-20T21:57:29.5301|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T21:57:29.5306|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T21:57:29.5312|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T21:57:29.5763|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T21:57:29.5796|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T21:57:29.5986|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:07:30.7095|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:07:30.7101|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:07:30.7156|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:07:31.5595|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-57-29__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0046.fits
+2026-01-20T22:07:31.5598|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_21-57-29__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0046.fits. Duration Total: 00:00:00.8488136; BeforeSave: 00:00:00.0000258; BeforeFinalizeImageSaved: 00:00:00.5517021; FinalizeSaveTime: 00:00:00.2970848
+2026-01-20T22:07:31.9771|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:07:31.9775|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:07:31.9780|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:07:32.0305|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:07:32.0333|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:07:32.0500|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:17:32.3638|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:17:32.3645|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:17:32.3702|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:17:33.2711|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-07-30__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0047.fits
+2026-01-20T22:17:33.2714|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-07-30__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0047.fits. Duration Total: 00:00:00.9067661; BeforeSave: 00:00:00.0000337; BeforeFinalizeImageSaved: 00:00:00.6044616; FinalizeSaveTime: 00:00:00.3022698
+2026-01-20T22:17:33.6904|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:17:33.6909|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:17:33.6917|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:17:33.7351|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:17:33.7384|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:17:33.7541|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:27:33.9871|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:27:33.9878|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:27:33.9930|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:27:34.8585|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-17-32__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0048.fits
+2026-01-20T22:27:34.8588|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-17-32__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0048.fits. Duration Total: 00:00:00.8716222; BeforeSave: 00:00:00.0000365; BeforeFinalizeImageSaved: 00:00:00.5642344; FinalizeSaveTime: 00:00:00.3073505
+2026-01-20T22:27:35.2771|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:27:35.2775|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:27:35.2783|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:27:35.3221|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:27:35.3251|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:27:35.3405|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:37:35.6629|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:37:35.6633|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:37:35.6686|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:37:36.5718|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-27-34__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0049.fits
+2026-01-20T22:37:36.5721|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-27-34__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0049.fits. Duration Total: 00:00:00.9087242; BeforeSave: 00:00:00.0000206; BeforeFinalizeImageSaved: 00:00:00.6049551; FinalizeSaveTime: 00:00:00.3037479
+2026-01-20T22:37:36.9894|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:37:36.9899|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:37:36.9906|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:37:37.0404|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:37:37.0445|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:37:37.0636|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:47:37.3684|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:47:37.3690|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:47:37.3745|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:47:38.2480|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-37-35__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0050.fits
+2026-01-20T22:47:38.2483|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-37-35__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0050.fits. Duration Total: 00:00:00.8797761; BeforeSave: 00:00:00.0000298; BeforeFinalizeImageSaved: 00:00:00.5760960; FinalizeSaveTime: 00:00:00.3036493
+2026-01-20T22:47:38.6648|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:47:38.6653|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:47:38.6660|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:47:38.7379|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:47:38.7410|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:47:38.7565|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T22:57:38.9952|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:57:38.9957|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-20T22:57:38.9960|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-20T22:57:38.9962|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-20T22:57:39.8709|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-47-37__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0051.fits
+2026-01-20T22:57:39.8713|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-47-37__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0051.fits. Duration Total: 00:00:00.8760484; BeforeSave: 00:00:00.0000225; BeforeFinalizeImageSaved: 00:00:00.5760058; FinalizeSaveTime: 00:00:00.3000194
+2026-01-20T22:57:39.9549|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-20T22:57:39.9555|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-20T22:57:39.9558|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T22:57:39.9609|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T22:57:40.2899|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T22:57:40.2904|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T22:57:40.2909|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T22:57:40.3405|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T22:57:40.3445|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T22:57:40.3656|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T23:17:41.6091|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:17:41.6098|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:17:41.6151|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T23:17:42.4803|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-57-39__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0010.fits
+2026-01-20T23:17:42.4807|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_22-57-39__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0010.fits. Duration Total: 00:00:00.8715545; BeforeSave: 00:00:00.0000208; BeforeFinalizeImageSaved: 00:00:00.5689993; FinalizeSaveTime: 00:00:00.3025339
+2026-01-20T23:17:42.8982|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T23:17:42.8986|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T23:17:42.8991|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T23:17:42.9413|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T23:17:42.9456|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T23:17:42.9643|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T23:37:43.2215|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:37:43.2220|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:37:43.2355|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T23:37:44.0760|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-17-41__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0011.fits
+2026-01-20T23:37:44.0764|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-17-41__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0011.fits. Duration Total: 00:00:00.8539611; BeforeSave: 00:00:00.0000353; BeforeFinalizeImageSaved: 00:00:00.5498256; FinalizeSaveTime: 00:00:00.3040993
+2026-01-20T23:37:44.4937|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T23:37:44.4942|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T23:37:44.4949|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T23:37:44.5385|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T23:37:44.5425|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T23:37:44.5620|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-20T23:57:44.9259|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:57:44.9266|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-20T23:57:44.9319|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-20T23:57:45.8069|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-37-43__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0012.fits
+2026-01-20T23:57:45.8072|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-37-43__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0012.fits. Duration Total: 00:00:00.8805682; BeforeSave: 00:00:00.0000341; BeforeFinalizeImageSaved: 00:00:00.5810461; FinalizeSaveTime: 00:00:00.2994864
+2026-01-20T23:57:46.2243|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-20T23:57:46.2248|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-20T23:57:46.2253|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-20T23:57:46.2663|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-20T23:57:46.2700|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-20T23:57:46.2888|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T00:17:46.5816|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:17:46.5821|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:17:46.5871|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T00:17:47.4456|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-57-44__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0013.fits
+2026-01-21T00:17:47.4460|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-20_23-57-44__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0013.fits. Duration Total: 00:00:00.8633157; BeforeSave: 00:00:00.0000163; BeforeFinalizeImageSaved: 00:00:00.5603975; FinalizeSaveTime: 00:00:00.3029009
+2026-01-21T00:17:47.8639|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T00:17:47.8643|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T00:17:47.8649|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T00:17:47.9085|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T00:17:47.9132|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T00:17:47.9325|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T00:37:48.2504|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:37:48.2510|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:37:48.2563|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T00:37:49.1353|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-17-46__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0014.fits
+2026-01-21T00:37:49.1356|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-17-46__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0014.fits. Duration Total: 00:00:00.8851959; BeforeSave: 00:00:00.0000156; BeforeFinalizeImageSaved: 00:00:00.5834133; FinalizeSaveTime: 00:00:00.3017660
+2026-01-21T00:37:49.5527|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T00:37:49.5531|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T00:37:49.5537|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T00:37:49.6042|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T00:37:49.6082|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T00:37:49.6272|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T00:57:49.9311|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:57:49.9317|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-21T00:57:49.9322|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-21T00:57:49.9327|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-21T00:57:50.8094|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-37-48__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0015.fits
+2026-01-21T00:57:50.8098|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-37-48__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0015.fits. Duration Total: 00:00:00.8785271; BeforeSave: 00:00:00.0000137; BeforeFinalizeImageSaved: 00:00:00.5729923; FinalizeSaveTime: 00:00:00.3055199
+2026-01-21T00:57:50.9126|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-21T00:57:50.9134|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-21T00:57:50.9138|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T00:57:50.9188|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T00:57:50.9765|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T00:57:50.9769|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T00:57:50.9773|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T00:57:51.0196|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T00:57:51.0241|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T00:57:51.0436|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:07:52.5546|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:07:52.5550|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:07:52.5817|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:07:53.4239|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-57-50__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0052.fits
+2026-01-21T01:07:53.4242|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_00-57-50__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0052.fits. Duration Total: 00:00:00.8686226; BeforeSave: 00:00:00.0000205; BeforeFinalizeImageSaved: 00:00:00.5682483; FinalizeSaveTime: 00:00:00.3003528
+2026-01-21T01:07:53.8425|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:07:53.8430|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:07:53.8439|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:07:53.8898|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:07:53.8943|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:07:53.9157|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:17:54.2373|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:17:54.2378|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:17:54.2430|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:17:55.1025|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-07-52__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0053.fits
+2026-01-21T01:17:55.1028|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-07-52__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0053.fits. Duration Total: 00:00:00.8653559; BeforeSave: 00:00:00.0000141; BeforeFinalizeImageSaved: 00:00:00.5603649; FinalizeSaveTime: 00:00:00.3049758
+2026-01-21T01:17:55.5180|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:17:55.5185|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:17:55.5193|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:17:55.5642|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:17:55.5681|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:17:55.5860|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:27:55.9274|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:27:55.9281|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:27:55.9334|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:27:56.8083|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-17-54__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0054.fits
+2026-01-21T01:27:56.8087|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-17-54__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0054.fits. Duration Total: 00:00:00.8812190; BeforeSave: 00:00:00.0000153; BeforeFinalizeImageSaved: 00:00:00.5805291; FinalizeSaveTime: 00:00:00.3006735
+2026-01-21T01:27:57.2245|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:27:57.2249|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:27:57.2256|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:27:57.2725|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:27:57.2770|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:27:57.3019|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:37:57.6104|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:37:57.6111|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:37:57.6171|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:37:58.4727|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-27-55__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0055.fits
+2026-01-21T01:37:58.4730|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-27-55__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0055.fits. Duration Total: 00:00:00.8625603; BeforeSave: 00:00:00.0000205; BeforeFinalizeImageSaved: 00:00:00.5579554; FinalizeSaveTime: 00:00:00.3045834
+2026-01-21T01:37:58.8913|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:37:58.8917|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:37:58.8921|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:37:58.9357|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:37:58.9397|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:37:58.9571|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:47:59.2940|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:47:59.2949|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:47:59.3004|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:48:00.2220|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-37-57__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0056.fits
+2026-01-21T01:48:00.2223|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-37-57__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0056.fits. Duration Total: 00:00:00.9282171; BeforeSave: 00:00:00.0000171; BeforeFinalizeImageSaved: 00:00:00.6117034; FinalizeSaveTime: 00:00:00.3164953
+2026-01-21T01:48:00.3915|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:48:00.3919|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:48:00.3926|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:48:00.4367|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:48:00.4404|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:48:00.4622|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T01:58:01.0100|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:58:01.0108|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-21T01:58:01.0111|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-21T01:58:01.0114|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-21T01:58:01.8786|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-47-59__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0057.fits
+2026-01-21T01:58:01.8790|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-47-59__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0057.fits. Duration Total: 00:00:00.8656143; BeforeSave: 00:00:00.0000337; BeforeFinalizeImageSaved: 00:00:00.5615629; FinalizeSaveTime: 00:00:00.3040164
+2026-01-21T01:58:01.9562|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-21T01:58:01.9568|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-21T01:58:01.9571|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T01:58:01.9620|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T01:58:02.0493|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T01:58:02.0497|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T01:58:02.0507|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T01:58:02.0996|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T01:58:02.1036|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T01:58:02.1196|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T02:18:03.6522|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:18:03.6527|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:18:03.6579|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T02:18:04.5278|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-58-01__DARK_S_-14.90C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0016.fits
+2026-01-21T02:18:04.5282|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_01-58-01__DARK_S_-14.90C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0016.fits. Duration Total: 00:00:00.8744444; BeforeSave: 00:00:00.0000211; BeforeFinalizeImageSaved: 00:00:00.5699384; FinalizeSaveTime: 00:00:00.3044838
+2026-01-21T02:18:04.6987|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T02:18:04.6991|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T02:18:04.6995|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T02:18:04.7502|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T02:18:04.7545|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T02:18:04.7799|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T02:38:05.3151|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:38:05.3166|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:38:05.3235|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T02:38:06.1918|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-18-03__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0017.fits
+2026-01-21T02:38:06.1921|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-18-03__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0017.fits. Duration Total: 00:00:00.8769908; BeforeSave: 00:00:00.0000316; BeforeFinalizeImageSaved: 00:00:00.5753831; FinalizeSaveTime: 00:00:00.3015748
+2026-01-21T02:38:06.3602|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T02:38:06.3605|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T02:38:06.3609|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T02:38:06.4094|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T02:38:06.4137|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T02:38:06.4325|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T02:58:06.9913|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:58:06.9920|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T02:58:06.9971|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T02:58:07.8534|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-38-05__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0018.fits
+2026-01-21T02:58:07.8538|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-38-05__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0018.fits. Duration Total: 00:00:00.8624699; BeforeSave: 00:00:00.0000155; BeforeFinalizeImageSaved: 00:00:00.5603371; FinalizeSaveTime: 00:00:00.3021164
+2026-01-21T02:58:08.2708|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T02:58:08.2713|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T02:58:08.2718|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T02:58:08.3142|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T02:58:08.3189|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T02:58:08.3392|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T03:18:08.6424|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:18:08.6429|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:18:08.6481|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T03:18:09.5371|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-58-07__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0019.fits
+2026-01-21T03:18:09.5375|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_02-58-07__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0019.fits. Duration Total: 00:00:00.8951088; BeforeSave: 00:00:00.0000189; BeforeFinalizeImageSaved: 00:00:00.5934807; FinalizeSaveTime: 00:00:00.3016080
+2026-01-21T03:18:09.9552|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T03:18:09.9556|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T03:18:09.9560|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T03:18:10.0007|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T03:18:10.0057|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T03:18:10.0327|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T03:38:10.3736|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:38:10.3747|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:38:10.3804|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 1200s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T03:38:11.2587|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-18-08__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0020.fits
+2026-01-21T03:38:11.2590|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-18-08__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0020.fits. Duration Total: 00:00:00.8853416; BeforeSave: 00:00:00.0000217; BeforeFinalizeImageSaved: 00:00:00.5785652; FinalizeSaveTime: 00:00:00.3067535
+2026-01-21T03:38:11.4288|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T03:38:11.4292|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T03:38:11.4296|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T03:38:11.4744|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T03:38:11.4789|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T03:38:11.5027|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T03:58:12.0735|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 1200, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:58:12.0740|INFO|LoopCondition.cs|Check|75|LoopCondition finished. Iterations: 6 / 6
+2026-01-21T03:58:12.0743|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[FINISHED]: 1, Conditions: Condition: LoopCondition, Iterations: 6/6, 
+2026-01-21T03:58:12.0747|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-21T03:58:12.9553|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-38-10__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0021.fits
+2026-01-21T03:58:12.9557|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-38-10__DARK_S_-15.00C_G100-Exp-1200.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0021.fits. Duration Total: 00:00:00.8808279; BeforeSave: 00:00:00.0000225; BeforeFinalizeImageSaved: 00:00:00.5733534; FinalizeSaveTime: 00:00:00.3074510
+2026-01-21T03:58:13.0250|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-21T03:58:13.0257|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[CREATED]: 1, Conditions: Condition: LoopCondition, Iterations: 0/6, 
+2026-01-21T03:58:13.0260|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T03:58:13.0310|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T03:58:13.1254|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T03:58:13.1260|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T03:58:13.1267|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T03:58:13.1712|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T03:58:13.1759|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T03:58:13.2011|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:08:14.7216|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:08:14.7220|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:08:14.7285|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T04:08:15.5861|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-58-13__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0058.fits
+2026-01-21T04:08:15.5865|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_03-58-13__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0058.fits. Duration Total: 00:00:00.8633232; BeforeSave: 00:00:00.0002687; BeforeFinalizeImageSaved: 00:00:00.5643904; FinalizeSaveTime: 00:00:00.2986629
+2026-01-21T04:08:16.0075|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T04:08:16.0081|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T04:08:16.0087|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T04:08:16.0551|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T04:08:16.0604|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T04:08:16.0772|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:18:16.3596|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:18:16.3604|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:18:16.3660|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T04:18:17.2249|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-08-14__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0059.fits
+2026-01-21T04:18:17.2252|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-08-14__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0059.fits. Duration Total: 00:00:00.8656351; BeforeSave: 00:00:00.0000199; BeforeFinalizeImageSaved: 00:00:00.5653520; FinalizeSaveTime: 00:00:00.3002621
+2026-01-21T04:18:17.6463|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T04:18:17.6472|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T04:18:17.6481|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T04:18:17.6907|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T04:18:17.6954|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T04:18:17.7127|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:28:18.0791|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:28:18.0798|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:28:18.0994|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T04:28:18.9420|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-18-16__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0060.fits
+2026-01-21T04:28:18.9423|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-18-16__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0060.fits. Duration Total: 00:00:00.8631026; BeforeSave: 00:00:00.0000128; BeforeFinalizeImageSaved: 00:00:00.5639492; FinalizeSaveTime: 00:00:00.2991397
+2026-01-21T04:28:19.3606|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T04:28:19.3611|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T04:28:19.3619|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T04:28:19.4068|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T04:28:19.4128|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T04:28:19.4351|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:38:19.7812|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:38:19.7818|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:38:19.7871|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-01-21T04:38:20.6424|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-28-18__DARK_S_-14.90C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0061.fits
+2026-01-21T04:38:20.6427|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-28-18__DARK_S_-14.90C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0061.fits. Duration Total: 00:00:00.8604979; BeforeSave: 00:00:00.0000257; BeforeFinalizeImageSaved: 00:00:00.5626189; FinalizeSaveTime: 00:00:00.2978521
+2026-01-21T04:38:20.8122|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T04:38:20.8127|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T04:38:20.8132|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T04:38:20.8607|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T04:38:20.8663|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T04:38:20.8930|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:48:21.4719|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType DARK, Binning 1x1
+2026-01-21T04:48:21.4728|INFO|TimeSpanCondition.cs|Check|141|No more time remaining. Remaining: 00:09:45.1318062, Next Item Take Exposure, Next Item Estimated Duration 00:10:00, Next Item Attempts: 1
+2026-01-21T04:48:21.4732|INFO|TimeSpanCondition.cs|Check|148|TimeSpanCondition finished.
+2026-01-21T04:48:21.4761|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Container: NINA.Sequencer.SequenceItem.Imaging.TakeManyExposures, Strategy: SequentialStrategy, Items[SKIPPED]: 1, Conditions: Condition: LoopCondition, Iterations: 5/6, 
+2026-01-21T04:48:21.4765|INFO|TimeSpanCondition.cs|Check|148|TimeSpanCondition finished.
+2026-01-21T04:48:21.4767|INFO|TimeSpanCondition.cs|Check|148|TimeSpanCondition finished.
+2026-01-21T04:48:21.4769|INFO|TimeSpanCondition.cs|Check|148|TimeSpanCondition finished.
+2026-01-21T04:48:21.4779|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 2, Items[SKIPPED]: 2, Conditions: Condition: TimeSpanCondition, Time: 10:1:0h, 
+2026-01-21T04:48:21.4784|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-01-21T04:48:21.4820|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-01-21T04:48:21.4835|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-01-21T04:48:21.4842|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-01-21T04:48:21.4845|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-01-21T04:48:21.4850|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-01-21T04:48:21.4864|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 0
+2026-01-21T04:48:21.4902|INFO|CameraVM.cs|WarmCamera|161|Warming Camera. Duration: 00:00:00
+2026-01-21T04:48:22.3442|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-38-19__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0062.fits
+2026-01-21T04:48:22.3445|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\2026-01-21_04-38-19__DARK_S_-15.00C_G100-Exp-600.00s_MAXRMS-D0.00-R0.00_M-$$MOONANGLE$$_RMS-0.00_HFR-0.00_F-0062.fits. Duration Total: 00:00:00.8705454; BeforeSave: 00:00:00.0000245; BeforeFinalizeImageSaved: 00:00:00.5684735; FinalizeSaveTime: 00:00:00.3020465
+2026-01-21T04:48:22.5144|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.csv
+2026-01-21T04:48:22.5148|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\AcquisitionDetails.json
+2026-01-21T04:48:22.5153|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.csv
+2026-01-21T04:48:22.5646|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\ImageMetaData.json
+2026-01-21T04:48:22.5692|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.csv
+2026-01-21T04:48:22.5975|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-01-20\DARK\S\metadata\WeatherData.json
+2026-01-21T04:52:04.8762|INFO|CameraVM.cs|WarmCamera|179|Could not reach warming temperature. Most likley due to ambient temperature being lower. Continuing...
+2026-01-21T04:52:24.9035|INFO|CameraVM.cs|WarmCamera|186|Turning cooler off
+2026-01-21T04:52:24.9058|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: WarmCamera, Duration: 0
+2026-01-21T04:52:24.9066|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-01-21T04:52:25.5691|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-01-21T04:52:25.5709|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectAllEquipment
+2026-01-21T04:52:25.7494|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-01-21T04:52:25.7509|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel
+2026-01-21T04:52:25.7923|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-01-21T04:52:25.7964|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser
+2026-01-21T04:52:25.8540|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-01-21T04:52:25.8547|INFO|DisconnectAllEquipment.cs|Execute|139|Rotator is already disconnected
+2026-01-21T04:52:25.8589|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2026-01-21T04:52:25.8801|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-01-21T04:52:25.8867|INFO|DisconnectAllEquipment.cs|Execute|139|Switch is already disconnected
+2026-01-21T04:52:25.8870|INFO|DisconnectAllEquipment.cs|Execute|139|Flat Panel is already disconnected
+2026-01-21T04:52:25.9046|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2026-01-21T04:52:25.9441|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-01-21T04:52:25.9446|INFO|DisconnectAllEquipment.cs|Execute|139|Dome is already disconnected
+2026-01-21T04:52:25.9595|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-01-21T04:52:25.9667|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-01-21T04:52:25.9672|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectAllEquipment
+2026-01-21T04:52:25.9677|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 11
+2026-01-21T04:52:25.9682|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy
+2026-01-21T04:52:25.9684|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy
+2026-01-21T04:52:25.9686|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3
+2026-01-21T04:52:25.9692|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-01-21T10:13:33.6854|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2026-01-21T10:13:33.8346|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2026-01-21T10:13:33.9286|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2026-01-21T10:13:33.9357|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2026-01-21T10:13:33.9488|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-01-21T10:13:33.9500|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-01-21T10:13:33.9526|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-01-21T10:13:33.9542|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-01-21T10:13:33.9606|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2026-01-21T10:13:33.9660|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2026-01-21T10:13:33.9707|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-01-21T10:13:33.9728|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-01-21T10:13:34.9664|INFO|API.cs|StopWatchers|86|Stopping all event watchers
