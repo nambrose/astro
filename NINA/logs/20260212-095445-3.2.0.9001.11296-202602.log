@@ -1,0 +1,195 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-02-12T09:54:50--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-02-12T09:54:50.1185|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-02-12T09:54:51.2717|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-02-12T09:54:51.3108|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-02-12T09:54:51.3180|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-02-12T09:54:52.3842|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-02-12T09:54:52.8068|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-02-12T09:54:52.8165|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-02-12T09:54:52.9042|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-02-12T09:54:53.6655|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-02-12T09:54:53.6855|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-02-12T09:54:53.6932|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-02-12T09:54:53.8029|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-02-12T09:54:59.3793|INFO|API.cs|Start|99|Starting Webserver
+2026-02-12T09:54:59.3807|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1888
+2026-02-12T09:54:59.3835|ERROR|CoreUtil.cs|SaveSettings|300|Settings failed to save from LocalAdress
+System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process. (C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.Configuration.Internal.InternalConfigHost.StaticOpenStreamForRead(String streamName)
+   at System.Configuration.ImplicitMachineConfigHost.OpenStreamForRead(String streamName)
+   at System.Configuration.BaseConfigurationRecord.InitConfigFromFile()
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.Configuration..ctor(String locationSubPath, Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.Internal.InternalConfigConfigurationFactory.System.Configuration.Internal.IInternalConfigConfigurationFactory.Create(Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   at System.Configuration.LocalFileSettingsProvider.SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection values)
+   at System.Configuration.SettingsBase.SaveCore()
+   at System.Configuration.SettingsBase.Save()
+   at NINA.Core.Utility.CoreUtil.SaveSettings(ApplicationSettingsBase settings, String memberName) in /_/NINA.Core/Utility/CoreUtil.cs:line 298
+2026-02-12T09:54:59.4026|ERROR|API.cs|APITask|143|failed to start web server: System.AggregateException: One or more errors occurred. (Only one usage of each socket address (protocol/network address/port) is normally permitted.)
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at EmbedIO.Net.Internal.EndPointListener..ctor(HttpListener listener, IPAddress address, Int32 port, Boolean secure)
+   at EmbedIO.Net.EndPointManager.<>c__DisplayClass9_0.<GetEpListener>b__1(Int32 x)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at EmbedIO.Net.EndPointManager.GetEpListener(String host, Int32 port, HttpListener listener, Boolean secure)
+   at EmbedIO.Net.EndPointManager.AddPrefix(String p, HttpListener listener)
+   at EmbedIO.Net.EndPointManager.AddListener(HttpListener listener)
+   at EmbedIO.Net.HttpListener.Start()
+   at EmbedIO.WebServer.Prepare(CancellationToken cancellationToken)
+   at EmbedIO.WebServerBase`1.RunAsync(CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at ninaAPI.WebService.API.APITask(WebServer server)
+2026-02-12T09:54:59.4130|ERROR|PluginLoader.cs|LoadPlugin|448|Failed to load plugin at C:\Users\nicka\AppData\Local\NINA\Plugins\3.0.0\Advanced API\ninaAPI.dll - Advanced API version 2.2.14.3 The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
+
+1) The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process.
+
+Resulting in: An error occurred loading a configuration file: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process. (C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config)
+
+Resulting in: An exception occurred while trying to create an instance of type 'ninaAPI.AdvancedAPI'.
+
+Resulting in: Cannot activate part 'ninaAPI.AdvancedAPI'.
+Element: ninaAPI.AdvancedAPI -->  ninaAPI.AdvancedAPI -->  AssemblyCatalog (Assembly="ninaAPI, Version=2.2.14.3, Culture=neutral, PublicKeyToken=null")
+
+Resulting in: Cannot get export 'ninaAPI.AdvancedAPI (ContractName="NINA.Plugin.Interfaces.IPluginManifest")' from part 'ninaAPI.AdvancedAPI'.
+Element: ninaAPI.AdvancedAPI (ContractName="NINA.Plugin.Interfaces.IPluginManifest") -->  ninaAPI.AdvancedAPI -->  AssemblyCatalog (Assembly="ninaAPI, Version=2.2.14.3, Culture=neutral, PublicKeyToken=null")
+
+Resulting in: Cannot set import 'NINA.Plugin.ManifestImport.PluginManifestImport (ContractName="NINA.Plugin.Interfaces.IPluginManifest")' on part 'NINA.Plugin.ManifestImport'.
+Element: NINA.Plugin.ManifestImport.PluginManifestImport (ContractName="NINA.Plugin.Interfaces.IPluginManifest") -->  NINA.Plugin.ManifestImport
+
+2026-02-12T09:54:59.5838|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-02-12T09:54:59.7695|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-02-12T09:54:59.9468|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-02-12T09:55:00.6169|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-02-12T09:55:02.1260|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.10 by Daniel Ludwig
+2026-02-12T09:55:03.3131|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1365|Plugin icon geometry created successfully
+2026-02-12T09:55:03.3476|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1334|DitherStatistics DataTemplates loaded successfully
+2026-02-12T09:55:03.3510|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|383|Quality Assessment setting saved to file: True
+2026-02-12T09:55:03.3512|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|360|Quality Assessment setting loaded from file: True
+2026-02-12T09:55:03.3557|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|716|Subscribed to NINA guider events
+2026-02-12T09:55:03.3583|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1211|Initial PrimaryBrush color: R:176 G:179 B:185
+2026-02-12T09:55:03.3585|INFO|DitherStatisticsVM.cs|.ctor|92|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-02-12T09:55:03.3590|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.2.0.4 by Thierry Tschanz
+2026-02-12T09:55:03.5395|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-02-12T09:55:03.7563|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-02-12T09:55:05.3634|INFO|DitherStatisticsVM.cs|ConnectToPHD2|590|Attempting to connect to PHD2...
+2026-02-12T09:55:05.3658|INFO|PHD2Client.cs|ConnectAsync|48|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-02-12T09:55:06.4666|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-02-12T09:55:07.4022|ERROR|PHD2Client.cs|ConnectAsync|69|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-02-12T09:55:07.4027|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|619|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-02-12T09:55:17.5087|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.24 by George Hilios (jokogeo)
+2026-02-12T09:55:18.3708|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.1 by Christian Palm
+2026-02-12T09:55:18.5924|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-02-12T09:55:19.3673|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.0.1.7 by Stefan Berg @isbeorn
+2026-02-12T09:55:19.5691|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-02-12T09:55:19.7670|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-02-12T09:55:20.0668|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-02-12T09:55:20.4958|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-02-12T09:55:21.1459|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-02-12T09:55:21.4264|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-02-12T09:55:23.5651|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-12T09:55:23.8392|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.3 by Marc Blank
+2026-02-12T09:55:24.6211|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-02-12T09:55:24.7539|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-02-12T09:55:24.9956|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-02-12T09:55:25.3967|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-02-12T09:55:25.8665|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-02-12T09:55:28.5781|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-12T09:55:28.7205|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.8.3.2 by Tom Palmer @tcpalmer
+2026-02-12T09:55:29.3149|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.4.3 by Stefan Berg @isbeorn
+2026-02-12T09:55:30.7945|ERROR|NINAWeb.cs|InitializePlugin|93|failed to initialize the web plugin: System.Configuration.ConfigurationErrorsException: An error occurred loading a configuration file: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process. (C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config)
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\nicka\AppData\Local\NINA\NINA_Url_ykulh1zxj2m4pcy4p3l2bndsanudr4ly\3.2.0.9001\user.config' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.Configuration.Internal.InternalConfigHost.StaticOpenStreamForRead(String streamName)
+   at System.Configuration.ImplicitMachineConfigHost.OpenStreamForRead(String streamName)
+   at System.Configuration.BaseConfigurationRecord.InitConfigFromFile()
+   --- End of inner exception stack trace ---
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.Configuration..ctor(String locationSubPath, Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.Internal.InternalConfigConfigurationFactory.System.Configuration.Internal.IInternalConfigConfigurationFactory.Create(Type typeConfigHost, Object[] hostInitConfigurationParams)
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   at System.Configuration.LocalFileSettingsProvider.SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection values)
+   at System.Configuration.SettingsBase.SaveCore()
+   at System.Configuration.SettingsBase.Save()
+   at Web.NINAPlugin.WebPlugin.set_LocalNetworkAddress(String value)
+   at Web.NINAPlugin.WebPlugin.setWebUrls()
+   at Web.NINAPlugin.WebPlugin.InitializePlugin(IImageSaveMediator imageSaveMediator, IProfileService profileService) System.Configuration.ConfigurationManager, aborting
+2026-02-12T09:55:30.7966|ERROR|PluginLoader.cs|LoadPlugin|448|Failed to load plugin at C:\Users\nicka\AppData\Local\NINA\Plugins\3.0.0\Web Session History Viewer\NINA.Plugin.Web-2.2.1.0.dll - Web Session History Viewer version 2.2.1.0 The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
+
+1) failed to initialize the web session history viewer plugin
+
+Resulting in: An exception occurred while trying to create an instance of type 'Web.NINAPlugin.WebPlugin'.
+
+Resulting in: Cannot activate part 'Web.NINAPlugin.WebPlugin'.
+Element: Web.NINAPlugin.WebPlugin -->  Web.NINAPlugin.WebPlugin -->  AssemblyCatalog (Assembly="Web.NINAPlugin, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null")
+
+Resulting in: Cannot get export 'Web.NINAPlugin.WebPlugin (ContractName="NINA.Plugin.Interfaces.IPluginManifest")' from part 'Web.NINAPlugin.WebPlugin'.
+Element: Web.NINAPlugin.WebPlugin (ContractName="NINA.Plugin.Interfaces.IPluginManifest") -->  Web.NINAPlugin.WebPlugin -->  AssemblyCatalog (Assembly="Web.NINAPlugin, Version=2.2.1.0, Culture=neutral, PublicKeyToken=null")
+
+Resulting in: Cannot set import 'NINA.Plugin.ManifestImport.PluginManifestImport (ContractName="NINA.Plugin.Interfaces.IPluginManifest")' on part 'NINA.Plugin.ManifestImport'.
+Element: NINA.Plugin.ManifestImport.PluginManifestImport (ContractName="NINA.Plugin.Interfaces.IPluginManifest") -->  NINA.Plugin.ManifestImport
+
+2026-02-12T09:55:31.4169|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-02-12T09:55:31.5529|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-02-12T09:55:31.6525|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-02-12T09:55:32.3263|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-02-12T09:55:32.8681|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-02-12T09:55:33.6005|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-12T09:55:34.3410|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-02-12T09:55:34.3410|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-02-12T09:55:34.3473|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-02-12T09:55:34.8630|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-02-12T09:55:35.0073|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-02-12T09:55:35.0095|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-02-12T09:55:35.0229|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-02-12T09:55:35.2947|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-02-12T09:55:35.7494|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-02-12T09:55:35.7510|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-02-12T09:55:36.0634|INFO|PluginFetcher.cs|RequestAll|57|Found 72 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-02-12T09:55:37.5547|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 133.52 GB
+2026-02-12T09:55:37.5587|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-02-12T09:55:37.5612|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-02-12T09:55:37.5633|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 41.49 GB
+2026-02-12T09:55:37.6426|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-02-12T09:55:37.6444|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive Z:\: 34.88 GB
+2026-02-12T09:55:38.2530|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1220|Theme color monitoring timer started on UI thread
+2026-02-12T09:55:38.6023|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-12T09:55:51.2091|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2026-02-12T09:55:51.2660|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2026-02-12T09:55:51.2958|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2026-02-12T09:55:51.2997|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2026-02-12T09:55:51.3115|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-02-12T09:55:51.3296|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-02-12T09:55:51.3320|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-02-12T09:55:51.3353|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-02-12T09:55:51.3393|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2026-02-12T09:55:51.3421|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2026-02-12T09:55:51.3463|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-02-12T09:55:51.3490|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
