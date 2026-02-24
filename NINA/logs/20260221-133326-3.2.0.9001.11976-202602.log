@@ -1,0 +1,756 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-02-21T13:33:27--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-02-21T13:33:27.7360|INFO|App.xaml.cs|OnStartup|170|Launched with command line arguments: --sequencefile C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json --runsequence
+2026-02-21T13:33:30.7519|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-02-21T13:33:31.1571|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-02-21T13:33:31.4116|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-02-21T13:33:31.5231|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-02-21T13:33:32.8340|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-02-21T13:33:33.5458|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-02-21T13:33:33.6954|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-02-21T13:33:33.8681|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-02-21T13:33:34.4303|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-02-21T13:33:34.5987|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-02-21T13:33:34.7558|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-02-21T13:33:34.7589|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-02-21T13:33:38.2837|INFO|API.cs|Start|99|Starting Webserver
+2026-02-21T13:33:38.2850|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1888
+2026-02-21T13:33:38.4459|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20260221-133326-3.2.0.9001.11976-202602.log
+2026-02-21T13:33:38.4617|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.14.5 by Christian Palm
+2026-02-21T13:33:38.6085|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-02-21T13:33:38.7961|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-02-21T13:33:38.9694|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-02-21T13:33:39.5606|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-02-21T13:33:40.9760|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.10 by Daniel Ludwig
+2026-02-21T13:33:42.1356|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1483|Plugin icon geometry created successfully
+2026-02-21T13:33:42.1644|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1452|DitherStatistics DataTemplates loaded successfully
+2026-02-21T13:33:42.1688|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|387|Quality Assessment setting saved to file: True
+2026-02-21T13:33:42.1690|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|364|Quality Assessment setting loaded from file: True
+2026-02-21T13:33:42.1870|INFO|DitherStatisticsVM.cs|SaveDitherOptimizerSetting|490|Dither Optimizer setting saved to file: False
+2026-02-21T13:33:42.1871|INFO|DitherStatisticsVM.cs|LoadDitherOptimizerSetting|471|Dither Optimizer setting loaded from file: False
+2026-02-21T13:33:42.1877|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|834|Subscribed to NINA guider events
+2026-02-21T13:33:42.1907|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1329|Initial PrimaryBrush color: R:176 G:179 B:185
+2026-02-21T13:33:42.1909|INFO|DitherStatisticsVM.cs|.ctor|96|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-02-21T13:33:42.1915|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.3.0.0 by Thierry Tschanz
+2026-02-21T13:33:42.3625|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-02-21T13:33:42.5661|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-02-21T13:33:44.1920|INFO|DitherStatisticsVM.cs|ConnectToPHD2|708|Attempting to connect to PHD2...
+2026-02-21T13:33:44.1938|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-02-21T13:33:45.0794|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-02-21T13:33:46.2314|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-02-21T13:33:46.2318|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-02-21T13:33:55.8980|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.24 by George Hilios (jokogeo)
+2026-02-21T13:33:56.7330|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.1 by Christian Palm
+2026-02-21T13:33:56.9413|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-02-21T13:33:57.7455|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.0.1.7 by Stefan Berg @isbeorn
+2026-02-21T13:33:57.9436|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-02-21T13:33:58.1319|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-02-21T13:33:58.4214|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-02-21T13:33:58.7337|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-02-21T13:33:59.4603|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-02-21T13:33:59.7406|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-02-21T13:34:01.7001|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-21T13:34:01.9638|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.3 by Marc Blank
+2026-02-21T13:34:02.6850|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-02-21T13:34:02.8100|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-02-21T13:34:03.0584|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-02-21T13:34:03.4357|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-02-21T13:34:03.8963|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-02-21T13:34:06.7246|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-21T13:34:07.2584|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.8.3.2 by Tom Palmer @tcpalmer
+2026-02-21T13:34:07.6635|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.4.3 by Stefan Berg @isbeorn
+2026-02-21T13:34:09.9183|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2026-02-21T13:34:10.0298|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2026-02-21T13:34:10.4561|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-02-21T13:34:11.3321|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2026-02-21T13:34:12.6286|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-02-21T13:34:12.7449|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-02-21T13:34:12.8392|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-02-21T13:34:12.8413|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-02-21T13:34:13.2846|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-02-21T13:34:13.7376|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-02-21T13:34:13.7483|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-21T13:34:13.7755|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-02-21T13:34:13.8934|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-02-21T13:34:14.0052|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-02-21T13:34:14.8508|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-02-21T13:34:14.9630|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-02-21T13:34:14.9753|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-02-21T13:34:15.0900|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-02-21T13:34:15.2016|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-02-21T13:34:15.2975|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-02-21T13:34:15.6470|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-02-21T13:34:15.8943|INFO|PluginFetcher.cs|RequestAll|57|Found 73 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-02-21T13:34:18.7795|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-02-21T13:34:19.6229|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 129.62 GB
+2026-02-21T13:34:19.6265|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-02-21T13:34:19.6292|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-02-21T13:34:19.6307|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 61.68 GB
+2026-02-21T13:34:19.6404|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive Z:\: 38.47 GB
+2026-02-21T13:34:20.3913|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1338|Theme color monitoring timer started on UI thread
+2026-02-21T13:34:20.7948|INFO|Sequence2VM.cs|TryLoadSequenceFile|414|Loading sequence file: C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json
+2026-02-21T13:34:21.5020|INFO|Sequence2VM.cs|TryLoadSequenceFile|420|Starting sequence from command line options
+2026-02-21T13:34:21.5053|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-02-21T13:34:22.1844|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-02-21T13:34:22.3217|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-02-21T13:34:22.3227|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 10
+2026-02-21T13:34:22.3234|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-02-21T13:34:22.8666|INFO|DockManagerVM.cs|InitializeAvalonDockLayout|366|Initializing imaging tab layout from C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.dock.config
+2026-02-21T13:34:23.2080|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-02-21T13:34:23.2128|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 18:2:32h, Offset: -80
+2026-02-21T18:02:49.4319|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 18:2:32h, Offset: -80
+2026-02-21T18:02:49.4334|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T18:02:50.2270|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T18:02:50.2274|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-02-21T18:02:50.3996|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-02-21T18:02:50.4010|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectAllEquipment
+2026-02-21T18:02:50.4289|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-02-21T18:02:50.5042|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-02-21T18:02:50.5044|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-02-21T18:02:50.5050|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-02-21T18:02:50.5053|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-02-21T18:02:50.6618|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-02-21T18:02:50.6668|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-02-21T18:02:50.6804|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-02-21T18:02:50.8380|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-02-21T18:02:50.8521|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-02-21T18:02:50.8536|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-02-21T18:02:50.8558|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-02-21T18:02:50.8564|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-02-21T18:02:50.8567|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-02-21T18:02:50.8643|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-02-21T18:02:50.8651|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-02-21T18:02:52.8660|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-02-21T18:02:52.8729|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-02-21T18:02:52.9851|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-02-21T18:02:53.5608|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_B with value 50
+2026-02-21T18:02:53.5609|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_R with value 50
+2026-02-21T18:02:53.5610|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_GAMMA with value 50
+2026-02-21T18:02:53.5610|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_HIGH_SPEED_MODE with value 0
+2026-02-21T18:02:53.5611|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_OVERCLOCK with value 0
+2026-02-21T18:02:53.5611|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_PATTERN_ADJUST with value 0
+2026-02-21T18:02:53.5623|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_MONO_BIN with value 0
+2026-02-21T18:02:53.5634|INFO|ASICamera.cs|Initialize|664|Camera ID: ASI533MM
+2026-02-21T18:02:53.5744|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_ANTI_DEW_HEATER with value 0
+2026-02-21T18:02:53.6706|INFO|CameraVM.cs|ChooseCamera|455|Successfully connected Camera. Id: ZWOptical_ZWO ASI533MM Pro_ASI533MM Name: ZWO ASI533MM Pro DisplayName: ZWO ASI533MM Pro (ASI533MM)Driver Version: 1, 39, 0, 0
+2026-02-21T18:02:54.2266|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-02-21T18:02:56.2296|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-02-21T18:02:56.3222|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-02-21T18:02:59.8137|INFO|FilterWheelVM.cs|ChooseFW|279|Successfully connected Filter Wheel. Id: ASCOM.EFW2.FilterWheel Name: ZWO FilterWheel DisplayName: ZWO FilterWheel (ASCOM) Driver Version: 6.0
+2026-02-21T18:03:03.6642|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-02-21T18:03:03.6845|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-02-21T18:03:05.0060|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-02-21T18:03:05.2184|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 2 / 3
+2026-02-21T18:03:05.2200|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-02-21T18:03:05.4211|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 3 / 3
+2026-02-21T18:03:05.4234|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-02-21T18:03:05.4244|INFO|AscomDevice.cs|GetProperty|556|GET Focuser.StepSize failed - Returning last known value 0
+2026-02-21T18:03:05.6686|INFO|FocuserVM.cs|ChooseFocuser|333|Successfully connected Focuser. Id: ASCOM.EAF.Focuser Name: ZWO Focuser DisplayName: ZWO Focuser (ASCOM) Driver Version: 6.0
+2026-02-21T18:03:07.6715|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-02-21T18:03:07.7536|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-02-21T18:03:08.3867|INFO|AscomTelescope.cs|CheckMountTime|845|Mount UTC Time: 2026-02-22 00:03:08Z / System UTC Time: 2026-02-22 00:03:08Z; Difference: 0.592 seconds
+2026-02-21T18:03:10.4548|ERROR|AscomTelescope.cs|CheckMountTime|869|Unexpected exception when trying to set UTCDate:
+ASCOM.InvalidOperationException: UTCDate failed.
+ ---> System.Runtime.InteropServices.COMException (0x8004040B): UTCDate failed.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 205
+   at ASCOM.Com.DriverAccess.DynamicAccess.TrySetMember(SetMemberBinder binder, Object value) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 105
+   at CallSite.Target(Closure, CallSite, Object, DateTime)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASCOM.Com.DriverAccess.Telescope.set_UTCDate(DateTime value) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Telescope.cs:line 479
+   at NINA.Equipment.Equipment.MyTelescope.AscomTelescope.CheckMountTime() in /_/NINA.Equipment/Equipment/MyTelescope/AscomTelescope.cs:line 851
+2026-02-21T18:03:10.8038|INFO|TelescopeVM.cs|ChooseTelescope|535|Successfully connected mount. Id: ASCOM.iOptron2017.Telescope Name: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount DisplayName: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount (ASCOM) Driver Version: 9.15
+2026-02-21T18:03:10.8165|INFO|PHD2Guider.cs|Connect|205|Connecting to PHD2 server at 127.0.0.1:4400
+2026-02-21T18:03:18.4180|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-02-21T18:03:18.4905|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-02-21T18:03:18.7522|INFO|PHD2Client.cs|ConnectAsync|118|PHD2Client: Connected successfully!
+2026-02-21T18:03:18.7523|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|734|PHD2 Connection Status: Connected
+2026-02-21T18:03:18.7524|INFO|DitherStatisticsVM.cs|ConnectToPHD2|713|Successfully connected to PHD2!
+2026-02-21T18:03:18.7543|INFO|PHD2Client.cs|ReadEventsAsync|181|PHD2Client: Started reading events
+2026-02-21T18:03:18.7849|INFO|PHD2Client.cs|HandleVersion|366|PHD2Client: Connected to PHD2 version 2.6.14. (Message Protocol v1)
+2026-02-21T18:03:18.7856|INFO|PHD2Client.cs|ProcessEvent|257|PHD2: CalibrationComplete
+2026-02-21T18:03:18.7864|INFO|PHD2Client.cs|HandleAppState|376|PHD2Client: PHD2 AppState: Stopped
+2026-02-21T18:03:20.1737|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.SkyQuality GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-02-21T18:03:20.1813|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.StarFWHM GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-02-21T18:03:20.1972|INFO|WeatherDataVM.cs|ChooseWeatherData|150|Successfully connected Weather Device. Id: ASCOM.SkyAlert.ObservingConditions Name: SkyAlert Observing Conditions DisplayName: SkyAlert Observing Conditions (ASCOM) Driver Version: 1.7
+2026-02-21T18:03:22.1993|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-02-21T18:03:22.2694|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-02-21T18:03:22.7245|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-02-21T18:03:22.7249|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectAllEquipment
+2026-02-21T18:03:22.7253|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-02-21T18:03:22.7317|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-02-21T18:03:22.7337|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-02-21T18:03:22.7360|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-02-21T18:03:22.7367|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-02-21T18:03:22.7376|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-02-21T18:03:22.7378|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T18:03:23.3524|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T18:03:23.3537|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-02-21T18:03:23.5574|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-02-21T18:03:23.5582|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: -15, Duration: 60
+2026-02-21T18:03:23.5624|INFO|CameraVM.cs|CoolCamera|138|Cooling Camera. Target: -15 Duration: 01:00:00
+2026-02-21T18:03:24.7287|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-02-21T18:07:24.7232|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Safe
+2026-02-21T19:03:37.3363|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: CoolCamera, Temperature: -15, Duration: 60
+2026-02-21T19:03:37.3374|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 19:7:32h, Offset: -15
+2026-02-21T19:07:32.3143|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 19:7:32h, Offset: -15
+2026-02-21T19:07:32.3526|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 10
+2026-02-21T19:07:32.3531|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-02-21T19:07:32.3534|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-02-21T19:07:32.3557|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 10, Conditions: Condition: TimeCondition, Time: 6:19:2h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-02-21T19:07:32.3582|INFO|WhenCommon.cs|SequenceBlockInitialize|204|Initialize; starting watchdog
+2026-02-21T19:07:48.0117|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-02-21T19:07:48.0138|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 19:7:32h, Offset: -15
+2026-02-21T19:07:48.0146|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 19:7:32h, Offset: -15
+2026-02-21T19:07:48.0158|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-02-21T19:07:48.0161|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:07:48.6436|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:07:48.6465|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-02-21T19:07:48.6466|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Focusing
+2026-02-21T19:07:48.8037|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Focusing
+2026-02-21T19:07:48.8042|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-02-21T19:07:48.8062|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: SlewScopeToRaDec, Coordinates: RA: 00:00:00; Dec: 85° 00' 00"; Epoch: J2000
+2026-02-21T19:07:48.8103|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-02-21T19:07:48.8178|INFO|TelescopeVM.cs|SlewAsyncInternal|910|Slewing from RA: 10:38:07; Dec: 90° 00' 00"; Epoch: JNOW to RA: 00:01:02; Dec: 85° 08' 56"; Epoch: JNOW - Alt: 33° 08' 58"; Az: 354° 34' 45"
+2026-02-21T19:08:02.6824|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: SlewScopeToRaDec, Coordinates: RA: 00:00:00; Dec: 85° 00' 00"; Epoch: J2000
+2026-02-21T19:08:02.6847|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:19:41.9019194, next instruction time 0, next instruction Category: Filter Wheel, Item: SwitchFilter, Filter: L - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:08:02.6849|INFO|SequenceItem.cs|Run|208|Starting Category: Filter Wheel, Item: SwitchFilter, Filter: L
+2026-02-21T19:08:02.7043|INFO|FilterWheelVM.cs|ChangeFilter|112|Moving to Filter L at Position 0
+2026-02-21T19:08:02.9204|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387204
+2026-02-21T19:08:12.5812|INFO|SequenceItem.cs|Run|254|Finishing Category: Filter Wheel, Item: SwitchFilter, Filter: L
+2026-02-21T19:08:12.5857|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:19:31.7830326, next instruction time 180, next instruction Category: Focuser, Item: RunAutofocus - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:08:12.5861|INFO|SequenceItem.cs|Run|208|Starting Category: Focuser, Item: RunAutofocus
+2026-02-21T19:08:12.8285|INFO|FocuserMediator.cs|BroadcastAutoFocusRunStarting|92|Autofocus starting notification received
+2026-02-21T19:08:12.8327|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-02-21T19:08:12.8697|INFO|AutoFocusEngine.cs|RunAutoFocus|928|Starting AutoFocus with initial position 387204
+2026-02-21T19:08:12.8977|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:08:17.5347|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|769|Waiting on initial HFR analysis
+2026-02-21T19:08:17.5377|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387340
+2026-02-21T19:08:19.9217|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.732882889801711, HFR MAD: 0.0913078033313921, Detected Stars 53, Region: 0
+2026-02-21T19:08:22.6290|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:08:27.2182|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387306
+2026-02-21T19:08:28.7957|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 3.2635042899562094, HFR MAD: 0.7658837689998403, Detected Stars 27, Region: 0
+2026-02-21T19:08:34.6042|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:08:39.1897|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387272
+2026-02-21T19:08:40.7418|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 2.5726394942608795, HFR MAD: 0.6105713542384765, Detected Stars 47, Region: 0
+2026-02-21T19:08:46.6052|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:08:51.1827|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387238
+2026-02-21T19:08:52.7217|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 2.1304105559386013, HFR MAD: 0.3334600435612125, Detected Stars 58, Region: 0
+2026-02-21T19:08:58.6309|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:09:03.2139|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|797|Waiting on initial focuser move analyses
+2026-02-21T19:09:04.7323|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.7903238686342207, HFR MAD: 0.1388068440714112, Detected Stars 50, Region: 0
+2026-02-21T19:09:04.8050|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387204
+2026-02-21T19:09:14.5932|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:09:19.2056|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|870|Waiting on next left movement analysis
+2026-02-21T19:09:20.7502|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.713835069916828, HFR MAD: 0.09032413664747652, Detected Stars 59, Region: 0
+2026-02-21T19:09:20.8191|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387170
+2026-02-21T19:09:30.5662|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:09:35.2080|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|870|Waiting on next left movement analysis
+2026-02-21T19:09:36.7515|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 2.259765928360312, HFR MAD: 0.1801464259623815, Detected Stars 89, Region: 0
+2026-02-21T19:09:36.8197|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387136
+2026-02-21T19:09:46.6102|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:09:51.2026|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|870|Waiting on next left movement analysis
+2026-02-21T19:09:52.7480|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 3.608738239190759, HFR MAD: 0.25361906492346753, Detected Stars 53, Region: 0
+2026-02-21T19:09:52.8189|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387102
+2026-02-21T19:10:02.5894|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:10:07.1768|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|870|Waiting on next left movement analysis
+2026-02-21T19:10:08.7209|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 5.205552098668717, HFR MAD: 0.30623115809796975, Detected Stars 36, Region: 0
+2026-02-21T19:10:08.7567|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387068
+2026-02-21T19:10:18.5781|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:10:23.1906|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|870|Waiting on next left movement analysis
+2026-02-21T19:10:24.7263|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 6.842748987330729, HFR MAD: 0.25543829477559665, Detected Stars 19, Region: 0
+2026-02-21T19:10:24.7893|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|823|Enough left trend points (4) with an established minimum (387204) to queue remaining right focus points up to 387340
+2026-02-21T19:10:24.7894|INFO|AutoFocusEngine.cs|StartBlindFocusPoints|896|Waiting on remaining AutoFocus analysis tasks
+2026-02-21T19:10:24.8010|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387203
+2026-02-21T19:10:30.6109|INFO|AutoFocusEngine.cs|ValidateCalculatedFocusPosition|1140|Validating HFR at final focus position 387203
+2026-02-21T19:10:30.6166|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 3s; Filter: L; Gain: 270; Offset 50; Binning: 1x1;
+2026-02-21T19:10:36.7457|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.792632131576054, HFR MAD: 0.09321025908568914, Detected Stars 80, Region: 0
+2026-02-21T19:10:36.7516|INFO|HocusFocusVM.cs|AutoFocusEngine_Completed|473|AutoFocus completed with focuser starting at 387204 and ending at 387203
+2026-02-21T19:10:36.8193|INFO|FocuserMediator.cs|BroadcastSuccessfulAutoFocusRun|46|Autofocus notification received - Temperature 14.789999961853027
+2026-02-21T19:10:36.8383|INFO|SequenceItem.cs|Run|254|Finishing Category: Focuser, Item: RunAutofocus
+2026-02-21T19:10:36.8388|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:17:07.1235475, next instruction time 715.161253, next instruction Category: Utility, Item: WaitForTime, Time: 19:22:32h, Offset: 0 - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:10:36.8390|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 19:22:32h, Offset: 0
+2026-02-21T19:22:32.8461|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 19:22:32h, Offset: 0
+2026-02-21T19:22:32.8471|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:05:09.4097459, next instruction time 0, next instruction Category: Ground Station, Item: Send to Telegram - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:22:32.8473|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:22:33.4938|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:22:33.4949|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:05:09.4097459, next instruction time 0, next instruction Category: Ground Station, Item: Send to Pushover, Title: Focus Done - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:22:33.4951|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Focus Done
+2026-02-21T19:22:33.6466|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Focus Done
+2026-02-21T19:22:33.6483|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:05:09.4097459, next instruction time 0, next instruction Category: Target Scheduler, Container: NINA.Plugin.TargetScheduler.Sequencer.TargetSchedulerContainer, Strategy: SequentialStrategy, Target:  RA: 00:00:00; Dec: 00° 00' 00"; Epoch: J2000 0 - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:22:33.6485|INFO|SequenceItem.cs|Run|208|Starting Category: Target Scheduler, Container: NINA.Plugin.TargetScheduler.Sequencer.TargetSchedulerContainer, Strategy: SequentialStrategy, Target:  RA: 00:00:00; Dec: 00° 00' 00"; Epoch: J2000 0
+2026-02-21T19:22:33.8348|INFO|Symbol.cs|OnMessageReceived|630|Received message from Target Scheduler re: TargetScheduler-NewTargetStart
+2026-02-21T19:22:33.8352|INFO|Symbol.cs|OnMessageReceived|638|TS_TargetName = HorseFlame Panel 1 - NB
+2026-02-21T19:22:33.8353|INFO|Symbol.cs|OnMessageReceived|639|Expires at 02/21/2026 20:10:09 -06:00
+2026-02-21T19:22:33.8861|INFO|Symbol.cs|OnMessageReceived|630|Received message from Target Scheduler re: TargetScheduler-TargetStart
+2026-02-21T19:22:33.8862|INFO|Symbol.cs|OnMessageReceived|638|TS_TargetName = HorseFlame Panel 1 - NB
+2026-02-21T19:22:33.8862|INFO|Symbol.cs|OnMessageReceived|639|Expires at 02/21/2026 20:10:09 -06:00
+2026-02-21T19:22:33.8875|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:05:07.4196334, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:22:33.8878|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:22:33.9423|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:22:33.9708|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 07:05:07.4196334, next instruction time 0, next instruction Category: Scheduler, Item: Center, Coordinates RA: 05:40:51; Dec: -03° 18' 47"; Epoch: J2000 - and the telescope reports expected pier side pierEast. Automated Flip is not necessary.
+2026-02-21T19:22:33.9711|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: Center, Coordinates RA: 05:40:51; Dec: -03° 18' 47"; Epoch: J2000
+2026-02-21T19:22:34.1063|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-02-21T19:22:34.1219|INFO|TelescopeVM.cs|SlewAsyncInternal|910|Slewing from RA: 00:01:02; Dec: 85° 08' 56"; Epoch: JNOW to RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW - Alt: 53° 14' 11"; Az: 159° 10' 14"
+2026-02-21T19:23:08.3168|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 2s; Filter: L; Gain: 275; Offset 50; Binning: 1x1;
+2026-02-21T19:23:12.8692|INFO|ImageSolver.cs|Solve|41|Platesolving with parameters: FocalLength: 360 PixelSize: 3.76 SearchRadius: 30 BlindFailoverEnabled: True Regions: 5000 DownSampleFactor: 0 MaxObjects: 500 Reference Coordinates RA: 05:40:51 Dec: -03° 18' 47" Epoch: J2000
+2026-02-21T19:23:13.2452|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\Users\nicka\AppData\Local\NINA\PlateSolver\nmyeenkx.1ze.fits
+2026-02-21T19:23:14.8179|INFO|ImageSolver.cs|Solve|54|Platesolve successful: Coordinates: RA: 05:44:02; Dec: -07° 54' 54"; Epoch: J2000 - Position Angle: 95.25959027726975
+2026-02-21T19:23:14.8223|INFO|CenteringSolver.cs|Center|99|Centering Solver - Scope Position: RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW; Offset: RA: 00:00:00; Dec: 00° 00' 00"; Distance: 00° 00' 00"; Bearing: 00° 00' 00"; Centering Coordinates: RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW; Solved: RA: 05:45:19; Dec: -07° 54' 20"; Epoch: JNOW; Separation RA: -00:03:09; Dec: 04° 36' 16"; Distance: 04° 40' 14"; Bearing: -170° 22' 58"; Threshold: 2
+2026-02-21T19:23:15.2978|INFO|TelescopeVM.cs|Sync|777|Syncing scope from RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW to RA: 05:45:19; Dec: -07° 54' 20"; Epoch: JNOW
+2026-02-21T19:23:20.3005|INFO|CenteringSolver.cs|Center|132|Slewing to target after sync. Current Position: RA: 05:45:19; Dec: -07° 54' 20"; Epoch: JNOW; Target coordinates: RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW; Offset RA: 00:00:00; Dec: 00° 00' 00"; Distance: 00° 00' 00"; Bearing: 00° 00' 00"
+2026-02-21T19:23:20.3045|INFO|TelescopeVM.cs|SlewAsyncInternal|910|Slewing from RA: 05:45:19; Dec: -07° 54' 20"; Epoch: JNOW to RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW - Alt: 53° 17' 40"; Az: 159° 28' 40"
+2026-02-21T19:23:29.5105|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 2s; Filter: L; Gain: 275; Offset 50; Binning: 1x1;
+2026-02-21T19:23:33.9752|INFO|ImageSolver.cs|Solve|41|Platesolving with parameters: FocalLength: 360 PixelSize: 3.76 SearchRadius: 30 BlindFailoverEnabled: True Regions: 5000 DownSampleFactor: 0 MaxObjects: 500 Reference Coordinates RA: 05:40:51 Dec: -03° 18' 47" Epoch: J2000
+2026-02-21T19:23:34.3023|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\Users\nicka\AppData\Local\NINA\PlateSolver\yjahawlb.lof.fits
+2026-02-21T19:23:35.4576|INFO|ImageSolver.cs|Solve|54|Platesolve successful: Coordinates: RA: 05:40:49; Dec: -03° 19' 14"; Epoch: J2000 - Position Angle: 95.25876736149007
+2026-02-21T19:23:35.4587|INFO|CenteringSolver.cs|Center|99|Centering Solver - Scope Position: RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW; Offset: RA: 00:00:00; Dec: 00° 00' 00"; Distance: 00° 00' 00"; Bearing: 00° 00' 00"; Centering Coordinates: RA: 05:42:10; Dec: -03° 18' 04"; Epoch: JNOW; Solved: RA: 05:42:08; Dec: -03° 18' 31"; Epoch: JNOW; Separation RA: 00:00:02; Dec: 00° 00' 26"; Distance: 00° 00' 36"; Bearing: 137° 41' 51"; Threshold: 2
+2026-02-21T19:23:35.4597|INFO|CenteringSolver.cs|Center|165|Restoring filter to L after centering
+2026-02-21T19:23:35.4630|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: Center, Coordinates RA: 05:40:51; Dec: -03° 18' 47"; Epoch: J2000
+2026-02-21T19:23:35.5210|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:15.5009018, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:35.5212|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:35.5386|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:35.5397|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:15.5009018, next instruction time 0, next instruction Category: , Container: NINA.Plugin.TargetScheduler.Sequencer.InstructionContainer, Strategy: InstructionContainerStrategy, Items[CREATED]: 2 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:35.5398|INFO|SequenceItem.cs|Run|208|Starting Category: , Container: NINA.Plugin.TargetScheduler.Sequencer.InstructionContainer, Strategy: InstructionContainerStrategy, Items[CREATED]: 2
+2026-02-21T19:23:35.5448|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:15.5009018, next instruction time 0, next instruction Category: Powerups (Expressions), Item: IfConstant, Expr: Expression: TargetName == "DarkTower2026" in If, References: 1, Value: 0 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:35.5450|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Expressions), Item: IfConstant, Expr: Expression: TargetName == "DarkTower2026" in If, References: 1, Value: 0
+2026-02-21T19:23:35.5474|INFO|If.cs|Execute|57|Predicate: TargetName == "DarkTower2026"
+2026-02-21T19:23:35.5498|INFO|If.cs|Execute|84|Predicate is false, Expression: TargetName == "DarkTower2026" in If, References: 1, Value: 0
+2026-02-21T19:23:35.5499|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Expressions), Item: IfConstant, Expr: Expression: TargetName == "DarkTower2026" in If, References: 1, Value: 0
+2026-02-21T19:23:35.5506|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:15.5009018, next instruction time 0, next instruction Category: Ground Station, Item: Send to Telegram - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:35.5507|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:23:36.1610|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:23:36.1642|INFO|SequenceItem.cs|Run|254|Finishing Category: , Container: NINA.Plugin.TargetScheduler.Sequencer.InstructionContainer, Strategy: InstructionContainerStrategy, Items[FINISHED]: 2
+2026-02-21T19:23:36.1652|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:13.6590325, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:36.1654|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:36.1713|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:36.2077|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:13.6590325, next instruction time 0, next instruction Category: Scheduler, Item: SwitchFilter, Filter: H - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:36.2079|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:23:36.2088|INFO|FilterWheelVM.cs|ChangeFilter|112|Moving to Filter H at Position 5
+2026-02-21T19:23:36.4428|INFO|FocuserVM.cs|MoveFocuserInternal|216|Moving Focuser to position 387225
+2026-02-21T19:23:40.6068|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:23:40.6073|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:09.6535581, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:40.6075|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:40.6075|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:40.6082|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:09.6535581, next instruction time 0, next instruction Category: Scheduler, Item: SetReadoutMode, Mode: 0 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:40.6083|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:23:40.6094|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:23:40.6098|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:09.6535581, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:40.6098|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:40.6106|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:23:40.6130|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:09.6535581, next instruction time 600, next instruction Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:40.6132|INFO|DIYTrigger.cs|ShouldTrigger|109|DIY Trigger Restore Guiding ShouldTrigger returning true
+2026-02-21T19:23:40.6154|INFO|SequenceTrigger.cs|Run|114|Starting Category: Powerups (Misc), Item: DIYTrigger
+2026-02-21T19:23:40.6443|INFO|DIYTrigger.cs|Execute|95|DIY Trigger executing...
+2026-02-21T19:23:40.6447|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:23:40.6456|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:45:09.6535581, next instruction time 0, next instruction Category: Powerups (Expressions), Item: IfFailed - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:23:40.6457|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:23:40.6474|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StartGuiding
+2026-02-21T19:23:40.6842|INFO|PHD2Guider.cs|TryStartGuideCommand|641|Phd2 - Requesting to start guiding. Recalibrate: False
+2026-02-21T19:23:48.0838|INFO|PHD2Client.cs|ProcessEvent|261|PHD2: StartGuiding
+2026-02-21T19:23:48.0844|INFO|PHD2Client.cs|StartNewGuidingSession|393|PHD2Client: New guiding session started
+2026-02-21T19:23:48.0985|INFO|PHD2Client.cs|QueryExposureTime|1216|PHD2Client: Exposure time from PHD2 API: 2.000 seconds (2000 ms)
+2026-02-21T19:24:11.0878|INFO|PHD2Client.cs|HandleSettleDone|343|PHD2Client: SettleDone - Status=0, Success=True, TotalFrames=10, DroppedFrames=0
+2026-02-21T19:24:11.0890|WARNING|DitherStatisticsVM.cs|OnPHD2SettleDone|772|⚠️ SettleDone received but no currentDither exists (race condition?)
+2026-02-21T19:24:11.9646|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StartGuiding
+2026-02-21T19:24:11.9655|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:24:11.9660|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:24:11.9696|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:24:11.9788|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-02-21T19:34:13.8832|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:34:13.8840|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:34:33.4423856, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:34:13.8841|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:34:13.8842|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:34:15.2369|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.7402395888285138, HFR MAD: 0.11351154515780082, Detected Stars 227, Region: 0
+2026-02-21T19:34:16.4343|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-24-12_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.89-R2.81_M-60.66_RMS-0.79_HFR-1.74_F-0000.fits
+2026-02-21T19:34:16.4350|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-24-12_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.89-R2.81_M-60.66_RMS-0.79_HFR-1.74_F-0000.fits. Duration Total: 00:00:02.5470055; BeforeSave: 00:00:00.0034253; BeforeFinalizeImageSaved: 00:00:02.1923012; FinalizeSaveTime: 00:00:00.3512774
+2026-02-21T19:34:17.8879|INFO|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|63|Writing CSV acquisition summary: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.csv
+2026-02-21T19:34:18.1724|INFO|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|82|Writing JSON acquisition summary: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.json
+2026-02-21T19:34:18.1861|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.csv
+2026-02-21T19:34:18.2360|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.json
+2026-02-21T19:34:18.2525|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.csv
+2026-02-21T19:34:18.2827|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.json
+2026-02-21T19:34:18.9316|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:34:29.1073006, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:34:18.9317|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:34:18.9347|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:34:18.9349|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.74
+2026-02-21T19:34:18.9350|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.63
+2026-02-21T19:34:18.9351|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.02137592531616
+2026-02-21T19:34:18.9352|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.74 FWHM: 7.63  Altitude: 54.02137592531616 
+2026-02-21T19:34:18.9364|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:34:19.5907|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:34:19.5928|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:34:19.5933|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:34:29.1073006, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:34:19.5933|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:34:19.5937|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:34:19.5938|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.74
+2026-02-21T19:34:19.5939|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.63
+2026-02-21T19:34:19.5940|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.02137592531616
+2026-02-21T19:34:19.5940|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.74 FWHM: 7.63  Altitude: 54.02137592531616 
+2026-02-21T19:34:19.5947|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:34:19.7496|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:34:19.7517|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:34:20.0507|INFO|Symbol.cs|OnMessageReceived|630|Received message from Target Scheduler re: TargetScheduler-TargetStart
+2026-02-21T19:34:20.0507|INFO|Symbol.cs|OnMessageReceived|638|TS_TargetName = HorseFlame Panel 1 - NB
+2026-02-21T19:34:20.0508|INFO|Symbol.cs|OnMessageReceived|639|Expires at 02/21/2026 20:10:09 -06:00
+2026-02-21T19:34:20.0513|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:34:27.4265985, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:34:20.0514|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:34:20.0518|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:34:20.0528|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:34:27.4265985, next instruction time 90, next instruction Category: , Item: Dither - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:34:20.0531|INFO|SequenceItem.cs|Run|208|Starting Category: , Item: Dither
+2026-02-21T19:34:20.1638|INFO|PHD2Client.cs|HandleGuidingDithered|309|PHD2Client: 🎯 GuidingDithered (DITHER START) - dx=-16.96, dy=2.16
+2026-02-21T19:34:20.1650|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|752|🎯 DITHER START detected via GuidingDithered! dx=-16.96, dy=2.16
+2026-02-21T19:34:20.1656|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|762|✅ Dither START recorded with pixel shift: (-16.96, 2.16)
+2026-02-21T19:34:20.1666|INFO|PHD2Client.cs|StartDitherDataCollection|576|PHD2Client: Started dither data collection for 30 seconds (series #1)
+2026-02-21T19:34:50.1689|INFO|PHD2Client.cs|OnDitherCollectionComplete|657|PHD2Client: Dither data collection complete (timer). Collected 9 points.
+2026-02-21T19:34:50.1839|INFO|PHD2Client.cs|WriteDitherAnalysisFile|738|PHD2Client: Dither analysis file written with 9 data points: 20260221_192348_dither_analysis.txt
+2026-02-21T19:34:50.2264|INFO|PHD2Client.cs|WritePositivePeriodsFile|932|PHD2Client: Positive periods analysis written with 3 total periods across 3 multipliers: 20260221_192348_positive_periods.txt
+2026-02-21T19:34:50.2324|INFO|PHD2Client.cs|AnalyzePositivePeriods|868|PHD2Client: Positive period analysis complete. firstPeriodPerSeries counts: 1.5σ=0, 2.0σ=0, 3.0σ=0
+2026-02-21T19:34:50.2351|INFO|PHD2Client.cs|CalculateRecommendation|954|PHD2Client: Calculating recommendation from 1 dither series, RMS=0.2558, StdDev=0.1622
+2026-02-21T19:34:50.2446|INFO|PHD2Client.cs|EstimateMinSettleTimeFallback|1102|PHD2Client: MinSettleTime estimated using fallback (first point below threshold)
+2026-02-21T19:34:50.2449|INFO|PHD2Client.cs|CalculateRecommendation|987|PHD2Client: Dither recommendation calculated - Events: 1, SettlePixel: Q=0.50 B=0.58 P=0.74, MinSettle: Q=14.0s B=14.0s P=14.0s
+2026-02-21T19:34:50.2457|INFO|DitherStatisticsVM.cs|OnDitherRecommendationUpdated|500|Dither recommendation updated on UI thread - Events: 1
+2026-02-21T19:34:50.2460|INFO|PHD2Client.cs|RunAnalysisAndRecommendation|638|PHD2Client: RunAnalysisAndRecommendation completed - 9 points, 1 series
+2026-02-21T19:35:04.3047|INFO|PHD2Client.cs|HandleSettleDone|343|PHD2Client: SettleDone - Status=0, Success=True, TotalFrames=16, DroppedFrames=0
+2026-02-21T19:35:04.3071|INFO|DitherStatisticsVM.cs|OnPHD2SettleDone|794|✅ DITHER END - Success=True, SettleTime=44.14s, TotalFrames=16, DroppedFrames=0
+2026-02-21T19:35:04.4103|INFO|DitherStatisticsVM.cs|SettleTimePlot|177|SettleTimePlot created (lazy loading)
+2026-02-21T19:35:04.4406|INFO|DitherStatisticsVM.cs|PixelShiftPlot|136|PixelShiftPlot created (lazy loading)
+2026-02-21T19:35:04.7117|INFO|SequenceItem.cs|Run|254|Finishing Category: , Item: Dither
+2026-02-21T19:35:04.7124|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7126|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7128|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7130|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction Category: Scheduler, Item: SwitchFilter, Filter: H - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7131|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:35:04.7139|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:35:04.7142|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7142|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7143|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7144|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction Category: Scheduler, Item: SetReadoutMode, Mode: 0 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7145|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:35:04.7148|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:35:04.7150|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7150|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7169|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:35:04.7736|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 600, next instruction Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7737|INFO|DIYTrigger.cs|ShouldTrigger|109|DIY Trigger Restore Guiding ShouldTrigger returning true
+2026-02-21T19:35:04.7739|INFO|SequenceTrigger.cs|Run|114|Starting Category: Powerups (Misc), Item: DIYTrigger
+2026-02-21T19:35:04.7757|INFO|DIYTrigger.cs|Execute|95|DIY Trigger executing...
+2026-02-21T19:35:04.7758|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:35:04.7762|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:33:39.5712704, next instruction time 0, next instruction Category: Powerups (Expressions), Item: IfFailed - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:35:04.7763|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:35:04.7764|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StartGuiding
+2026-02-21T19:35:04.7792|INFO|PHD2Guider.cs|StartGuidingPrivate|504|Phd2 - App is already guiding. Skipping start guiding
+2026-02-21T19:35:04.7794|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StartGuiding
+2026-02-21T19:35:04.7799|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:35:04.7801|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:35:04.7828|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:35:04.7877|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-02-21T19:45:06.6958|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:45:06.7242|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:23:35.6558694, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:06.7244|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:06.7244|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:08.0727|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.7015598459036076, HFR MAD: 0.09417205705719822, Detected Stars 211, Region: 0
+2026-02-21T19:45:09.0331|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-35-04_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D1.02-R1.55_M-60.60_RMS-0.55_HFR-1.70_F-0001.fits
+2026-02-21T19:45:09.0332|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-35-04_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D1.02-R1.55_M-60.60_RMS-0.55_HFR-1.70_F-0001.fits. Duration Total: 00:00:02.3367878; BeforeSave: 00:00:00.0295370; BeforeFinalizeImageSaved: 00:00:01.9329946; FinalizeSaveTime: 00:00:00.3742551
+2026-02-21T19:45:09.6590|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.csv
+2026-02-21T19:45:09.6592|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.json
+2026-02-21T19:45:09.6595|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.csv
+2026-02-21T19:45:09.7033|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.json
+2026-02-21T19:45:09.7165|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.csv
+2026-02-21T19:45:09.7592|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.json
+2026-02-21T19:45:10.2645|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:23:31.6077915, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:10.2647|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:45:10.2653|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:45:10.2654|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.702
+2026-02-21T19:45:10.2655|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.4
+2026-02-21T19:45:10.2656|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.58123276809347
+2026-02-21T19:45:10.2657|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.702 FWHM: 7.4  Altitude: 54.58123276809347 
+2026-02-21T19:45:10.2671|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:45:10.9167|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:45:10.9183|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:45:10.9212|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:23:31.6077915, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:10.9213|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:45:10.9221|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:45:10.9223|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.702
+2026-02-21T19:45:10.9224|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.4
+2026-02-21T19:45:10.9229|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.58123276809347
+2026-02-21T19:45:10.9229|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.702 FWHM: 7.4  Altitude: 54.58123276809347 
+2026-02-21T19:45:10.9495|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:45:11.0856|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:45:11.0868|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:45:11.2540|INFO|Symbol.cs|OnMessageReceived|630|Received message from Target Scheduler re: TargetScheduler-TargetStart
+2026-02-21T19:45:11.2541|INFO|Symbol.cs|OnMessageReceived|638|TS_TargetName = HorseFlame Panel 1 - NB
+2026-02-21T19:45:11.2541|INFO|Symbol.cs|OnMessageReceived|639|Expires at 02/21/2026 20:10:09 -06:00
+2026-02-21T19:45:11.2546|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:23:31.6077915, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:11.2547|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:11.3634|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:11.3639|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:23:31.6077915, next instruction time 90, next instruction Category: , Item: Dither - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:11.3639|INFO|SequenceItem.cs|Run|208|Starting Category: , Item: Dither
+2026-02-21T19:45:11.3787|INFO|PHD2Client.cs|HandleGuidingDithered|309|PHD2Client: 🎯 GuidingDithered (DITHER START) - dx=-10.43, dy=10.50
+2026-02-21T19:45:11.3789|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|752|🎯 DITHER START detected via GuidingDithered! dx=-10.43, dy=10.50
+2026-02-21T19:45:11.3789|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|762|✅ Dither START recorded with pixel shift: (-10.43, 10.50)
+2026-02-21T19:45:11.3791|INFO|PHD2Client.cs|StartDitherDataCollection|576|PHD2Client: Started dither data collection for 30 seconds (series #2)
+2026-02-21T19:45:41.3776|INFO|PHD2Client.cs|OnDitherCollectionComplete|657|PHD2Client: Dither data collection complete (timer). Collected 10 points.
+2026-02-21T19:45:41.3810|INFO|PHD2Client.cs|WriteDitherAnalysisFile|738|PHD2Client: Dither analysis file written with 19 data points: 20260221_192348_dither_analysis.txt
+2026-02-21T19:45:41.3849|INFO|PHD2Client.cs|WritePositivePeriodsFile|932|PHD2Client: Positive periods analysis written with 6 total periods across 3 multipliers: 20260221_192348_positive_periods.txt
+2026-02-21T19:45:41.3858|INFO|PHD2Client.cs|AnalyzePositivePeriods|868|PHD2Client: Positive period analysis complete. firstPeriodPerSeries counts: 1.5σ=0, 2.0σ=0, 3.0σ=0
+2026-02-21T19:45:41.3865|INFO|PHD2Client.cs|CalculateRecommendation|954|PHD2Client: Calculating recommendation from 2 dither series, RMS=0.2186, StdDev=0.1343
+2026-02-21T19:45:41.3881|INFO|PHD2Client.cs|EstimateMinSettleTimeFallback|1102|PHD2Client: MinSettleTime estimated using fallback (first point below threshold)
+2026-02-21T19:45:41.3883|INFO|PHD2Client.cs|CalculateRecommendation|987|PHD2Client: Dither recommendation calculated - Events: 2, SettlePixel: Q=0.42 B=0.49 P=0.62, MinSettle: Q=10.0s B=10.0s P=10.0s
+2026-02-21T19:45:41.3886|INFO|DitherStatisticsVM.cs|OnDitherRecommendationUpdated|500|Dither recommendation updated on UI thread - Events: 2
+2026-02-21T19:45:41.3888|INFO|PHD2Client.cs|RunAnalysisAndRecommendation|638|PHD2Client: RunAnalysisAndRecommendation completed - 19 points, 2 series
+2026-02-21T19:45:47.1183|INFO|PHD2Client.cs|HandleSettleDone|343|PHD2Client: SettleDone - Status=0, Success=True, TotalFrames=13, DroppedFrames=0
+2026-02-21T19:45:47.1184|INFO|DitherStatisticsVM.cs|OnPHD2SettleDone|794|✅ DITHER END - Success=True, SettleTime=35.74s, TotalFrames=13, DroppedFrames=0
+2026-02-21T19:45:47.4336|INFO|SequenceItem.cs|Run|254|Finishing Category: , Item: Dither
+2026-02-21T19:45:47.4341|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4342|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4342|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4343|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction Category: Scheduler, Item: SwitchFilter, Filter: H - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4344|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:45:47.4356|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:45:47.4360|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4360|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4360|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4362|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction Category: Scheduler, Item: SetReadoutMode, Mode: 0 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4363|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:45:47.4364|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:45:47.4365|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4366|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4374|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:45:47.4379|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 600, next instruction Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4379|INFO|DIYTrigger.cs|ShouldTrigger|109|DIY Trigger Restore Guiding ShouldTrigger returning true
+2026-02-21T19:45:47.4380|INFO|SequenceTrigger.cs|Run|114|Starting Category: Powerups (Misc), Item: DIYTrigger
+2026-02-21T19:45:47.4399|INFO|DIYTrigger.cs|Execute|95|DIY Trigger executing...
+2026-02-21T19:45:47.4400|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:45:47.4404|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:22:53.5168739, next instruction time 0, next instruction Category: Powerups (Expressions), Item: IfFailed - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:45:47.4404|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:45:47.4405|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StartGuiding
+2026-02-21T19:45:47.4432|INFO|PHD2Guider.cs|StartGuidingPrivate|504|Phd2 - App is already guiding. Skipping start guiding
+2026-02-21T19:45:47.4435|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StartGuiding
+2026-02-21T19:45:47.4437|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:45:47.4438|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:45:47.4461|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:45:47.4508|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-02-21T19:55:49.2659|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:55:49.2956|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:48.6996705, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:55:49.2958|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:55:49.2959|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:55:50.5015|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.7037095913473042, HFR MAD: 0.10843511716016918, Detected Stars 214, Region: 0
+2026-02-21T19:55:51.4506|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-45-47_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.68-R1.60_M-60.54_RMS-0.53_HFR-1.70_F-0002.fits
+2026-02-21T19:55:51.4507|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-45-47_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.68-R1.60_M-60.54_RMS-0.53_HFR-1.70_F-0002.fits. Duration Total: 00:00:02.1838334; BeforeSave: 00:00:00.0286176; BeforeFinalizeImageSaved: 00:00:01.8485647; FinalizeSaveTime: 00:00:00.3066495
+2026-02-21T19:55:51.7931|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.csv
+2026-02-21T19:55:51.7932|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.json
+2026-02-21T19:55:51.7935|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.csv
+2026-02-21T19:55:51.8339|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.json
+2026-02-21T19:55:51.8357|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.csv
+2026-02-21T19:55:51.8529|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.json
+2026-02-21T19:55:52.3822|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:44.6839731, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:55:52.3823|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:55:52.3826|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:55:52.3830|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.704
+2026-02-21T19:55:52.3831|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.39
+2026-02-21T19:55:52.3832|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.95868150971323
+2026-02-21T19:55:52.3833|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.704 FWHM: 7.39  Altitude: 54.95868150971323 
+2026-02-21T19:55:52.3846|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:55:53.0238|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T19:55:53.0254|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:55:53.0258|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:44.6839731, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:55:53.0259|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:55:53.0262|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T19:55:53.0264|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.704
+2026-02-21T19:55:53.0265|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.39
+2026-02-21T19:55:53.0266|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 54.95868150971323
+2026-02-21T19:55:53.0266|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.704 FWHM: 7.39  Altitude: 54.95868150971323 
+2026-02-21T19:55:53.0275|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:55:53.2184|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T19:55:53.2201|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T19:55:53.4556|INFO|Symbol.cs|OnMessageReceived|630|Received message from Target Scheduler re: TargetScheduler-TargetStart
+2026-02-21T19:55:53.4556|INFO|Symbol.cs|OnMessageReceived|638|TS_TargetName = HorseFlame Panel 1 - NB
+2026-02-21T19:55:53.4557|INFO|Symbol.cs|OnMessageReceived|639|Expires at 02/21/2026 20:10:09 -06:00
+2026-02-21T19:55:53.4560|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:44.6839731, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:55:53.4561|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:55:53.4728|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:55:53.4731|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:44.6839731, next instruction time 90, next instruction Category: , Item: Dither - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:55:53.4732|INFO|SequenceItem.cs|Run|208|Starting Category: , Item: Dither
+2026-02-21T19:55:53.4867|INFO|PHD2Client.cs|HandleGuidingDithered|309|PHD2Client: 🎯 GuidingDithered (DITHER START) - dx=2.89, dy=-0.68
+2026-02-21T19:55:53.4867|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|752|🎯 DITHER START detected via GuidingDithered! dx=2.89, dy=-0.68
+2026-02-21T19:55:53.4868|INFO|DitherStatisticsVM.cs|OnPHD2GuidingDithered|762|✅ Dither START recorded with pixel shift: (2.89, -0.68)
+2026-02-21T19:55:53.4868|INFO|PHD2Client.cs|StartDitherDataCollection|576|PHD2Client: Started dither data collection for 30 seconds (series #3)
+2026-02-21T19:56:23.4868|INFO|PHD2Client.cs|OnDitherCollectionComplete|657|PHD2Client: Dither data collection complete (timer). Collected 13 points.
+2026-02-21T19:56:23.4906|INFO|PHD2Client.cs|WriteDitherAnalysisFile|738|PHD2Client: Dither analysis file written with 32 data points: 20260221_192348_dither_analysis.txt
+2026-02-21T19:56:23.4968|INFO|PHD2Client.cs|WritePositivePeriodsFile|932|PHD2Client: Positive periods analysis written with 9 total periods across 3 multipliers: 20260221_192348_positive_periods.txt
+2026-02-21T19:56:23.4970|INFO|PHD2Client.cs|AnalyzePositivePeriods|868|PHD2Client: Positive period analysis complete. firstPeriodPerSeries counts: 1.5σ=2, 2.0σ=1, 3.0σ=0
+2026-02-21T19:56:23.4971|INFO|PHD2Client.cs|CalculateRecommendation|954|PHD2Client: Calculating recommendation from 3 dither series, RMS=0.2029, StdDev=0.1209
+2026-02-21T19:56:23.4974|INFO|PHD2Client.cs|EstimateMinSettleTimeFallback|1102|PHD2Client: MinSettleTime estimated using fallback (first point below threshold)
+2026-02-21T19:56:23.4975|INFO|PHD2Client.cs|CalculateRecommendation|987|PHD2Client: Dither recommendation calculated - Events: 3, SettlePixel: Q=0.38 B=0.44 P=0.57, MinSettle: Q=10.0s B=6.0s P=8.0s
+2026-02-21T19:56:23.4978|INFO|DitherStatisticsVM.cs|OnDitherRecommendationUpdated|500|Dither recommendation updated on UI thread - Events: 3
+2026-02-21T19:56:23.4980|INFO|PHD2Client.cs|RunAnalysisAndRecommendation|638|PHD2Client: RunAnalysisAndRecommendation completed - 32 points, 3 series
+2026-02-21T19:56:27.4795|INFO|PHD2Client.cs|HandleSettleDone|343|PHD2Client: SettleDone - Status=0, Success=True, TotalFrames=15, DroppedFrames=0
+2026-02-21T19:56:27.4796|INFO|DitherStatisticsVM.cs|OnPHD2SettleDone|794|✅ DITHER END - Success=True, SettleTime=33.99s, TotalFrames=15, DroppedFrames=0
+2026-02-21T19:56:28.0254|INFO|SequenceItem.cs|Run|254|Finishing Category: , Item: Dither
+2026-02-21T19:56:28.0262|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0265|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0266|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0270|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction Category: Scheduler, Item: SwitchFilter, Filter: H - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0272|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:56:28.0286|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SwitchFilter, Filter: H
+2026-02-21T19:56:28.0291|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0293|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0293|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0297|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction Category: Scheduler, Item: SetReadoutMode, Mode: 0 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0298|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:56:28.0301|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: SetReadoutMode, Mode: 0
+2026-02-21T19:56:28.0304|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0306|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0316|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T19:56:28.0397|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 600, next instruction Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1 - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0399|INFO|DIYTrigger.cs|ShouldTrigger|109|DIY Trigger Restore Guiding ShouldTrigger returning true
+2026-02-21T19:56:28.0401|INFO|SequenceTrigger.cs|Run|114|Starting Category: Powerups (Misc), Item: DIYTrigger
+2026-02-21T19:56:28.0452|INFO|DIYTrigger.cs|Execute|95|DIY Trigger executing...
+2026-02-21T19:56:28.0455|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:56:28.0463|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:12:09.6106179, next instruction time 0, next instruction Category: Powerups (Expressions), Item: IfFailed - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T19:56:28.0464|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:56:28.0465|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StartGuiding
+2026-02-21T19:56:28.0530|INFO|PHD2Guider.cs|StartGuidingPrivate|504|Phd2 - App is already guiding. Skipping start guiding
+2026-02-21T19:56:28.0534|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StartGuiding
+2026-02-21T19:56:28.0535|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Expressions), Item: IfFailed
+2026-02-21T19:56:28.0538|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1, Triggers: Trigger: RestoreGuiding
+2026-02-21T19:56:28.0590|INFO|SequenceItem.cs|Run|208|Starting Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T19:56:28.0644|INFO|CameraVM.cs|Capture|742|Starting Exposure - Exposure Time: 600s; Filter: ; Gain: 100; Offset 50; Binning: 1x1;
+2026-02-21T20:06:29.8807|INFO|SequenceItem.cs|Run|254|Finishing Category: Scheduler, Item: TakeExposure, ExposureTime 600, Gain 100, Offset 50, ImageType LIGHT, Binning 1x1
+2026-02-21T20:06:29.8813|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:02:04.8926992, next instruction time 0, next instruction NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T20:06:29.8815|INFO|SequenceItem.cs|Run|208|Starting NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T20:06:29.8815|INFO|SequenceItem.cs|Run|254|Finishing NINA.Plugin.TargetScheduler.Sequencer.PlanSchedulerProgress
+2026-02-21T20:06:31.1745|INFO|HocusFocusStarDetection.cs|Detect|410|Average HFR: 1.6938740120891869, HFR MAD: 0.10541865146727547, Detected Stars 219, Region: 0
+2026-02-21T20:06:32.0969|INFO|BaseImageData.cs|SaveToDisk|346|Saved image to C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-56-28_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.68-R1.49_M-60.47_RMS-0.46_HFR-1.69_F-0003.fits
+2026-02-21T20:06:32.0970|INFO|ImageSaveController.cs|DoWork|97|Successfully saved file at C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\2026-02-21_19-56-28_HorseFlame Panel 1 - NB_LIGHT_H_-15.00C_G100-Exp-600.00s_MAXRMS-D0.68-R1.49_M-60.47_RMS-0.46_HFR-1.69_F-0003.fits. Duration Total: 00:00:02.2162979; BeforeSave: 00:00:00.0001629; BeforeFinalizeImageSaved: 00:00:01.9138094; FinalizeSaveTime: 00:00:00.3023251
+2026-02-21T20:06:32.5889|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|73|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.csv
+2026-02-21T20:06:32.5890|WARNING|SessionMetaDataWatcher.cs|WriteAcquisitionMetaData|93|acquisition file already exists, will not overwrite: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\AcquisitionDetails.json
+2026-02-21T20:06:32.5894|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|105|Writing CSV image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.csv
+2026-02-21T20:06:32.6305|INFO|SessionMetaDataWatcher.cs|WriteImageMetaData|122|Writing JSON image metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\ImageMetaData.json
+2026-02-21T20:06:32.6328|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|169|Writing CSV weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.csv
+2026-02-21T20:06:32.6497|INFO|SessionMetaDataWatcher.cs|WriteWeatherMetaData|186|Writing JSON weather metadata: C:\ASTROIMAGES\NINA\2026-02-21\HorseFlame Panel 1 - NB\LIGHT\H\metadata\WeatherData.json
+2026-02-21T20:06:33.1000|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:02:02.7317370, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T20:06:33.1001|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T20:06:33.1004|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T20:06:33.1006|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.694
+2026-02-21T20:06:33.1007|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.37
+2026-02-21T20:06:33.1008|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 55.13868248411476
+2026-02-21T20:06:33.1008|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.694 FWHM: 7.37  Altitude: 55.13868248411476 
+2026-02-21T20:06:33.1022|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-02-21T20:06:33.8259|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-02-21T20:06:33.8272|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T20:06:33.8275|INFO|MeridianFlipTrigger.cs|ShouldTrigger|265|Meridian Flip - There is still time remaining - max remaining time 00:02:00.8812589, next instruction time 0, next instruction Category: Powerups (Fun-ctions), Item: GSSend - and the telescope reports expected pier side pierWest. Automated Flip is not necessary.
+2026-02-21T20:06:33.8276|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T20:06:33.8279|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_ExposureTime with 600
+2026-02-21T20:06:33.8282|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_HFR with 1.694
+2026-02-21T20:06:33.8283|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Image_FWHM with 7.37
+2026-02-21T20:06:33.8284|INFO|SendWithGS.cs|ProcessedScript|64|Replacing Altitude with 55.13868248411476
+2026-02-21T20:06:33.8284|INFO|SendWithGS.cs|Execute|95|Sending to Ground Station: Exp: $$FWHEEL_FILTER_NAME$$ on $$TARGET_NAME$$ EXP: 600 HFR: 1.694 FWHM: 7.37  Altitude: 55.13868248411476 
+2026-02-21T20:06:33.8294|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T20:06:34.0130|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: IMAGE: $$TARGET_NAME$$
+2026-02-21T20:06:34.0150|INFO|SequenceItem.cs|Run|254|Finishing Category: Powerups (Fun-ctions), Item: GSSend
+2026-02-21T20:06:34.2220|ERROR|SequenceItem.cs|Run|263|Category: Target Scheduler, Container: NINA.Plugin.TargetScheduler.Sequencer.TargetSchedulerContainer, Strategy: SequentialStrategy, Target: HorseFlame Panel 1 - NB RA: 05:40:51; Dec: -03° 18' 47"; Epoch: J2000 90 - 
+NINA.Core.Model.SequenceEntityFailedException: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+ ---> System.ArgumentException: no ready targets in SelectTargetByScore
+   at NINA.Plugin.TargetScheduler.Planning.Planner.SelectTargetByScore(List`1 readyTargets, IScoringEngine scoringEngine)
+   at NINA.Plugin.TargetScheduler.Planning.Planner.GetPlan(ITarget previousTarget)
+   --- End of inner exception stack trace ---
+   at NINA.Plugin.TargetScheduler.Planning.Planner.GetPlan(ITarget previousTarget)
+   at NINA.Plugin.TargetScheduler.Sequencer.TargetSchedulerContainer.Execute(IProgress`1 progress, CancellationToken token)
+   at NINA.Sequencer.SequenceItem.SequenceItem.Run(IProgress`1 progress, CancellationToken token) in /_/NINA.Sequencer/SequenceItem/SequenceItem.cs:line 227
+2026-02-21T20:06:34.2573|ERROR|SequenceItem.cs|RunErrorBehavior|195|Instruction Target Scheduler Container failed after 1 attempt. Error behavior is set to ContinueOnError. Continuing.
+2026-02-21T20:06:34.2614|INFO|FailuresToTelegramTrigger.cs|WorkerFn|178|Failures to Telegram: Sending Target Scheduler Container failed after 1 attempts!
+
+Reasons: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+
+2026-02-21T20:06:34.2620|INFO|FailuresToTelegramTrigger.cs|WorkerFn|178|Failures to Telegram: Sending Target Scheduler Container failed after 1 attempts!
+
+Reasons: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+
+2026-02-21T20:06:34.2634|INFO|FailuresToPushoverTrigger.cs|WorkerFn|186|Failures to Pushover: Sending Failure running Target Scheduler Container
+2026-02-21T20:06:34.3975|ERROR|SequenceCondition.cs|RunCheck|121|Failed: Condition: TargetSchedulerCondition mode=While Targets Remain Tonight - TargetSchedulerCondition: exception determining remaining targets: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+2026-02-21T20:06:34.3990|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-02-21T20:06:34.4000|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 9, Items[FAILED]: 1, Conditions: Condition: TimeCondition, Time: 6:19:2h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-02-21T20:06:34.4002|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-02-21T20:06:34.4004|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 7
+2026-02-21T20:06:34.4007|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-02-21T20:06:34.4493|INFO|FailuresToPushoverTrigger.cs|WorkerFn|186|Failures to Pushover: Sending Failure running Target Scheduler Condition
+2026-02-21T20:06:34.8979|INFO|FailuresToTelegramTrigger.cs|WorkerFn|178|Failures to Telegram: Sending Target Scheduler Condition failed after 0 attempts!
+
+Reasons: TargetSchedulerCondition: exception determining remaining targets: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+
+2026-02-21T20:06:34.8979|INFO|FailuresToTelegramTrigger.cs|WorkerFn|178|Failures to Telegram: Sending Target Scheduler Condition failed after 0 attempts!
+
+Reasons: TargetSchedulerCondition: exception determining remaining targets: Scheduler: exception generating plan: no ready targets in SelectTargetByScore
+
+2026-02-21T20:06:35.3918|INFO|PHD2Client.cs|ProcessEvent|268|PHD2: ConfigurationChange
+2026-02-21T20:06:35.4010|WARNING|PHD2Client.cs|ProcessEvent|252|PHD2: LockPositionLost
+2026-02-21T20:06:35.5020|INFO|PHD2Client.cs|QueryExposureTime|1216|PHD2Client: Exposure time from PHD2 API: 2.000 seconds (2000 ms)
+2026-02-21T20:06:35.5045|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-02-21T20:07:07.7593|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-02-21T20:07:07.7595|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-02-21T20:07:07.7603|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 30
+2026-02-21T20:07:07.7631|INFO|CameraVM.cs|WarmCamera|161|Warming Camera. Duration: 00:30:00
+2026-02-21T20:25:36.2860|WARNING|DeviceUpdateTimer.cs|Run|115|Mount value update cycle took longer than the device poll interval (Total: 2.57s > 2s; Poll: 00:00:02.5702020; Update: 00:00:00.0002104)
+2026-02-21T20:25:45.0860|INFO|Sequencer.cs|Start|85|Sequence run was cancelled
+2026-02-21T20:25:45.0973|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-02-21T20:25:50.0516|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2026-02-21T20:25:50.1128|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2026-02-21T20:25:50.1565|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2026-02-21T20:25:50.1613|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2026-02-21T20:25:50.4035|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-02-21T20:25:50.4080|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2026-02-21T20:25:50.4480|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-02-21T20:25:50.4487|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel
+2026-02-21T20:25:50.4630|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-02-21T20:25:50.5802|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser
+2026-02-21T20:25:50.6634|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-02-21T20:25:50.6713|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2026-02-21T20:25:50.6770|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2026-02-21T20:25:50.6813|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2026-02-21T20:25:50.6942|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-02-21T20:25:50.6966|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-02-21T20:25:50.6968|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-02-21T20:25:50.7042|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-02-21T20:25:51.3837|INFO|API.cs|StopWatchers|86|Stopping all event watchers
