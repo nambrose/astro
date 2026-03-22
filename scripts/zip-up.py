@@ -6,7 +6,9 @@ source_dir = r".\\"
 for root, dirs, files in os.walk(source_dir):
     for filename in files:
 
-        if filename.endswith(".zip"):
+        # Skip files that are already zip archives
+        if filename.lower().endswith(".zip"):
+            print(f"Skipping already-zipped file: {filename}")
             continue
 
         filepath = os.path.join(root, filename)
