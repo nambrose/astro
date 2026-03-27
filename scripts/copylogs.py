@@ -34,7 +34,10 @@ copyFiles(src_path_prefix + "AppData\\local\\NINA\\logs" , dest_path_prefix + "N
 copyFiles(src_path_prefix + "AppData\\local\\NINA\\AutoFocus" , dest_path_prefix + "NINA\\AutoFocus\\")
 
 #Copy Plate Solve failures
-copyFiles(src_path_prefix + "AppData\\local\\NINA\\PlateSolver\\Failed" , dest_path_prefix + "NINA\\PlateSolveFailed\\")
+#copyFiles(src_path_prefix + "AppData\\local\\NINA\\PlateSolver\\Failed" , dest_path_prefix + "NINA\\PlateSolveFailed\\")
 
 #Copy Plate PHD Logs
 copyFiles(src_path_prefix + "Onedrive\\Documents\\PHD2\\" , dest_path_prefix + "PHD\\Logs")
+
+# TSDB
+#copyfile(src, dst, *, follow_symlinks=True)(src_path_prefix + "AppData\\local\\NINA\\SchedulerPlugin\\schedulerDb.Sqlite", "\\tsclient\\SFRO\\533MM")
