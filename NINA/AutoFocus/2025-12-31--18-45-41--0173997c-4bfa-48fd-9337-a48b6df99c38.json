@@ -1,0 +1,187 @@
+{
+  "FinalHFR": 1.7478486818793182,
+  "Region": null,
+  "HocusFocusStarDetectionOptions": {
+    "DebugMode": false,
+    "UseAdvanced": false,
+    "ModelPSF": true,
+    "StarMeasurementNoiseReductionEnabled": false,
+    "PSFFitType": 0,
+    "Simple_NoiseLevel": 0,
+    "Simple_PixelScale": 0,
+    "Simple_FocusRange": 0,
+    "HotpixelFiltering": true,
+    "HotpixelThresholdingEnabled": true,
+    "UseAutoFocusCrop": true,
+    "NoiseReductionRadius": 4,
+    "NoiseClippingMultiplier": 4.0,
+    "StarClippingMultiplier": 2.0,
+    "StructureLayers": 4,
+    "StarCenterTolerance": 0.3,
+    "StarPeakResponse": 0.75,
+    "MaxDistortion": 0.5,
+    "BrightnessSensitivity": 10.0,
+    "StarBackgroundBoxExpansion": 3,
+    "MinStarBoundingBoxSize": 5,
+    "MinHFR": 1.5,
+    "StructureDilationSize": 3,
+    "StructureDilationCount": 0,
+    "PixelSampleSize": 1.0,
+    "IntermediateSavePath": "C:\\Users\\nicka\\AppData\\Local\\NINA\\HocusFocusIntermediate",
+    "SaveIntermediateImages": false,
+    "PSFParallelPartitionSize": 100,
+    "PSFResolution": 10,
+    "PSFFitThreshold": 0.9,
+    "UsePSFAbsoluteDeviation": false,
+    "HotpixelThreshold": 0.001,
+    "SaturationThreshold": 0.99,
+    "MeasurementAverage": 0
+  },
+  "HocusFocusAutoFocusOptions": {
+    "MaxConcurrent": 0,
+    "FastFocusModeEnabled": false,
+    "FastStepSize": 1,
+    "FastOffsetSteps": 4,
+    "FastThreshold_Seconds": 3600,
+    "FastThreshold_Celcius": 5,
+    "FastThreshold_FocuserPosition": 100,
+    "ValidateHfrImprovement": true,
+    "HFRImprovementThreshold": 0.15,
+    "AutoFocusTimeoutSeconds": 600,
+    "SavePath": "C:\\Users\\nicka\\Documents\\NINA-AF-Images",
+    "Save": false,
+    "LastSelectedLoadPath": "",
+    "FocuserOffset": 0,
+    "MaxOutlierRejections": 1,
+    "OutlierRejectionConfidence": 0.9,
+    "UnevenHyperbolicFitEnabled": true,
+    "WeightedHyperbolicFitEnabled": true
+  },
+  "FocuserOptions": {
+    "Id": "ASCOM.EAF.Focuser",
+    "LastDeviceName": "ZWO Focuser (ASCOM)",
+    "UseFilterWheelOffsets": true,
+    "AutoFocusStepSize": 34,
+    "AutoFocusInitialOffsetSteps": 4,
+    "AutoFocusExposureTime": 3.0,
+    "AutoFocusMethod": 0,
+    "ContrastDetectionMethod": 2,
+    "AutoFocusDisableGuiding": true,
+    "FocuserSettleTime": 1,
+    "AutoFocusTotalNumberOfAttempts": 3,
+    "AutoFocusNumberOfFramesPerPoint": 1,
+    "AutoFocusInnerCropRatio": 1.0,
+    "AutoFocusOuterCropRatio": 1.0,
+    "BacklashIn": 300,
+    "BacklashOut": 0,
+    "AutoFocusBinning": 1,
+    "AutoFocusUseBrightestStars": 0,
+    "AutoFocusCurveFitting": 3,
+    "BacklashCompensationModel": 1,
+    "AutoFocusTimeoutSeconds": 600,
+    "RSquaredThreshold": 0.7
+  },
+  "Version": 2,
+  "Filter": "L",
+  "AutoFocuserName": "Hocus Focus",
+  "StarDetectorName": "Hocus Focus",
+  "Timestamp": "2025-12-31T18:45:41.8153032-06:00",
+  "Temperature": 20.579999923706055,
+  "Method": "STARHFR",
+  "Fitting": "HYPERBOLIC",
+  "InitialFocusPoint": {
+    "Position": 387153.0,
+    "Value": 1.733104359335102,
+    "Error": 0.0
+  },
+  "CalculatedFocusPoint": {
+    "Position": 387147.89907791745,
+    "Value": 1.744681932189763,
+    "Error": 0.0
+  },
+  "PreviousFocusPoint": {
+    "Position": 387147.89907791745,
+    "Value": 1.744681932189763,
+    "Error": 0.0
+  },
+  "MeasurePoints": [
+    {
+      "Position": 387017.0,
+      "Value": 6.689953490663735,
+      "Error": 0.24346627551355304
+    },
+    {
+      "Position": 387051.0,
+      "Value": 4.835444924066502,
+      "Error": 0.2932157677909517
+    },
+    {
+      "Position": 387085.0,
+      "Value": 3.3738903082202407,
+      "Error": 0.253602560750001
+    },
+    {
+      "Position": 387119.0,
+      "Value": 2.0788299275554376,
+      "Error": 0.17598894030350865
+    },
+    {
+      "Position": 387153.0,
+      "Value": 1.7553896154056043,
+      "Error": 0.10741604789697035
+    },
+    {
+      "Position": 387187.0,
+      "Value": 1.8934829608020087,
+      "Error": 0.19908241293604112
+    },
+    {
+      "Position": 387221.0,
+      "Value": 2.3502356047816892,
+      "Error": 0.38021187369396037
+    },
+    {
+      "Position": 387255.0,
+      "Value": 3.2212678802681753,
+      "Error": 0.6741045609304548
+    },
+    {
+      "Position": 387289.0,
+      "Value": 3.6588013900957144,
+      "Error": 0.95780481636625
+    }
+  ],
+  "Intersections": {
+    "TrendLineIntersection": {
+      "Position": 387139.0,
+      "Value": 1.1153419309812307,
+      "Error": 0.0
+    },
+    "HyperbolicMinimum": {
+      "Position": 387147.89907791745,
+      "Value": 1.744681932189763,
+      "Error": 0.0
+    },
+    "QuadraticMinimum": null,
+    "GaussianMaximum": null
+  },
+  "Fittings": {
+    "Quadratic": "",
+    "Hyperbolic": "y = min(max(0, (387147.899 - x) / 34), 1) * 3.5/59.783 * √((x - 387147.899)² + 59.783²) + (1 - min(max(0, (387147.899 - x) / 34), 1)) * 3.5/121.071 * √((x - 387147.899)² + 121.071²) + -1.755",
+    "Gaussian": "",
+    "LeftTrend": "y = -0.04455646402177718 * x + 17250.660879897034",
+    "RightTrend": "y = 0.015941371721650117 * x + -6170.41158434956"
+  },
+  "RSquares": {
+    "Quadratic": "NaN",
+    "Hyperbolic": 0.9995990958363408,
+    "LeftTrend": 0.9948325250114842,
+    "RightTrend": 0.983837625701493
+  },
+  "BacklashCompensation": {
+    "BacklashCompensationModel": "OVERSHOOT",
+    "BacklashIN": 300,
+    "BacklashOUT": 0
+  },
+  "Duration": "00:02:06.8682260"
+}

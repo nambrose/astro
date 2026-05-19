@@ -1,0 +1,89 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-04-01T07:01:31--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-04-01T07:01:31.9522|INFO|TimeCondition.cs|Check|254|TimeCondition finished.
+2026-04-01T07:01:32.0802|INFO|TimeCondition.cs|InterruptWhenTimeIsUp|63|Time limit exceeded - Interrupting current Instruction Set
+2026-04-01T07:01:32.0834|INFO|WhenCommon.cs|Execute|425|When: Execute done; InFlight -> false, Triggered false
+2026-04-01T07:01:32.0840|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-04-01T07:01:32.0842|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 20:34:33h, Offset: -15
+2026-04-01T07:01:32.0849|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-04-01T07:01:32.0851|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 11, Conditions: Condition: TimeCondition, Time: 7:1:31h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-04-01T07:01:32.0852|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-04-01T07:01:32.0854|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 8
+2026-04-01T07:01:32.0856|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-04-01T07:01:32.0881|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-04-01T07:01:32.0882|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-04-01T07:01:32.0885|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-04-01T07:01:32.0885|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-04-01T07:01:32.0888|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-04-01T07:01:32.0894|INFO|SequenceItem.cs|Run|208|Starting Night Summary - End Session
+2026-04-01T07:01:32.0912|INFO|NightSummaryEndInstruction.cs|Execute|28|NightSummary: End Session instruction executing
+2026-04-01T07:01:47.0982|WARNING|SessionService.cs|EndSession|73|NightSummary: EndSession called but no active session — nothing to do
+2026-04-01T07:01:47.0984|INFO|NightSummaryEndInstruction.cs|Execute|39|NightSummary: Session ended successfully
+2026-04-01T07:01:47.0986|INFO|SequenceItem.cs|Run|254|Finishing Night Summary - End Session
+2026-04-01T07:01:47.1001|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 30
+2026-04-01T07:01:47.1078|INFO|CameraVM.cs|WarmCamera|161|Warming Camera. Duration: 00:30:00
+2026-04-01T07:33:53.4981|INFO|CameraVM.cs|WarmCamera|179|Could not reach warming temperature. Most likley due to ambient temperature being lower. Continuing...
+2026-04-01T07:34:13.5849|INFO|CameraVM.cs|WarmCamera|186|Turning cooler off
+2026-04-01T07:34:13.5867|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: WarmCamera, Duration: 30
+2026-04-01T07:34:13.5870|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2026-04-01T07:34:13.5909|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-04-01T07:34:13.5910|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2026-04-01T07:34:13.5918|INFO|SequenceItem.cs|Run|208|Starting Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-04-01T07:34:13.6134|WARNING|PHD2Client.cs|ReadEventsAsync|189|PHD2Client: Connection closed by server
+2026-04-01T07:34:13.6136|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection lost
+2026-04-01T07:34:13.6137|INFO|PHD2Client.cs|ReadEventsAsync|205|PHD2Client: Stopped reading events
+2026-04-01T07:34:13.6235|INFO|SequenceItem.cs|Run|254|Finishing Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-04-01T07:34:13.6244|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectAllEquipment
+2026-04-01T07:34:13.7064|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-04-01T07:34:13.7072|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel
+2026-04-01T07:34:13.7187|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-04-01T07:34:13.7260|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser
+2026-04-01T07:34:13.7802|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-04-01T07:34:13.7807|INFO|DisconnectAllEquipment.cs|Execute|139|Rotator is already disconnected
+2026-04-01T07:34:13.7846|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2026-04-01T07:34:13.8120|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-04-01T07:34:13.8129|INFO|DisconnectAllEquipment.cs|Execute|139|Guider is already disconnected
+2026-04-01T07:34:13.8131|INFO|DisconnectAllEquipment.cs|Execute|139|Switch is already disconnected
+2026-04-01T07:34:13.8131|INFO|DisconnectAllEquipment.cs|Execute|139|Flat Panel is already disconnected
+2026-04-01T07:34:13.8178|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2026-04-01T07:34:13.8300|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-04-01T07:34:13.8304|INFO|DisconnectAllEquipment.cs|Execute|139|Dome is already disconnected
+2026-04-01T07:34:13.8509|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-04-01T07:34:13.8565|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-04-01T07:34:13.8569|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectAllEquipment
+2026-04-01T07:34:13.8571|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-04-01T07:34:14.0857|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-04-01T07:34:14.1037|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-04-01T07:34:14.7365|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-04-01T07:34:14.7371|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 8
+2026-04-01T07:34:14.7375|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-04-01T07:34:14.7389|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-04-01T07:34:14.7400|INFO|WhenCommon.cs|InterruptWhen|350|Restarting sequence, Triggered -> true
+2026-04-01T07:34:18.6205|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-04-01T07:34:20.6429|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-04-01T09:32:28.3527|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2026-04-01T09:32:28.4059|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2026-04-01T09:32:28.4366|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2026-04-01T09:32:28.4421|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2026-04-01T09:32:28.4524|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-04-01T09:32:28.4531|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-04-01T09:32:28.4554|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-04-01T09:32:28.4562|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-04-01T09:32:28.4623|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2026-04-01T09:32:28.4666|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2026-04-01T09:32:28.4707|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-04-01T09:32:28.4709|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-04-01T09:32:28.9502|INFO|API.cs|StopWatchers|86|Stopping all event watchers
+2026-04-01T09:32:28.9879|INFO|NightSummaryPlugin.cs|Teardown|230|NightSummary: Plugin torn down

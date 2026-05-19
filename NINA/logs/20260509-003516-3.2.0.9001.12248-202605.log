@@ -1,0 +1,426 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-05-09T00:35:17--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-05-09T00:35:17.6939|INFO|App.xaml.cs|OnStartup|170|Launched with command line arguments: --sequencefile C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json --runsequence
+2026-05-09T00:35:22.4867|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-05-09T00:35:22.7497|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-05-09T00:35:23.0087|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-05-09T00:35:23.1037|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-05-09T00:35:24.7592|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-05-09T00:35:25.1776|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-05-09T00:35:25.3112|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-05-09T00:35:25.5398|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-05-09T00:35:26.0391|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-05-09T00:35:26.3231|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-05-09T00:35:26.5447|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-05-09T00:35:26.5571|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-05-09T00:35:38.5198|INFO|API.cs|Start|99|Starting Webserver
+2026-05-09T00:35:38.5358|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1888
+2026-05-09T00:35:40.3190|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 145.75 GB
+2026-05-09T00:35:40.3254|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-05-09T00:35:40.3271|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 62.13 GB
+2026-05-09T00:35:40.3308|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20260509-003516-3.2.0.9001.12248-202605.log
+2026-05-09T00:35:40.3464|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive Z:\: 35.99 GB
+2026-05-09T00:35:40.5066|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-05-09T00:35:40.5123|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.15.0 by Christian Palm
+2026-05-09T00:35:40.7285|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-05-09T00:35:41.0951|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-05-09T00:35:42.0487|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-05-09T00:35:43.1200|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-05-09T00:35:45.2496|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.10 by Daniel Ludwig
+2026-05-09T00:35:47.6074|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1483|Plugin icon geometry created successfully
+2026-05-09T00:35:47.6339|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1452|DitherStatistics DataTemplates loaded successfully
+2026-05-09T00:35:47.6390|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|387|Quality Assessment setting saved to file: True
+2026-05-09T00:35:47.6391|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|364|Quality Assessment setting loaded from file: True
+2026-05-09T00:35:47.6530|INFO|DitherStatisticsVM.cs|SaveDitherOptimizerSetting|490|Dither Optimizer setting saved to file: False
+2026-05-09T00:35:47.6531|INFO|DitherStatisticsVM.cs|LoadDitherOptimizerSetting|471|Dither Optimizer setting loaded from file: False
+2026-05-09T00:35:47.6536|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|834|Subscribed to NINA guider events
+2026-05-09T00:35:47.6580|ERROR|DitherStatisticsVM.cs|GetThemeColor|1437|Failed to get theme color 'PrimaryBrush': The calling thread cannot access this object because a different thread owns it.
+2026-05-09T00:35:47.6582|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1329|Initial PrimaryBrush color: R:255 G:255 B:255
+2026-05-09T00:35:47.6583|INFO|DitherStatisticsVM.cs|.ctor|96|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-05-09T00:35:47.6588|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1338|Theme color monitoring timer started on UI thread
+2026-05-09T00:35:47.6591|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.3.0.0 by Thierry Tschanz
+2026-05-09T00:35:47.8950|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-05-09T00:35:48.1516|INFO|DitherStatisticsVM.cs|OnThemeColorTimerTick|1357|Theme color CHANGED! Old: R:255 G:255 B:255 -> New: R:176 G:179 B:185
+2026-05-09T00:35:48.2277|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-05-09T00:35:48.2672|INFO|DitherStatisticsVM.cs|PixelShiftPlot|136|PixelShiftPlot created (lazy loading)
+2026-05-09T00:35:48.2992|INFO|DitherStatisticsVM.cs|SettleTimePlot|177|SettleTimePlot created (lazy loading)
+2026-05-09T00:35:49.6589|INFO|DitherStatisticsVM.cs|ConnectToPHD2|708|Attempting to connect to PHD2...
+2026-05-09T00:35:49.6611|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-05-09T00:35:51.7179|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-09T00:35:51.7186|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-09T00:35:51.7864|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-05-09T00:35:57.7820|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.26 by George Hilios (jokogeo)
+2026-05-09T00:35:58.3021|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.1 by Christian Palm
+2026-05-09T00:35:58.5916|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-05-09T00:35:59.9974|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.1.3.0 by Stefan Berg @isbeorn
+2026-05-09T00:36:00.3048|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-05-09T00:36:00.5913|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-05-09T00:36:01.2201|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-09T00:36:01.2203|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-09T00:36:01.2634|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-09T00:36:01.4780|INFO|NightSummaryPlugin.cs|.ctor|358|NightSummary: Plugin initialized successfully
+2026-05-09T00:36:01.4864|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-09T00:36:01.4867|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-09T00:36:01.5037|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-09T00:36:01.5065|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Night Summary version 3.0.0.0 by Evan Pegors
+2026-05-09T00:36:02.0113|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-05-09T00:36:02.4854|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-05-09T00:36:03.6722|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-05-09T00:36:04.1869|INFO|StarfrontClient.cs|StartFolderWatcher|167|[Rockwood] Watching: C:\ASTROIMAGES\NINA\
+2026-05-09T00:36:04.1883|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Rockwood Starfront version 1.0.0.0 by Rockwood Observatory
+2026-05-09T00:36:04.1886|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-09T00:36:04.3896|INFO|StarfrontClient.cs|RunLoop|71|[Rockwood] connected
+2026-05-09T00:36:05.3885|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-05-09T00:36:08.2111|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-09T00:36:08.4841|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.9 by Marc Blank
+2026-05-09T00:36:09.6495|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-05-09T00:36:09.7975|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-05-09T00:36:10.2050|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-05-09T00:36:10.9404|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-05-09T00:36:12.9359|INFO|Plugin.cs|RunStationHeartbeatLoopAsync|861|[Subframes] TS not detected at startup - deferring first heartbeat to allow plugin load to complete.
+2026-05-09T00:36:12.9421|INFO|SyncEngine.cs|Start|41|[Subframes] SyncEngine started.
+2026-05-09T00:36:12.9442|INFO|CacheReplayEngine.cs|Start|101|[Subframes] CacheReplayEngine started.
+2026-05-09T00:36:12.9480|INFO|Plugin.cs|.ctor|186|[Subframes] Plugin loaded (primary instance).
+2026-05-09T00:36:12.9508|WARNING|Plugin.cs|OnImportsSatisfied|219|[Subframes] Sequence event subscription deferred - SequenceMediator internals not yet initialized.
+2026-05-09T00:36:12.9572|WARNING|Plugin.cs|.ctor|127|[Subframes] Duplicate plugin instance created by MEF - proxying to primary to prevent duplicate sessions/sync.
+2026-05-09T00:36:12.9594|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Subframes version 0.4.1.0 by Subframes
+2026-05-09T00:36:13.2217|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-09T00:36:13.8526|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-05-09T00:36:18.2234|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-09T00:36:21.2531|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.9.0.0 by Tom Palmer @tcpalmer
+2026-05-09T00:36:21.9213|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.5.1 by Stefan Berg @isbeorn
+2026-05-09T00:36:23.2251|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-09T00:36:24.5491|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2026-05-09T00:36:24.6103|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2026-05-09T00:36:25.2197|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-05-09T00:36:25.6608|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2026-05-09T00:36:25.9001|INFO|Sequence2VM.cs|TryLoadSequenceFile|414|Loading sequence file: C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json
+2026-05-09T00:36:26.0037|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-05-09T00:36:26.1055|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-05-09T00:36:26.1152|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-05-09T00:36:26.1905|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-05-09T00:36:26.1929|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-05-09T00:36:26.6965|INFO|Sequence2VM.cs|TryLoadSequenceFile|420|Starting sequence from command line options
+2026-05-09T00:36:26.6999|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-05-09T00:36:27.2810|INFO|PluginFetcher.cs|RequestAll|57|Found 79 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-05-09T00:36:27.3057|INFO|Plugin.cs|TrySubscribeSequenceEvents|245|[Subframes] ISequenceMediator.SequenceStarted not present in this NINA build - session will open on first captured image instead.
+2026-05-09T00:36:27.3060|INFO|Plugin.cs|RetrySubscribeSequenceEventsAsync|281|[Subframes] Deferred sequence event subscription succeeded after 14s.
+2026-05-09T00:36:27.4070|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-09T00:36:27.4132|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-05-09T00:36:27.4192|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-09T00:36:27.4200|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 10
+2026-05-09T00:36:27.4213|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-09T00:36:27.5224|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-05-09T00:36:27.6663|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-05-09T00:36:27.6693|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-09T00:36:27.7030|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 20:0:17h, Offset: -80
+2026-05-09T00:36:27.7081|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 20:0:17h, Offset: -80
+2026-05-09T00:36:27.7090|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:36:27.8100|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-05-09T00:36:27.8866|INFO|DockManagerVM.cs|InitializeAvalonDockLayout|366|Initializing imaging tab layout from C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.dock.config
+2026-05-09T00:36:27.8875|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-09T00:36:27.9559|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-05-09T00:36:28.1110|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-05-09T00:36:28.1786|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-05-09T00:36:28.1965|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-05-09T00:36:28.2032|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-05-09T00:36:28.7285|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:36:28.9593|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-05-09T00:36:29.1180|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-05-09T00:36:29.1188|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectAllEquipment
+2026-05-09T00:36:29.1315|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-05-09T00:36:29.2010|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-05-09T00:36:29.2011|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-05-09T00:36:29.2019|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-05-09T00:36:29.2023|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-05-09T00:36:29.2635|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-05-09T00:36:29.3739|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-05-09T00:36:29.4000|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-05-09T00:36:29.4159|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-05-09T00:36:29.6063|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-05-09T00:36:29.6219|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-05-09T00:36:29.6238|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-05-09T00:36:29.6268|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-05-09T00:36:29.6442|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-05-09T00:36:29.6448|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-05-09T00:36:29.6527|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-05-09T00:36:29.6535|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-05-09T00:36:31.6548|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-05-09T00:36:31.6573|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-05-09T00:36:31.7198|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-05-09T00:36:32.2852|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_B with value 50
+2026-05-09T00:36:32.2853|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_R with value 50
+2026-05-09T00:36:32.2854|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_GAMMA with value 50
+2026-05-09T00:36:32.2854|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_HIGH_SPEED_MODE with value 0
+2026-05-09T00:36:32.2854|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_OVERCLOCK with value 0
+2026-05-09T00:36:32.2855|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_PATTERN_ADJUST with value 0
+2026-05-09T00:36:32.2861|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_MONO_BIN with value 0
+2026-05-09T00:36:32.2871|INFO|ASICamera.cs|Initialize|664|Camera ID: ASI533MM
+2026-05-09T00:36:32.2956|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_ANTI_DEW_HEATER with value 0
+2026-05-09T00:36:32.3375|INFO|CameraVM.cs|ChooseCamera|455|Successfully connected Camera. Id: ZWOptical_ZWO ASI533MM Pro_ASI533MM Name: ZWO ASI533MM Pro DisplayName: ZWO ASI533MM Pro (ASI533MM)Driver Version: 1, 39, 0, 0
+2026-05-09T00:36:32.8879|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-05-09T00:36:34.8902|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-05-09T00:36:34.9136|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-05-09T00:36:38.4911|INFO|FilterWheelVM.cs|ChooseFW|279|Successfully connected Filter Wheel. Id: ASCOM.EFW2.FilterWheel Name: ZWO FilterWheel DisplayName: ZWO FilterWheel (ASCOM) Driver Version: 6.0
+2026-05-09T00:36:42.3459|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-05-09T00:36:42.3648|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-05-09T00:36:44.1725|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-09T00:36:44.3855|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 2 / 3
+2026-05-09T00:36:44.3869|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-09T00:36:44.5882|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 3 / 3
+2026-05-09T00:36:44.5892|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-09T00:36:44.5896|INFO|AscomDevice.cs|GetProperty|556|GET Focuser.StepSize failed - Returning last known value 0
+2026-05-09T00:36:44.8146|INFO|FocuserVM.cs|ChooseFocuser|333|Successfully connected Focuser. Id: ASCOM.EAF.Focuser Name: ZWO Focuser DisplayName: ZWO Focuser (ASCOM) Driver Version: 6.0
+2026-05-09T00:36:46.8181|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-05-09T00:36:46.8801|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-05-09T00:36:49.4280|INFO|AscomTelescope.cs|CheckMountTime|845|Mount UTC Time: 2026-05-09 05:36:45Z / System UTC Time: 2026-05-09 05:36:49Z; Difference: 4.022 seconds
+2026-05-09T00:36:49.4750|INFO|AscomTelescope.cs|CheckMountTime|852|System time has been synced to the mount
+2026-05-09T00:36:49.7312|INFO|TelescopeVM.cs|ChooseTelescope|535|Successfully connected mount. Id: ASCOM.iOptron2017.Telescope Name: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount DisplayName: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount (ASCOM) Driver Version: 9.15
+2026-05-09T00:36:49.7422|INFO|PHD2Guider.cs|Connect|205|Connecting to PHD2 server at 127.0.0.1:4400
+2026-05-09T00:36:52.4564|INFO|PHD2Client.cs|ConnectAsync|118|PHD2Client: Connected successfully!
+2026-05-09T00:36:52.4565|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|734|PHD2 Connection Status: Connected
+2026-05-09T00:36:52.4566|INFO|DitherStatisticsVM.cs|ConnectToPHD2|713|Successfully connected to PHD2!
+2026-05-09T00:36:52.4578|INFO|PHD2Client.cs|ReadEventsAsync|181|PHD2Client: Started reading events
+2026-05-09T00:36:53.0806|INFO|PHD2Client.cs|HandleVersion|366|PHD2Client: Connected to PHD2 version 2.6.14. (Message Protocol v1)
+2026-05-09T00:36:53.0821|INFO|PHD2Client.cs|HandleAppState|376|PHD2Client: PHD2 AppState: Stopped
+2026-05-09T00:36:53.0823|INFO|PHD2Client.cs|ProcessEvent|268|PHD2: ConfigurationChange
+2026-05-09T00:36:54.3060|INFO|PHD2Client.cs|QueryExposureTime|1216|PHD2Client: Exposure time from PHD2 API: 2.000 seconds (2000 ms)
+2026-05-09T00:36:54.4764|INFO|PHD2Client.cs|ProcessEvent|268|PHD2: ConfigurationChange
+2026-05-09T00:36:55.2382|INFO|PHD2Client.cs|QueryExposureTime|1216|PHD2Client: Exposure time from PHD2 API: 2.000 seconds (2000 ms)
+2026-05-09T00:36:57.2703|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-05-09T00:36:57.3184|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-05-09T00:36:59.6984|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.SkyQuality GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-05-09T00:36:59.7064|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.StarFWHM GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-05-09T00:36:59.7250|INFO|WeatherDataVM.cs|ChooseWeatherData|150|Successfully connected Weather Device. Id: ASCOM.SkyAlert.ObservingConditions Name: SkyAlert Observing Conditions DisplayName: SkyAlert Observing Conditions (ASCOM) Driver Version: 1.7
+2026-05-09T00:37:01.7283|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-09T00:37:01.7365|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-09T00:37:02.4191|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-05-09T00:37:02.4196|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectAllEquipment
+2026-05-09T00:37:02.4204|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-09T00:37:02.4270|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-09T00:37:02.4288|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-09T00:37:02.4315|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-09T00:37:02.4318|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-09T00:37:02.4328|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-09T00:37:02.4330|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:37:03.0447|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:37:03.0451|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-05-09T00:37:03.1768|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-05-09T00:37:03.1777|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: -5, Duration: 15
+2026-05-09T00:37:03.1811|INFO|CameraVM.cs|CoolCamera|138|Cooling Camera. Target: -5 Duration: 00:15:00
+2026-05-09T00:37:04.4217|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-05-09T00:37:20.0099|INFO|TargetSchedulerDetector.cs|DoProbeAsync|177|[Subframes] TargetSchedulerDetector: state no_api → active
+2026-05-09T00:37:20.0103|INFO|Plugin.cs|OnTsStateChanged|843|[Subframes] TS state → active: firing immediate station heartbeat.
+2026-05-09T00:52:05.8602|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: CoolCamera, Temperature: -5, Duration: 15
+2026-05-09T00:52:05.8606|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 21:5:17h, Offset: -15
+2026-05-09T00:52:05.8607|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 21:5:17h, Offset: -15
+2026-05-09T00:52:05.8648|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 10
+2026-05-09T00:52:05.8652|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-09T00:52:05.8714|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-09T00:52:05.8732|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:18:54h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-09T00:52:05.8751|INFO|WhenCommon.cs|SequenceBlockInitialize|204|Initialize; starting watchdog
+2026-05-09T00:52:05.8780|INFO|WhenUnsafe.cs|CheckSafe|77|IsSafe is now FALSE; connected = True, IsSafe = False
+2026-05-09T00:52:05.8783|INFO|WhenCommon.cs|ShouldTrigger|378|ShouldTrigger TRUE from InterruptWhen, setting TriggerRunner
+2026-05-09T00:52:05.8784|INFO|WhenCommon.cs|InterruptWhen|322|Interrupting current Instruction Set
+2026-05-09T00:52:05.8806|INFO|WhenCommon.cs|InterruptWhen|332|Canceling sequence...
+2026-05-09T00:52:06.8820|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:07.8815|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:08.8826|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:09.8835|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:10.8847|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:11.8860|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:12.8862|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:13.8863|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:14.8879|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:15.8891|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:16.8891|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:17.8894|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:18.8905|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:19.8920|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:20.8919|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:21.8928|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:22.8938|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:23.8948|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:24.8957|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:25.8962|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:26.8960|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:27.8968|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:28.8979|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:29.8986|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:30.8995|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:31.9012|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:32.9018|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-09T00:52:33.7552|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-05-09T00:52:33.7579|INFO|Sequencer.cs|Start|85|Sequence run was cancelled
+2026-05-09T00:52:33.7773|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-05-09T00:52:33.9091|INFO|WhenCommon.cs|InterruptWhen|339|Sequence no longer running
+2026-05-09T00:52:33.9102|WARNING|WhenCommon.cs|CheckSlewing|263|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2026-05-09T00:52:33.9116|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-05-09T00:52:33.9589|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-09T00:52:33.9593|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-09T00:52:33.9595|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-09T00:52:33.9596|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-09T00:52:33.9597|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:18:54h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-09T00:52:33.9601|INFO|WhenCommon.cs|SequenceBlockInitialize|204|Initialize; starting watchdog
+2026-05-09T00:52:33.9615|INFO|WhenCommon.cs|ShouldTrigger|382|ShouldTrigger TRUE, setting TriggerRunner
+2026-05-09T00:52:33.9638|INFO|SequenceTrigger.cs|Run|114|Starting Trigger: WhenUnsafe
+2026-05-09T00:52:33.9761|INFO|WhenCommon.cs|Execute|395|Execute 0
+2026-05-09T00:52:33.9763|INFO|WhenCommon.cs|Execute|409|When: running TriggerRunner, InFlight -> true, Triggered -> false
+2026-05-09T00:52:33.9763|WARNING|WhenCommon.cs|CheckSlewing|263|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2026-05-09T00:52:33.9765|INFO|SequenceItem.cs|Run|208|Starting Category: , Container: WhenPlugin.When.IfContainer, Strategy: SequentialStrategy, Items[CREATED]: 9
+2026-05-09T00:52:33.9823|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:33.9840|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:52:34.6379|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-09T00:52:34.6403|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:34.6408|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Unsafe
+2026-05-09T00:52:34.8230|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Unsafe
+2026-05-09T00:52:34.8238|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:34.8239|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-09T00:52:34.8265|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-09T00:52:34.8267|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-09T00:52:34.8272|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-09T00:52:34.8273|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-09T00:52:34.8275|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-09T00:52:34.8278|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:34.8283|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2026-05-09T00:52:34.8324|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-09T00:52:34.8326|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2026-05-09T00:52:34.8418|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:34.8426|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectEquipment, Selected device: Safety Monitor
+2026-05-09T00:52:34.9165|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-05-09T00:52:34.9505|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-09T00:52:34.9508|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectEquipment, Selected device: Safety Monitor
+2026-05-09T00:52:34.9515|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:52:34.9522|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-09T00:53:34.9884|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-09T00:53:34.9890|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:53:34.9897|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectEquipment, Selected device: Safety Monitor, Selected device id: ASCOM.GenericFile.SafetyMonitor
+2026-05-09T00:53:36.9952|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-09T00:53:37.0148|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-09T00:53:37.0970|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-05-09T00:53:37.0971|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectEquipment, Selected device: Safety Monitor, Selected device id: ASCOM.GenericFile.SafetyMonitor
+2026-05-09T00:53:37.0975|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:53:37.0975|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-09T00:53:39.0989|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-05-09T00:54:37.2194|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-09T00:54:37.2201|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T00:54:37.2209|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Safety), Item: OnceSafe
+2026-05-09T06:18:54.9299|INFO|TimeCondition.cs|Check|254|TimeCondition finished.
+2026-05-09T06:18:54.9303|INFO|TimeCondition.cs|InterruptWhenTimeIsUp|63|Time limit exceeded - Interrupting current Instruction Set
+2026-05-09T06:18:54.9388|INFO|WhenCommon.cs|Execute|425|When: Execute done; InFlight -> false, Triggered false
+2026-05-09T06:18:54.9399|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-09T06:18:54.9403|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 21:5:17h, Offset: -15
+2026-05-09T06:18:54.9421|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-05-09T06:18:54.9429|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:18:54h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-09T06:18:54.9432|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-09T06:18:54.9438|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 9
+2026-05-09T06:18:54.9447|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-09T06:18:54.9506|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-09T06:18:54.9508|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-09T06:18:54.9514|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-09T06:18:54.9516|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-09T06:18:54.9519|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-09T06:18:54.9530|INFO|SequenceItem.cs|Run|208|Starting Night Summary - End Session
+2026-05-09T06:18:54.9567|INFO|NightSummaryEndInstruction.cs|Execute|28|NightSummary: End Session instruction executing
+2026-05-09T06:19:09.9639|WARNING|SessionService.cs|EndSession|172|NightSummary: EndSession called but no active session — nothing to do
+2026-05-09T06:19:09.9641|INFO|NightSummaryEndInstruction.cs|Execute|39|NightSummary: Session ended successfully
+2026-05-09T06:19:09.9642|INFO|SequenceItem.cs|Run|254|Finishing Night Summary - End Session
+2026-05-09T06:19:09.9649|INFO|SequenceItem.cs|Run|208|Starting [EndSubframesSession]
+2026-05-09T06:19:09.9680|WARNING|EndSessionItem.cs|Execute|50|[Subframes] EndSessionItem: no active session to end.
+2026-05-09T06:19:09.9681|INFO|SequenceItem.cs|Run|254|Finishing [EndSubframesSession]
+2026-05-09T06:19:09.9693|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 30
+2026-05-09T06:19:09.9741|INFO|CameraVM.cs|WarmCamera|161|Warming Camera. Duration: 00:30:00
+2026-05-09T06:51:15.5610|INFO|CameraVM.cs|WarmCamera|179|Could not reach warming temperature. Most likley due to ambient temperature being lower. Continuing...
+2026-05-09T06:51:35.6321|INFO|CameraVM.cs|WarmCamera|186|Turning cooler off
+2026-05-09T06:51:35.6342|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: WarmCamera, Duration: 30
+2026-05-09T06:51:35.6346|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2026-05-09T06:51:35.6404|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-09T06:51:35.6406|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2026-05-09T06:51:35.6419|INFO|SequenceItem.cs|Run|208|Starting Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-05-09T06:51:35.6714|INFO|SequenceItem.cs|Run|254|Finishing Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-05-09T06:51:35.6722|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectAllEquipment
+2026-05-09T06:51:35.6795|WARNING|PHD2Client.cs|ReadEventsAsync|189|PHD2Client: Connection closed by server
+2026-05-09T06:51:35.6796|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection lost
+2026-05-09T06:51:35.6797|INFO|PHD2Client.cs|ReadEventsAsync|205|PHD2Client: Stopped reading events
+2026-05-09T06:51:35.7310|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-05-09T06:51:35.7318|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel
+2026-05-09T06:51:35.7417|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-05-09T06:51:35.7449|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser
+2026-05-09T06:51:35.8003|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-05-09T06:51:35.8008|INFO|DisconnectAllEquipment.cs|Execute|139|Rotator is already disconnected
+2026-05-09T06:51:35.9024|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2026-05-09T06:51:35.9464|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-05-09T06:51:35.9470|INFO|DisconnectAllEquipment.cs|Execute|139|Guider is already disconnected
+2026-05-09T06:51:35.9471|INFO|DisconnectAllEquipment.cs|Execute|139|Switch is already disconnected
+2026-05-09T06:51:35.9471|INFO|DisconnectAllEquipment.cs|Execute|139|Flat Panel is already disconnected
+2026-05-09T06:51:35.9491|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2026-05-09T06:51:35.9577|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-05-09T06:51:35.9579|INFO|DisconnectAllEquipment.cs|Execute|139|Dome is already disconnected
+2026-05-09T06:51:35.9590|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-05-09T06:51:35.9785|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-09T06:51:35.9790|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectAllEquipment
+2026-05-09T06:51:35.9791|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-05-09T06:51:36.1402|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-05-09T06:51:36.1405|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-09T06:51:36.9652|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-09T06:51:36.9656|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 9
+2026-05-09T06:51:36.9659|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-09T06:51:36.9670|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-05-09T06:51:36.9680|INFO|WhenCommon.cs|InterruptWhen|350|Restarting sequence, Triggered -> true
+2026-05-09T06:51:40.6969|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-05-09T06:51:42.7535|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-09T17:37:21.1303|INFO|ApplicationVM.cs|Exit|244|Shutting down application - requested by user
+2026-05-09T17:37:21.3025|INFO|ApplicationVM.cs|Closing|289|Application shutting down
+2026-05-09T17:37:21.3592|INFO|DomeVM.cs|Disconnect|355|Disconnected Dome Device
+2026-05-09T17:37:21.3667|INFO|FlatDeviceVM.cs|Disconnect|289|Disconnected Flat Device
+2026-05-09T17:37:21.3790|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-05-09T17:37:21.3800|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-05-09T17:37:21.3825|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-05-09T17:37:21.3833|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-05-09T17:37:21.3927|INFO|RotatorVM.cs|Disconnect|447|Disconnected Rotator
+2026-05-09T17:37:21.4000|INFO|SwitchVM.cs|Disconnect|309|Disconnected Switch
+2026-05-09T17:37:21.4051|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-05-09T17:37:21.4056|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-09T17:37:22.1964|INFO|API.cs|StopWatchers|86|Stopping all event watchers
+2026-05-09T17:37:22.2648|INFO|NightSummaryPlugin.cs|Teardown|377|NightSummary: Plugin torn down
+2026-05-09T17:37:22.3326|INFO|Plugin.cs|Teardown|379|[Subframes] Plugin unloaded (primary instance).
