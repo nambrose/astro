@@ -1,0 +1,976 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-05-24T17:36:25--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-05-24T17:36:25.0956|INFO|App.xaml.cs|OnStartup|170|Launched with command line arguments: --sequencefile C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json --runsequence
+2026-05-24T17:36:29.6357|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-05-24T17:36:29.9026|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-05-24T17:36:30.1504|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-05-24T17:36:30.2546|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-05-24T17:36:31.6001|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-05-24T17:36:32.1051|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-05-24T17:36:32.2486|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-05-24T17:36:32.4385|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-05-24T17:36:33.3183|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-05-24T17:36:33.5361|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-05-24T17:36:33.6794|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-05-24T17:36:33.6830|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-05-24T17:36:41.8451|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 143.6 GB
+2026-05-24T17:36:41.8515|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-05-24T17:36:41.8532|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 62.12 GB
+2026-05-24T17:36:41.8546|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive Z:\ is not ready
+2026-05-24T17:36:43.3774|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-05-24T17:36:43.5348|ERROR|HttpGetRequest.cs|Request|62|https://nighttime-imaging.eu/index.php/wp-json/nina/v1/versioninfo/release System.Net.Http.HttpRequestException: No such host is known. (nighttime-imaging.eu:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NINA.Core.Utility.Http.HttpGetRequest.Request(CancellationToken ct, IProgress`1 progress) in /_/NINA.Core/Utility/Http/HttpGetRequest.cs:line 54
+2026-05-24T17:36:44.6321|INFO|API.cs|Start|99|Starting Webserver
+2026-05-24T17:36:44.6337|INFO|API.cs|APITask|134|starting web server, listening at 127.0.0.1:1888
+2026-05-24T17:36:44.6266|ERROR|VersionCheckVM.cs|GetVersionInfo|276
+Newtonsoft.Json.JsonReaderException: Error reading JToken from JsonReader. Path '', line 0, position 0.
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader)
+   at NJsonSchema.Validation.JsonSchemaValidator.Validate(String jsonData, JsonSchema schema, SchemaType schemaType)
+   at NJsonSchema.JsonSchema.Validate(String jsonData, JsonSchemaValidatorSettings settings)
+   at NINA.ViewModel.VersionCheckVM.GetVersionInfo(AutoUpdateSourceEnum source, CancellationToken ct) in /_/NINA/ViewModel/VersionCheckVM.cs:line 258
+2026-05-24T17:36:44.7753|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20260524-173623-3.2.0.9001.3868-202605.log
+2026-05-24T17:36:44.8011|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.15.1 by Christian Palm
+2026-05-24T17:36:44.9913|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-05-24T17:36:45.3018|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-05-24T17:36:45.5345|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-05-24T17:36:46.5531|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-05-24T17:36:48.5648|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.10 by Daniel Ludwig
+2026-05-24T17:36:51.0470|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1483|Plugin icon geometry created successfully
+2026-05-24T17:36:51.0733|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1452|DitherStatistics DataTemplates loaded successfully
+2026-05-24T17:36:51.0777|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|387|Quality Assessment setting saved to file: True
+2026-05-24T17:36:51.0779|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|364|Quality Assessment setting loaded from file: True
+2026-05-24T17:36:51.0926|INFO|DitherStatisticsVM.cs|SaveDitherOptimizerSetting|490|Dither Optimizer setting saved to file: False
+2026-05-24T17:36:51.0927|INFO|DitherStatisticsVM.cs|LoadDitherOptimizerSetting|471|Dither Optimizer setting loaded from file: False
+2026-05-24T17:36:51.0931|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|834|Subscribed to NINA guider events
+2026-05-24T17:36:51.0969|ERROR|DitherStatisticsVM.cs|GetThemeColor|1437|Failed to get theme color 'PrimaryBrush': The calling thread cannot access this object because a different thread owns it.
+2026-05-24T17:36:51.0971|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1329|Initial PrimaryBrush color: R:255 G:255 B:255
+2026-05-24T17:36:51.0972|INFO|DitherStatisticsVM.cs|.ctor|96|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-05-24T17:36:51.0978|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1338|Theme color monitoring timer started on UI thread
+2026-05-24T17:36:51.0978|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.3.0.0 by Thierry Tschanz
+2026-05-24T17:36:51.3304|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-05-24T17:36:51.5912|INFO|DitherStatisticsVM.cs|OnThemeColorTimerTick|1357|Theme color CHANGED! Old: R:255 G:255 B:255 -> New: R:176 G:179 B:185
+2026-05-24T17:36:51.6761|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-05-24T17:36:51.7074|INFO|DitherStatisticsVM.cs|PixelShiftPlot|136|PixelShiftPlot created (lazy loading)
+2026-05-24T17:36:51.7410|INFO|DitherStatisticsVM.cs|SettleTimePlot|177|SettleTimePlot created (lazy loading)
+2026-05-24T17:36:53.0956|INFO|DitherStatisticsVM.cs|ConnectToPHD2|708|Attempting to connect to PHD2...
+2026-05-24T17:36:53.0975|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-05-24T17:36:55.1115|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-24T17:36:55.1120|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-24T17:36:55.4977|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-05-24T17:37:01.5786|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.26 by George Hilios (jokogeo)
+2026-05-24T17:37:02.1617|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.1 by Christian Palm
+2026-05-24T17:37:02.4500|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-05-24T17:37:03.8583|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.1.3.0 by Stefan Berg @isbeorn
+2026-05-24T17:37:04.1599|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-05-24T17:37:04.4330|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-05-24T17:37:05.0400|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-24T17:37:05.0402|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-24T17:37:05.0841|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-24T17:37:05.3387|INFO|NightSummaryPlugin.cs|.ctor|424|NightSummary: Plugin initialized successfully
+2026-05-24T17:37:05.3518|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-24T17:37:05.3520|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-24T17:37:05.3692|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-24T17:37:05.3716|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Night Summary version 3.1.0.0 by Evan Pegors @sleepypuppy15
+2026-05-24T17:37:05.8530|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-05-24T17:37:06.3507|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-05-24T17:37:07.4490|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-05-24T17:37:07.9831|INFO|StarfrontClient.cs|StartFolderWatcher|167|[Rockwood] Watching: C:\ASTROIMAGES\NINA\
+2026-05-24T17:37:07.9835|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Rockwood Starfront version 1.0.0.0 by Rockwood Observatory
+2026-05-24T17:37:07.9837|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:07.9945|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:09.0508|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-05-24T17:37:11.8880|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:12.1456|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.9 by Marc Blank
+2026-05-24T17:37:12.9954|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:12.9985|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:14.5809|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:15.2022|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer+ version 3.29.0.12 by  Carl Björk (Elveteek Sàrl)
+2026-05-24T17:37:16.3648|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-05-24T17:37:16.5237|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-05-24T17:37:16.8976|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:16.9748|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-05-24T17:37:17.7275|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-05-24T17:37:17.9993|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:18.0020|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:19.5871|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:19.5886|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:19.7327|INFO|Plugin.cs|RunStationHeartbeatLoopAsync|985|[Subframes] TS not detected at startup - deferring first heartbeat to allow plugin load to complete.
+2026-05-24T17:37:19.7389|INFO|SyncEngine.cs|Start|41|[Subframes] SyncEngine started.
+2026-05-24T17:37:19.7410|INFO|CacheReplayEngine.cs|Start|101|[Subframes] CacheReplayEngine started.
+2026-05-24T17:37:19.7451|INFO|Plugin.cs|.ctor|184|[Subframes] Plugin loaded (primary instance).
+2026-05-24T17:37:19.7492|WARNING|Plugin.cs|OnImportsSatisfied|217|[Subframes] Sequence event subscription deferred - SequenceMediator internals not yet initialized.
+2026-05-24T17:37:19.7562|WARNING|Plugin.cs|.ctor|125|[Subframes] Duplicate plugin instance created by MEF - proxying to primary to prevent duplicate sessions/sync.
+2026-05-24T17:37:19.7588|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Subframes version 0.4.3.0 by Subframes
+2026-05-24T17:37:20.6856|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-05-24T17:37:21.9002|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:23.0033|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:23.0060|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:24.5916|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:24.5936|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:26.9024|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:27.7424|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [startup loop first tick].
+2026-05-24T17:37:27.7507|INFO|TsProgressReader.cs|ReadProgressSnapshot|40|[Subframes] TS progress snapshot: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:37:27.8413|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:37:28.0068|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:28.0093|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:28.3794|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.9.0.0 by Tom Palmer @tcpalmer
+2026-05-24T17:37:29.0121|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.6.1 by Stefan Berg @isbeorn
+2026-05-24T17:37:29.5937|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:29.5956|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:31.8188|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2026-05-24T17:37:31.8783|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2026-05-24T17:37:31.9053|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T17:37:32.4897|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-05-24T17:37:32.5088|ERROR|HttpGetRequest.cs|Request|62|https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests System.Net.Http.HttpRequestException: No such host is known. (nighttime-imaging.eu:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NINA.Core.Utility.Http.HttpGetRequest.Request(CancellationToken ct, IProgress`1 progress) in /_/NINA.Core/Utility/Http/HttpGetRequest.cs:line 54
+2026-05-24T17:37:32.5096|ERROR|PluginFetcher.cs|RequestAll|59
+System.Net.Http.HttpRequestException: No such host is known. (nighttime-imaging.eu:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NINA.Core.Utility.Http.HttpGetRequest.Request(CancellationToken ct, IProgress`1 progress) in /_/NINA.Core/Utility/Http/HttpGetRequest.cs:line 54
+   at NINA.Plugin.PluginFetcher.<>c__DisplayClass2_0.<<RequestAll>b__0>d.MoveNext() in /_/NINA.Plugin/PluginFetcher.cs:line 44
+2026-05-24T17:37:32.5177|ERROR|PluginsVM.cs|FetchPlugins|257|Failed to fetch plugins from nighttime-imaging.eu
+System.Net.Http.HttpRequestException: No such host is known. (nighttime-imaging.eu:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NINA.Core.Utility.Http.HttpGetRequest.Request(CancellationToken ct, IProgress`1 progress) in /_/NINA.Core/Utility/Http/HttpGetRequest.cs:line 54
+   at NINA.Plugin.PluginFetcher.<>c__DisplayClass2_0.<<RequestAll>b__0>d.MoveNext() in /_/NINA.Plugin/PluginFetcher.cs:line 44
+--- End of stack trace from previous location ---
+   at NINA.Plugin.PluginFetcher.RequestAll(IPluginVersion minimumApplicationVersion, IProgress`1 progress, CancellationToken ct) in /_/NINA.Plugin/PluginFetcher.cs:line 38
+   at NINA.ViewModel.Plugins.PluginsVM.FetchPlugins() in /_/NINA/ViewModel/Plugins/PluginsVM.cs:line 254
+2026-05-24T17:37:32.8849|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2026-05-24T17:37:33.1751|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-05-24T17:37:33.3002|INFO|Sequence2VM.cs|TryLoadSequenceFile|414|Loading sequence file: C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json
+2026-05-24T17:37:33.3171|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-05-24T17:37:33.4450|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-05-24T17:37:33.5304|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-05-24T17:37:33.5328|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-05-24T17:37:33.7500|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:33.9047|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:33.9055|INFO|Plugin.cs|TrySubscribeSequenceEvents|243|[Subframes] ISequenceMediator.SequenceStarted not present in this NINA build - session will open on first captured image instead.
+2026-05-24T17:37:33.9057|INFO|Plugin.cs|RetrySubscribeSequenceEventsAsync|279|[Subframes] Deferred sequence event subscription succeeded after 14s.
+2026-05-24T17:37:34.0637|INFO|Sequence2VM.cs|TryLoadSequenceFile|420|Starting sequence from command line options
+2026-05-24T17:37:34.0672|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-05-24T17:37:34.7677|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-24T17:37:34.7805|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-24T17:37:34.7814|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 11
+2026-05-24T17:37:34.7823|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-24T17:37:34.8594|ERROR|HttpPostRequest.cs|Request|52
+System.Net.Http.HttpRequestException: No such host is known. (api.pushover.net:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NINA.Core.Utility.Http.HttpPostRequest.Request(CancellationToken ct, IProgress`1 progress) in /_/NINA.Core/Utility/Http/HttpPostRequest.cs:line 44
+2026-05-24T17:37:34.8646|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-24T17:37:34.8699|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-24T17:37:34.9257|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-05-24T17:37:34.9319|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-05-24T17:37:34.9394|ERROR|TelegramCommon.cs|SendTelegram|35|Error sending to Telegram: Exception during making request
+2026-05-24T17:37:34.9405|ERROR|SequenceItem.cs|Run|263|Category: Ground Station, Item: Send to Telegram - 
+Telegram.Bot.Exceptions.RequestException: Exception during making request
+ ---> System.Net.Http.HttpRequestException: No such host is known. (api.telegram.org:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Telegram.Bot.TelegramBotClient.<MakeRequestAsync>g__SendRequestAsync|21_0[TResponse](HttpClient httpClient, HttpRequestMessage httpRequest, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Telegram.Bot.TelegramBotClient.<MakeRequestAsync>g__SendRequestAsync|21_0[TResponse](HttpClient httpClient, HttpRequestMessage httpRequest, CancellationToken cancellationToken)
+   at Telegram.Bot.TelegramBotClient.MakeRequestAsync[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at Telegram.Bot.TelegramBotClientExtensions.SendTextMessageAsync(ITelegramBotClient botClient, ChatId chatId, String text, Nullable`1 messageThreadId, Nullable`1 parseMode, IEnumerable`1 entities, Nullable`1 disableWebPagePreview, Nullable`1 disableNotification, Nullable`1 protectContent, Nullable`1 replyToMessageId, Nullable`1 allowSendingWithoutReply, IReplyMarkup replyMarkup, CancellationToken cancellationToken)
+   at DaleGhent.NINA.GroundStation.Telegram.TelegramCommon.SendTelegram(String message, Boolean doNotNotify, CancellationToken ct) in D:\a\nina-ground-station\nina-ground-station\Telegram\TelegramCommon.cs:line 33
+   at DaleGhent.NINA.GroundStation.SendToTelegram.SendToTelegram.Execute(IProgress`1 progress, CancellationToken ct) in D:\a\nina-ground-station\nina-ground-station\Telegram\SendToTelegram.cs:line 155
+   at NINA.Sequencer.SequenceItem.SequenceItem.Run(IProgress`1 progress, CancellationToken token) in /_/NINA.Sequencer/SequenceItem/SequenceItem.cs:line 249
+2026-05-24T17:37:35.0009|ERROR|SequenceItem.cs|RunErrorBehavior|195|Instruction Send to Telegram failed after 1 attempt. Error behavior is set to ContinueOnError. Continuing.
+2026-05-24T17:37:35.0021|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 20:13:31h, Offset: -80
+2026-05-24T17:37:35.0632|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-05-24T17:37:35.1793|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-05-24T17:37:35.1849|INFO|DockManagerVM.cs|InitializeAvalonDockLayout|366|Initializing imaging tab layout from C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.dock.config
+2026-05-24T17:37:35.1990|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-24T17:37:35.4323|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-05-24T17:37:35.4514|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-05-24T17:37:35.5409|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-05-24T17:37:35.5510|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-05-24T17:37:35.7350|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-05-24T17:37:36.5337|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-05-24T17:37:38.9063|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:38.9087|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:43.9081|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:43.9141|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:48.9155|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:48.9216|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:53.9228|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:53.9270|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:37:58.9271|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:37:58.9309|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:03.9325|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:03.9380|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:08.9387|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:08.9410|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:13.9409|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:13.9442|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:18.9452|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:18.9477|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:23.9485|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:23.9516|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:26.8575|INFO|TargetSchedulerDetector.cs|DoProbeAsync|177|[Subframes] TargetSchedulerDetector: state no_api → active
+2026-05-24T17:38:26.8581|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [TS state → active].
+2026-05-24T17:38:26.8589|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:38:26.8608|INFO|Plugin.cs|OnTsStateChanged|873|[Subframes] One-shot TS preview: waiting 120 s for TS to begin computing schedule.
+2026-05-24T17:38:26.8612|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:38:28.9527|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:28.9561|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:33.9559|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:33.9584|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:38.9589|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:38.9613|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:43.9625|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:43.9662|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:48.9660|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:48.9686|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:53.9694|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:53.9716|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:38:58.9725|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:38:58.9754|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:03.9764|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:03.9804|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:08.9810|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:08.9841|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:13.9855|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:13.9885|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:18.9893|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:18.9937|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:23.9947|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:23.9980|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:28.9983|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:29.0011|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:34.0019|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:34.0039|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:39.0052|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:39.0095|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:44.0095|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:44.0124|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:49.0136|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:49.0177|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:54.0181|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:54.0223|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:39:59.0238|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:39:59.0270|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:04.0275|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:04.0320|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:09.0338|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:09.0384|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:14.0382|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:14.0412|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:19.0425|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:19.0473|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:24.0476|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:24.0496|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:29.0506|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:29.0527|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:31.9106|WARNING|TsPreviewClient.cs|FetchPreviewAsync|161|[Subframes] TsPreviewClient.FetchPreviewAsync failed for profile '533M-AT60' (0173997c-4bfa-48fd-9337-a48b6df99c38): TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.
+2026-05-24T17:40:31.9110|INFO|Plugin.cs|OnTsStateChanged|879|[Subframes] One-shot TS preview initial fetch: 0 target block(s) with exposure plans.
+2026-05-24T17:40:31.9110|INFO|Plugin.cs|OnTsStateChanged|885|[Subframes] One-shot TS preview: waiting 60 s for stabilization check (poll 1/5).
+2026-05-24T17:40:31.9232|WARNING|TsPreviewClient.cs|FetchPreviewAsync|161|[Subframes] TsPreviewClient.FetchPreviewAsync failed for profile '533M-AT60' (0173997c-4bfa-48fd-9337-a48b6df99c38): TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.
+2026-05-24T17:40:31.9244|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [TS profile selected].
+2026-05-24T17:40:31.9249|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:40:31.9276|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:40:34.0529|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:34.0559|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:39.0569|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:39.0609|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:44.0609|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:44.0660|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:49.0656|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:49.0699|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:54.0691|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:54.0736|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:40:59.0748|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:40:59.0794|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:04.0802|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:04.0820|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:09.0829|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:09.0863|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:14.0868|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:14.0909|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:19.0912|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:19.0954|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:24.0957|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:24.1001|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:29.1001|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:29.1047|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:32.6660|INFO|TsPreviewClient.cs|LookupCoordinatesByName|179|[Subframes] TsPreviewClient.LookupCoordinatesByName: TS database not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin
+2026-05-24T17:41:32.6707|INFO|Plugin.cs|OnTsStateChanged|892|[Subframes] One-shot TS preview poll 1: 6 target block(s) (previous: 0).
+2026-05-24T17:41:32.6708|INFO|Plugin.cs|OnTsStateChanged|885|[Subframes] One-shot TS preview: waiting 60 s for stabilization check (poll 2/5).
+2026-05-24T17:41:34.1058|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:34.1100|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:39.1108|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:39.1153|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:44.1151|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:44.1194|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:49.1208|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:49.1253|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:54.1252|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:54.1294|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:41:59.1299|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:41:59.1344|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:04.1350|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:04.1392|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:09.1396|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:09.1440|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:14.1432|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:14.1473|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:19.1488|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:19.1531|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:24.1523|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:24.1564|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:27.8397|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:42:27.8460|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:42:29.1570|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:29.1613|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:33.3854|INFO|TsPreviewClient.cs|LookupCoordinatesByName|179|[Subframes] TsPreviewClient.LookupCoordinatesByName: TS database not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin
+2026-05-24T17:42:33.3857|INFO|Plugin.cs|OnTsStateChanged|892|[Subframes] One-shot TS preview poll 2: 6 target block(s) (previous: 6).
+2026-05-24T17:42:33.3857|INFO|Plugin.cs|OnTsStateChanged|896|[Subframes] One-shot TS preview: schedule stabilized.
+2026-05-24T17:42:33.3859|INFO|Plugin.cs|OnTsStateChanged|906|[Subframes] One-shot TS preview fetch complete (pre-session, 7 blocks, 6 targets with plans).
+2026-05-24T17:42:33.3859|INFO|Plugin.cs|OnTsStateChanged|912|[Subframes] Cached initial night preview from one-shot: 7 blocks.
+2026-05-24T17:42:33.3860|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [one-shot TS preview].
+2026-05-24T17:42:33.3862|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:42:33.3882|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:42:34.1619|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:34.1660|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:39.1673|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:39.1714|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:44.1728|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:44.1780|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:49.1784|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:49.1929|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:54.1948|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:54.1988|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:42:59.1993|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:42:59.2034|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:04.2045|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:04.2087|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:09.2097|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:09.2136|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:14.2140|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:14.2186|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:19.2189|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:19.2235|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:24.2237|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:24.2269|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:29.2278|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:29.2320|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:34.2332|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:34.2374|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:39.2370|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:39.2414|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:44.2423|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:44.2465|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:49.2476|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:49.2516|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:54.2524|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:54.2565|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:43:59.2575|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:43:59.2617|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:04.2622|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:04.2667|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:09.2666|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:09.2706|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:14.2706|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:14.2749|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:19.2755|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:19.2800|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:24.2803|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:24.3118|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:29.3130|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:29.3179|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:34.3195|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:34.3236|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:39.3246|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:39.3292|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:44.3297|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:44.3345|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:49.3355|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:49.3402|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:54.3417|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:54.3463|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:44:59.3470|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:44:59.3511|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:04.3510|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:04.3553|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:09.3551|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:09.3592|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:14.3599|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:14.3642|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:19.3645|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:19.3689|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:24.3698|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:24.3737|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:29.3739|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:29.3780|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:34.3778|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:34.3819|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:39.3819|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:39.3860|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:44.3865|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:44.3889|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:49.3893|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:49.3933|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:54.3943|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:54.3984|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:45:59.3995|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:45:59.4020|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:04.4027|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:04.4071|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:09.4070|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:09.4111|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:14.4118|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:14.4159|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:19.4158|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:19.4198|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:24.4199|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:24.4242|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:29.4242|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:29.4283|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:34.4291|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:34.4333|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:39.4340|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:39.4384|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:44.4389|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:44.4423|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:49.4430|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:49.4458|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:54.4475|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:54.4505|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:46:59.4511|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:46:59.4538|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:04.4539|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:04.4592|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:09.4593|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:09.4634|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:14.4631|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:14.4675|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:19.4686|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:19.4728|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:24.4734|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:24.4775|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:27.8395|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:47:27.8445|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:47:29.4786|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:29.4826|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:34.4830|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:34.4871|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:39.4881|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:39.4922|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:44.4930|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:44.4973|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:49.4980|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:49.5020|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:54.5036|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:54.5077|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:47:59.5088|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:47:59.5130|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:04.5135|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:04.5177|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:09.5183|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:09.5227|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:14.5234|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:14.5274|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:19.5281|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:19.5323|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:24.5334|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:24.5375|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:29.5379|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:29.5420|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:34.5435|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:34.5476|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:39.5485|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:39.5524|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:44.5528|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:44.5583|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:49.5583|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:49.5626|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:54.5636|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:54.5682|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:48:59.5696|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:48:59.5741|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:04.5741|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:04.5782|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:09.5789|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:09.5831|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:14.5845|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:14.5887|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:19.5891|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:19.5944|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:24.5955|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:24.5997|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:29.6007|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:29.6050|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:34.6053|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:34.6095|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:39.6103|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:39.6144|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:44.6140|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:44.6184|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:49.6190|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:49.6237|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:54.6249|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:54.6289|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:49:59.6308|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:49:59.6348|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:04.6351|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:04.6393|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:09.6400|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:09.6443|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:14.6451|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:14.6492|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:19.6505|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:19.6573|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:24.6587|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:24.6628|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:29.6631|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:29.6672|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:34.6684|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:34.6725|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:39.6730|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:39.6775|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:44.6782|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:44.6838|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:49.6856|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:49.6897|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:54.6903|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:54.6944|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:50:59.6950|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:50:59.7098|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:04.7115|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:04.7158|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:09.7168|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:09.7208|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:14.7218|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:14.7257|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:19.7265|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:19.7314|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:24.7322|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:24.7367|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:29.7378|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:29.7419|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:34.7425|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:34.7467|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:39.7470|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:39.7512|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:44.7519|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:44.7567|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:49.7584|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:49.7626|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:54.7639|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:54.7682|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:51:59.7679|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:51:59.7720|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:04.7727|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:04.7754|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:09.7758|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:09.7791|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:14.7802|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:14.7843|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:19.7851|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:19.7892|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:24.7903|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:24.7947|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:27.8397|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:52:27.8447|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:52:29.7953|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:29.7994|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:34.8001|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:34.8047|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:39.8059|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:39.8107|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:44.8122|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:44.8173|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:49.8179|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:49.8224|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:54.8233|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:54.8251|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:52:59.8257|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:52:59.8297|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:04.8306|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:04.8333|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:09.8336|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:09.8377|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:14.8381|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:14.8422|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:19.8430|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:19.8460|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:24.8470|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:24.8510|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:29.8520|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:29.8563|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:34.8574|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:34.8625|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:39.8630|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:39.8674|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:44.8683|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:44.8726|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:49.8736|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:49.8778|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:54.8788|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:54.8829|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:53:59.8837|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:53:59.8878|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:04.8886|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:04.8930|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:09.8935|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:09.8962|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:14.8960|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:14.9006|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:19.9015|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:19.9056|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:24.9068|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:24.9113|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:29.9112|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:29.9152|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:34.9151|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:34.9169|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:39.9188|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:39.9229|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:44.9237|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:44.9289|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:49.9296|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:49.9342|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:54.9347|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:54.9387|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:54:59.9393|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:54:59.9436|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:04.9440|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:04.9481|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:09.9481|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:09.9500|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:14.9512|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:14.9554|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:19.9565|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:19.9606|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:24.9622|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:24.9668|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:29.9671|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:29.9711|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:34.9713|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:34.9758|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:39.9763|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:39.9803|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:44.9818|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:44.9859|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:49.9852|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:49.9892|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:54.9903|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:54.9947|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:55:59.9955|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:55:59.9976|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:04.9982|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:05.0030|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:10.0043|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:10.0084|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:15.0089|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:15.0129|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:20.0119|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:20.0159|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:25.0160|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:25.0205|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:30.0215|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:30.0256|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:35.0267|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:35.0318|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:40.0322|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:40.0363|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:45.0370|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:45.0419|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:50.0426|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:50.0468|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:56:55.0478|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:56:55.0523|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:00.0523|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:00.0545|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:05.0555|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:05.0596|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:10.0602|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:10.0644|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:15.0652|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:15.0699|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:20.0711|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:20.0757|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:25.0761|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:25.0786|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:27.8402|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T17:57:27.8451|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T17:57:30.0790|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:30.0830|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:35.0843|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:35.0884|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:40.0895|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:40.0936|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:45.0933|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:45.0989|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:50.1007|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:50.1025|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:57:55.1027|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:57:55.1070|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:00.1075|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:00.1094|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:05.1102|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:05.1144|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:10.1150|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:10.1192|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:15.1195|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:15.1241|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:20.1243|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:20.1300|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:25.1317|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:25.1361|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:30.1366|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:30.1407|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:35.1408|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:35.1450|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:40.1457|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:40.1502|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:45.1497|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:45.1543|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:50.1543|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:50.1584|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:58:55.1595|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:58:55.1636|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:00.1647|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:00.1688|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:05.1694|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:05.1735|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:10.1743|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:10.1788|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:15.1790|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:15.1832|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:20.1836|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:20.1984|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:25.1992|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:25.2022|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:30.2034|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:30.2081|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:35.2084|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:35.2123|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:40.2135|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:40.2278|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:45.2287|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:45.2330|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:50.2337|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:50.2379|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T17:59:55.2378|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T17:59:55.2419|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:00.2423|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:00.2463|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:05.2475|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:05.2503|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:10.2518|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:10.2560|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:15.2561|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:15.2606|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:20.2615|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:20.2644|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:25.2657|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:25.2703|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:30.2716|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:30.2762|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:35.2765|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:35.2806|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:40.2807|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:40.2847|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:45.2849|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:45.2901|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:50.2898|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:50.2940|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:00:55.2944|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:00:55.2989|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:00.2997|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:00.3037|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:05.3044|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:05.3085|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:10.3093|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:10.3133|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:15.3147|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:15.3187|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:20.3197|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:20.3238|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:25.3244|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:25.3287|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:30.3297|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:30.3338|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:35.3343|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:35.3370|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:40.3382|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:40.3424|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:45.3433|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:45.3483|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:50.3493|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:50.3533|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:01:55.3547|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:01:55.3599|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:00.3601|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:00.3643|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:05.3644|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:05.3684|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:10.3696|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:10.3738|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:15.3736|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:15.3759|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:20.3756|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:20.3801|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:25.3810|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:25.3857|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:27.8402|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:02:27.8444|WARNING|SubframesClient.cs|SendStationHeartbeatAsync|478|[Subframes] Station heartbeat failed: No such host is known. (api.subframes.io:443)
+2026-05-24T18:02:30.3870|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:30.3911|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:35.3924|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:35.4124|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:40.4138|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:40.4179|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:45.4187|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:45.4240|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:50.4237|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:50.4278|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:02:55.4274|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:02:55.4315|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:00.4322|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:00.4364|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:05.4372|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:05.4398|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:10.4406|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:10.4449|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:15.4451|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:15.4491|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:20.4507|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:20.4551|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:25.4553|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:25.4595|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:30.4603|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:30.4645|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:35.4649|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:35.4705|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:40.4702|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:40.4743|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:45.4749|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:45.4790|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:50.4804|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:50.4845|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:03:55.4853|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:03:55.4893|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:00.4902|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:00.4944|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:05.4953|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:05.4996|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:10.5007|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:10.5048|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:15.5048|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:15.5089|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:20.5086|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:20.5128|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:25.5134|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:25.5178|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:30.5180|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:30.5368|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:35.5372|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:35.5417|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-24T18:04:40.5427|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T18:04:40.7509|INFO|StarfrontClient.cs|RunLoop|71|[Rockwood] connected
+2026-05-24T18:07:27.8399|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:12:27.8392|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:17:27.8399|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:22:27.8400|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:27:27.8402|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:32:27.8384|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:37:27.8398|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:42:27.8396|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:47:27.8394|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:52:27.8396|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T18:57:27.8396|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:02:27.8391|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.

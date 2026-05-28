@@ -1,0 +1,768 @@
+----------------------------------------------------------------------
+--------------N.I.N.A. - Nighttime Imaging 'N' Astronomy--------------
+--------------------------Version 3.2.0.9001--------------------------
+-------------------------2026-05-24T19:05:51--------------------------
+----------------------------------------------------------------------
+---------------------Microsoft Windows 10.0.19045---------------------
+-------------------------OS Architecture X64--------------------------
+-----------------------Process Architecture X64-----------------------
+-----------------------------.NET 8.0.21------------------------------
+----------------------------------------------------------------------
+--------------------------Processor Count 4---------------------------
+--------------------Total Physical Memory 7.84 GB---------------------
+----------------------------------------------------------------------
+DATE|LEVEL|SOURCE|MEMBER|LINE|MESSAGE
+2026-05-24T19:05:51.4895|INFO|App.xaml.cs|OnStartup|170|Launched with command line arguments: --sequencefile C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json --runsequence
+2026-05-24T19:05:56.0863|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-05-24T19:05:56.3398|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-05-24T19:05:56.5891|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-05-24T19:05:56.6808|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-05-24T19:05:57.9878|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-05-24T19:05:58.5017|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-05-24T19:05:58.6571|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-05-24T19:05:58.8409|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-05-24T19:05:59.5352|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-05-24T19:05:59.8603|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-05-24T19:05:59.9748|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-05-24T19:05:59.9782|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-05-24T19:06:08.3558|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive C:\: 143.7 GB
+2026-05-24T19:06:08.3624|INFO|ApplicationVM.cs|CheckDiskInfo|102|Drive E:\ is not ready
+2026-05-24T19:06:08.3641|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive G:\: 62.12 GB
+2026-05-24T19:06:08.3727|INFO|ApplicationVM.cs|CheckDiskInfo|100|Available Space on Drive Z:\: 34.29 GB
+2026-05-24T19:06:09.8442|INFO|ApplicationVM.cs|CheckASCOMPlatformVersion|81|ASCOM Platform 6.6.2.4195 installed
+2026-05-24T19:06:10.3084|INFO|API.cs|Start|99|Starting Webserver
+2026-05-24T19:06:10.3099|INFO|API.cs|APITask|134|starting web server, listening at 172.19.6.111:1888
+2026-05-24T19:06:10.4880|INFO|NINALogWatcher.cs|Start|33|watching log file: C:\Users\nicka\AppData\Local\NINA\Logs\20260524-190550-3.2.0.9001.12880-202605.log
+2026-05-24T19:06:10.5316|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Advanced API version 2.2.15.1 by Christian Palm
+2026-05-24T19:06:10.7225|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Autofocus Report Analysis version 2.0.0.9 by Stefan Berg @isbeorn
+2026-05-24T19:06:11.0515|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Connector version 2.1.0.2 by Stefan Berg @isbeorn
+2026-05-24T19:06:11.9725|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Device Actions and Commands version 2.2.0.0 by Dale Ghent
+2026-05-24T19:06:12.9767|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Alert version 2.2.0.0 by Drew McDermott
+2026-05-24T19:06:14.9646|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Discord Notification version 2.0.0.10 by Daniel Ludwig
+2026-05-24T19:06:17.3238|INFO|DitherStatisticsVM.cs|CreatePluginIcon|1483|Plugin icon geometry created successfully
+2026-05-24T19:06:17.3501|INFO|DitherStatisticsVM.cs|LoadDataTemplates|1452|DitherStatistics DataTemplates loaded successfully
+2026-05-24T19:06:17.3547|INFO|DitherStatisticsVM.cs|SaveQualityAssessmentSetting|387|Quality Assessment setting saved to file: True
+2026-05-24T19:06:17.3549|INFO|DitherStatisticsVM.cs|LoadQualityAssessmentSetting|364|Quality Assessment setting loaded from file: True
+2026-05-24T19:06:17.3694|INFO|DitherStatisticsVM.cs|SaveDitherOptimizerSetting|490|Dither Optimizer setting saved to file: False
+2026-05-24T19:06:17.3696|INFO|DitherStatisticsVM.cs|LoadDitherOptimizerSetting|471|Dither Optimizer setting loaded from file: False
+2026-05-24T19:06:17.3702|INFO|DitherStatisticsVM.cs|SubscribeToGuiderEvents|834|Subscribed to NINA guider events
+2026-05-24T19:06:17.3745|ERROR|DitherStatisticsVM.cs|GetThemeColor|1437|Failed to get theme color 'PrimaryBrush': The calling thread cannot access this object because a different thread owns it.
+2026-05-24T19:06:17.3747|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1329|Initial PrimaryBrush color: R:255 G:255 B:255
+2026-05-24T19:06:17.3748|INFO|DitherStatisticsVM.cs|.ctor|96|DitherStatisticsVM initialized successfully with ScottPlot 4.1 (Lazy Loading)!
+2026-05-24T19:06:17.3753|INFO|DitherStatisticsVM.cs|StartThemeColorMonitoring|1338|Theme color monitoring timer started on UI thread
+2026-05-24T19:06:17.3756|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Dither Statistics version 1.3.0.0 by Thierry Tschanz
+2026-05-24T19:06:17.5944|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Filter Offset Calculator version 2.0.0.0 by S. Dimant & Stefan Berg
+2026-05-24T19:06:17.8727|INFO|DitherStatisticsVM.cs|OnThemeColorTimerTick|1357|Theme color CHANGED! Old: R:255 G:255 B:255 -> New: R:176 G:179 B:185
+2026-05-24T19:06:17.9377|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Flexure Correction version 0.8.0.0 by Francesco Meschia
+2026-05-24T19:06:17.9900|INFO|DitherStatisticsVM.cs|PixelShiftPlot|136|PixelShiftPlot created (lazy loading)
+2026-05-24T19:06:18.0216|INFO|DitherStatisticsVM.cs|SettleTimePlot|177|SettleTimePlot created (lazy loading)
+2026-05-24T19:06:19.3750|INFO|DitherStatisticsVM.cs|ConnectToPHD2|708|Attempting to connect to PHD2...
+2026-05-24T19:06:19.3770|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-05-24T19:06:21.3913|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-24T19:06:21.3918|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-24T19:06:21.6779|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Ground Station version 3.0.0.117 by Dale Ghent
+2026-05-24T19:06:27.4586|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Hocus Focus version 3.0.0.26 by George Hilios (jokogeo)
+2026-05-24T19:06:28.0319|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Horizon Creator version 1.1.2.1 by Christian Palm
+2026-05-24T19:06:28.3367|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Lightbucket version 2.2.4.0 by Lightbucket
+2026-05-24T19:06:29.8897|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Livestack version 1.1.3.0 by Stefan Berg @isbeorn
+2026-05-24T19:06:30.2163|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Log Viewer version 1.0.0.2 by Alexander Wrede @astro_alex80
+2026-05-24T19:06:30.5368|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Moon Angle version 2.2.0.0 by Dale Ghent
+2026-05-24T19:06:31.1298|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-24T19:06:31.1300|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-24T19:06:31.1737|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-24T19:06:31.3972|INFO|NightSummaryPlugin.cs|.ctor|424|NightSummary: Plugin initialized successfully
+2026-05-24T19:06:31.4135|INFO|SessionDatabase.cs|.ctor|34|NightSummary: Database path: C:\Users\nicka\AppData\Local\NINA\NightSummary\nightsummary.sqlite
+2026-05-24T19:06:31.4137|INFO|SessionDatabase.cs|.ctor|35|NightSummary: Database exists: True
+2026-05-24T19:06:31.4311|INFO|SessionService.cs|.ctor|123|NightSummary: SessionService created — messageBroker=True
+2026-05-24T19:06:31.4343|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Night Summary version 3.1.0.0 by Evan Pegors @sleepypuppy15
+2026-05-24T19:06:31.9267|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Phd2 Tools version 1.0.6.0 by Stefan Berg @isbeorn
+2026-05-24T19:06:32.4123|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin PixInsight Tools version 1.0.0.3 by Stefan Berg
+2026-05-24T19:06:33.5049|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Point3D version 0.2.3.0 by Drew McDermott
+2026-05-24T19:06:34.0476|INFO|StarfrontClient.cs|StartFolderWatcher|167|[Rockwood] Watching: C:\ASTROIMAGES\NINA\
+2026-05-24T19:06:34.0510|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Rockwood Starfront version 1.0.0.0 by Rockwood Observatory
+2026-05-24T19:06:34.0512|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-24T19:06:34.2625|INFO|StarfrontClient.cs|RunLoop|71|[Rockwood] connected
+2026-05-24T19:06:35.1541|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Scope Control version 2.0.2.1 by Stefan Berg @isbeorn
+2026-05-24T19:06:37.9661|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:38.2331|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer Powerups version 3.29.0.9 by Marc Blank
+2026-05-24T19:06:40.6493|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:41.2799|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Sequencer+ version 3.29.0.12 by  Carl Björk (Elveteek Sàrl)
+2026-05-24T19:06:42.4475|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Session Metadata version 2.6.3.0 by Tom Palmer @tcpalmer
+2026-05-24T19:06:42.5950|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Shutdown PC version 2.2.0.0 by Dale Ghent
+2026-05-24T19:06:42.9753|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:42.9897|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin SkyFlats version 1.0.0.4 by Gerald Hitz (@photon)
+2026-05-24T19:06:43.7311|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Smart Filters version 1.0.0.3 by Benoit SAINTOT
+2026-05-24T19:06:45.6547|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:45.6561|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:45.7588|INFO|Plugin.cs|RunStationHeartbeatLoopAsync|985|[Subframes] TS not detected at startup - deferring first heartbeat to allow plugin load to complete.
+2026-05-24T19:06:45.7646|INFO|SyncEngine.cs|Start|41|[Subframes] SyncEngine started.
+2026-05-24T19:06:45.7667|INFO|CacheReplayEngine.cs|Start|101|[Subframes] CacheReplayEngine started.
+2026-05-24T19:06:45.7701|INFO|Plugin.cs|.ctor|184|[Subframes] Plugin loaded (primary instance).
+2026-05-24T19:06:45.7742|WARNING|Plugin.cs|OnImportsSatisfied|217|[Subframes] Sequence event subscription deferred - SequenceMediator internals not yet initialized.
+2026-05-24T19:06:45.7806|WARNING|Plugin.cs|.ctor|125|[Subframes] Duplicate plugin instance created by MEF - proxying to primary to prevent duplicate sessions/sync.
+2026-05-24T19:06:45.7829|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Subframes version 0.4.3.0 by Subframes
+2026-05-24T19:06:46.6854|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Planning version 3.2.1.0 by Tom Palmer @tcpalmer
+2026-05-24T19:06:47.9779|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:50.6578|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:50.6616|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:52.9803|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:53.7678|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [startup loop first tick].
+2026-05-24T19:06:53.7752|INFO|TsProgressReader.cs|ReadProgressSnapshot|40|[Subframes] TS progress snapshot: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:06:53.8006|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Target Scheduler version 5.9.0.0 by Tom Palmer @tcpalmer
+2026-05-24T19:06:54.6475|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Three Point Polar Alignment version 2.2.6.1 by Stefan Berg @isbeorn
+2026-05-24T19:06:55.6621|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:55.6638|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:57.9818|WARNING|When.cs|GetRunningItem|143|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:06:58.6097|INFO|SessionHistoryManager.cs|PurgeHistoryOlderThan|102|purging web session history older than 10 days
+2026-05-24T19:06:58.6884|INFO|PluginLoader.cs|LoadPlugin|402|Successfully loaded plugin Web Session History Viewer version 2.2.1.0 by Tom Palmer @tcpalmer
+2026-05-24T19:06:59.4252|INFO|PluginFetcher.cs|RequestAll|43|Fetching plugin manifests from https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-05-24T19:06:59.8682|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-05-24T19:07:00.0008|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-05-24T19:07:00.1042|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-05-24T19:07:00.1100|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-05-24T19:07:00.2723|INFO|Plugin.cs|TrySubscribeSequenceEvents|243|[Subframes] ISequenceMediator.SequenceStarted not present in this NINA build - session will open on first captured image instead.
+2026-05-24T19:07:00.2726|INFO|Plugin.cs|RetrySubscribeSequenceEventsAsync|279|[Subframes] Deferred sequence event subscription succeeded after 14s.
+2026-05-24T19:07:00.2741|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-05-24T19:07:00.6102|INFO|RotatorChooserVM.cs|GetEquipment|45|Found 1 Networked Rotator Rotators
+2026-05-24T19:07:00.6930|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:07:00.6948|WARNING|SequencerPlus.cs|GetRunningItem|150|Can't get running items: SequencerNavigation not initialized yet!
+2026-05-24T19:07:01.2016|INFO|Sequence2VM.cs|TryLoadSequenceFile|414|Loading sequence file: C:\Users\nicka\Astro\NINA\NINA_Sequences\TargetScheduler.json
+2026-05-24T19:07:01.9393|INFO|PluginFetcher.cs|RequestAll|57|Found 80 valid plugins at https://nighttime-imaging.eu/wp-json/nina/v1/plugins/manifests
+2026-05-24T19:07:02.0087|INFO|Sequence2VM.cs|TryLoadSequenceFile|420|Starting sequence from command line options
+2026-05-24T19:07:02.0124|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-05-24T19:07:02.0871|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-24T19:07:02.0980|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-24T19:07:02.1028|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 11
+2026-05-24T19:07:02.1035|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-24T19:07:02.1337|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-05-24T19:07:02.1762|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-05-24T19:07:02.2803|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-05-24T19:07:02.3456|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-05-24T19:07:02.4540|INFO|DomeChooserVM.cs|GetEquipment|67|Found 0 Alpaca Domes
+2026-05-24T19:07:02.4579|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Start
+2026-05-24T19:07:02.5577|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-24T19:07:02.6098|INFO|SwitchChooserVM.cs|GetEquipment|71|Found 0 Alpaca Switch Hubs
+2026-05-24T19:07:02.6139|INFO|RotatorChooserVM.cs|GetEquipment|68|Found 0 Alpaca Rotators
+2026-05-24T19:07:02.6983|INFO|FlatDeviceChooserVM.cs|GetEquipment|67|Found 0 Alpaca Cover Calibrators
+2026-05-24T19:07:02.7029|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-24T19:07:02.8986|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-05-24T19:07:02.9970|INFO|DockManagerVM.cs|InitializeAvalonDockLayout|366|Initializing imaging tab layout from C:\Users\nicka\AppData\Local\NINA\Profiles\0173997c-4bfa-48fd-9337-a48b6df99c38.dock.config
+2026-05-24T19:07:03.4240|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-24T19:07:03.4252|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 20:13:31h, Offset: -80
+2026-05-24T19:07:03.7524|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-05-24T19:07:52.8878|INFO|TargetSchedulerDetector.cs|DoProbeAsync|177|[Subframes] TargetSchedulerDetector: state no_api → active
+2026-05-24T19:07:52.8883|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [TS state → active].
+2026-05-24T19:07:52.8893|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:07:52.8918|INFO|Plugin.cs|OnTsStateChanged|873|[Subframes] One-shot TS preview: waiting 120 s for TS to begin computing schedule.
+2026-05-24T19:09:57.9470|WARNING|TsPreviewClient.cs|FetchPreviewAsync|161|[Subframes] TsPreviewClient.FetchPreviewAsync failed for profile '533M-AT60' (0173997c-4bfa-48fd-9337-a48b6df99c38): TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.
+2026-05-24T19:09:57.9473|INFO|Plugin.cs|OnTsStateChanged|879|[Subframes] One-shot TS preview initial fetch: 0 target block(s) with exposure plans.
+2026-05-24T19:09:57.9474|INFO|Plugin.cs|OnTsStateChanged|885|[Subframes] One-shot TS preview: waiting 60 s for stabilization check (poll 1/5).
+2026-05-24T19:09:57.9609|WARNING|TsPreviewClient.cs|FetchPreviewAsync|161|[Subframes] TsPreviewClient.FetchPreviewAsync failed for profile '533M-AT60' (0173997c-4bfa-48fd-9337-a48b6df99c38): TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.
+2026-05-24T19:09:57.9616|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [TS profile selected].
+2026-05-24T19:09:57.9620|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:10:58.6604|INFO|TsPreviewClient.cs|LookupCoordinatesByName|179|[Subframes] TsPreviewClient.LookupCoordinatesByName: TS database not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin
+2026-05-24T19:10:58.6648|INFO|Plugin.cs|OnTsStateChanged|892|[Subframes] One-shot TS preview poll 1: 6 target block(s) (previous: 0).
+2026-05-24T19:10:58.6649|INFO|Plugin.cs|OnTsStateChanged|885|[Subframes] One-shot TS preview: waiting 60 s for stabilization check (poll 2/5).
+2026-05-24T19:11:53.8459|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:11:59.3079|INFO|TsPreviewClient.cs|LookupCoordinatesByName|179|[Subframes] TsPreviewClient.LookupCoordinatesByName: TS database not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin
+2026-05-24T19:11:59.3081|INFO|Plugin.cs|OnTsStateChanged|892|[Subframes] One-shot TS preview poll 2: 6 target block(s) (previous: 6).
+2026-05-24T19:11:59.3081|INFO|Plugin.cs|OnTsStateChanged|896|[Subframes] One-shot TS preview: schedule stabilized.
+2026-05-24T19:11:59.3083|INFO|Plugin.cs|OnTsStateChanged|906|[Subframes] One-shot TS preview fetch complete (pre-session, 7 blocks, 6 targets with plans).
+2026-05-24T19:11:59.3083|INFO|Plugin.cs|OnTsStateChanged|912|[Subframes] Cached initial night preview from one-shot: 7 blocks.
+2026-05-24T19:11:59.3083|INFO|Plugin.cs|TrySendStationHeartbeatDebounced|969|[Subframes] Firing station heartbeat [one-shot TS preview].
+2026-05-24T19:11:59.3085|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:16:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:21:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:26:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:31:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:36:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:41:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:46:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:51:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T19:56:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:01:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:06:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:11:55.0128|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:13:34.6369|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 20:13:31h, Offset: -80
+2026-05-24T20:13:34.6374|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-24T20:13:35.3063|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-24T20:13:35.3069|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-05-24T20:13:35.4652|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Configure Equipment
+2026-05-24T20:13:35.4665|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectAllEquipment
+2026-05-24T20:13:35.4909|INFO|CameraChooserVM.cs|GetEquipment|69|Found 2 ASI Cameras
+2026-05-24T20:13:35.5638|INFO|CameraChooserVM.cs|GetEquipment|84|Found 0 Altair Cameras
+2026-05-24T20:13:35.5640|INFO|CameraChooserVM.cs|GetEquipment|96|Found 0 Atik Cameras
+2026-05-24T20:13:35.5646|INFO|CameraChooserVM.cs|GetEquipment|110|Found 0 FLI Cameras
+2026-05-24T20:13:35.5648|INFO|CameraChooserVM.cs|GetEquipment|130|Found 0 QHYCCD Cameras
+2026-05-24T20:13:35.7217|INFO|CameraChooserVM.cs|GetEquipment|158|Found 0 ToupTek Cameras
+2026-05-24T20:13:35.7263|INFO|CameraChooserVM.cs|GetEquipment|173|Found 0 Ogma Cameras
+2026-05-24T20:13:35.7395|INFO|CameraChooserVM.cs|GetEquipment|188|Found 0 Omegon Cameras
+2026-05-24T20:13:35.8935|INFO|CameraChooserVM.cs|GetEquipment|203|Found 0 RisingCam Cameras
+2026-05-24T20:13:35.9072|INFO|CameraChooserVM.cs|GetEquipment|218|Found 0 MallinCam Cameras
+2026-05-24T20:13:35.9087|INFO|CameraChooserVM.cs|GetEquipment|243|Found 0 SVBony Cameras
+2026-05-24T20:13:35.9112|INFO|CameraChooserVM.cs|GetEquipment|259|Found 0 SBIG Cameras
+2026-05-24T20:13:35.9118|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 SVBony Cameras
+2026-05-24T20:13:35.9121|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 PlayerOne Cameras
+2026-05-24T20:13:35.9194|INFO|CameraChooserVM.cs|GetEquipment|279|Found 0 ASTPAN Cameras
+2026-05-24T20:13:35.9202|INFO|CameraChooserVM.cs|GetEquipment|293|Found 4 ASCOM Cameras
+2026-05-24T20:13:37.9205|INFO|CameraChooserVM.cs|GetEquipment|305|Found 0 Alpaca Cameras
+2026-05-24T20:13:37.9263|INFO|CameraChooserVM.cs|GetEquipment|318|Found 0 Canon Cameras
+2026-05-24T20:13:38.0050|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-05-24T20:13:38.5614|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_B with value 50
+2026-05-24T20:13:38.5615|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_WB_R with value 50
+2026-05-24T20:13:38.5615|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_GAMMA with value 50
+2026-05-24T20:13:38.5616|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_HIGH_SPEED_MODE with value 0
+2026-05-24T20:13:38.5616|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_OVERCLOCK with value 0
+2026-05-24T20:13:38.5617|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_PATTERN_ADJUST with value 0
+2026-05-24T20:13:38.5625|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_MONO_BIN with value 0
+2026-05-24T20:13:38.5635|INFO|ASICamera.cs|Initialize|664|Camera ID: ASI533MM
+2026-05-24T20:13:38.5730|WARNING|ASICamera.cs|SetControlValue|568|Failed to set ASI Control Value ASI_ANTI_DEW_HEATER with value 0
+2026-05-24T20:13:38.6202|INFO|CameraVM.cs|ChooseCamera|455|Successfully connected Camera. Id: ZWOptical_ZWO ASI533MM Pro_ASI533MM Name: ZWO ASI533MM Pro DisplayName: ZWO ASI533MM Pro (ASI533MM)Driver Version: 1, 39, 0, 0
+2026-05-24T20:13:39.1735|INFO|FilterWheelChooserVM.cs|GetEquipment|167|Found 1 Networked Filter Wheel Filter Wheels
+2026-05-24T20:13:41.1771|INFO|FilterWheelChooserVM.cs|GetEquipment|193|Found 0 Alpaca Filter Wheels
+2026-05-24T20:13:41.2004|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-05-24T20:13:44.9884|INFO|FilterWheelVM.cs|ChooseFW|279|Successfully connected Filter Wheel. Id: ASCOM.EFW2.FilterWheel Name: ZWO FilterWheel DisplayName: ZWO FilterWheel (ASCOM) Driver Version: 6.0
+2026-05-24T20:13:48.8403|INFO|FocuserChooserVM.cs|GetEquipment|84|Found 0 Alpaca Focusers
+2026-05-24T20:13:48.8562|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-05-24T20:13:50.6266|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-24T20:13:50.8366|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 2 / 3
+2026-05-24T20:13:50.8397|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-24T20:13:51.0407|INFO|AscomDevice.cs|GetProperty|485|Retrying to GET Focuser.StepSize - Attempt 3 / 3
+2026-05-24T20:13:51.0427|ERROR|AscomDevice.cs|GetProperty|546|An unexpected exception occurred during GET of Focuser.StepSize: 
+ASCOM.DriverException: The method or operation is not implemented.
+ ---> System.NotImplementedException: The method or operation is not implemented.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 278
+   at ASCOM.Com.DriverAccess.DynamicAccess.TryGetMember(GetMemberBinder binder, Object& result) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 150
+   at CallSite.Target(Closure, CallSite, Object)
+   at ASCOM.Com.DriverAccess.Focuser.get_StepSize() in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Focuser.cs:line 159
+   at InvokeStub_Focuser.get_StepSize(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+2026-05-24T20:13:51.0573|INFO|AscomDevice.cs|GetProperty|556|GET Focuser.StepSize failed - Returning last known value 0
+2026-05-24T20:13:51.2986|INFO|FocuserVM.cs|ChooseFocuser|333|Successfully connected Focuser. Id: ASCOM.EAF.Focuser Name: ZWO Focuser DisplayName: ZWO Focuser (ASCOM) Driver Version: 6.0
+2026-05-24T20:13:53.3037|INFO|TelescopeChooserVM.cs|GetEquipment|69|Found 0 Alpaca Telescopes
+2026-05-24T20:13:53.3501|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-05-24T20:13:54.4580|INFO|AscomTelescope.cs|CheckMountTime|845|Mount UTC Time: 2026-05-25 01:13:46Z / System UTC Time: 2026-05-25 01:13:54Z; Difference: 7.633 seconds
+2026-05-24T20:13:56.5422|ERROR|AscomTelescope.cs|CheckMountTime|869|Unexpected exception when trying to set UTCDate:
+ASCOM.InvalidOperationException: UTCDate failed.
+ ---> System.Runtime.InteropServices.COMException (0x8004040B): UTCDate failed.
+   --- End of inner exception stack trace ---
+   at ASCOM.Com.DriverAccess.DynamicAccess.CheckDotNetExceptions(String memberName, Exception e) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 205
+   at ASCOM.Com.DriverAccess.DynamicAccess.TrySetMember(SetMemberBinder binder, Object value) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\BaseClass\DynamicAccess.cs:line 105
+   at CallSite.Target(Closure, CallSite, Object, DateTime)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASCOM.Com.DriverAccess.Telescope.set_UTCDate(DateTime value) in J:\ASCOMLibrary\ASCOM.Com\ASCOM.Com.DriverAccess\Telescope.cs:line 479
+   at NINA.Equipment.Equipment.MyTelescope.AscomTelescope.CheckMountTime() in /_/NINA.Equipment/Equipment/MyTelescope/AscomTelescope.cs:line 851
+2026-05-24T20:13:56.7896|INFO|TelescopeVM.cs|ChooseTelescope|535|Successfully connected mount. Id: ASCOM.iOptron2017.Telescope Name: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount DisplayName: iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount (ASCOM) Driver Version: 9.15
+2026-05-24T20:13:56.8459|INFO|PHD2Guider.cs|Connect|205|Connecting to PHD2 server at 127.0.0.1:4400
+2026-05-24T20:14:03.8560|INFO|WeatherDataChooserVM.cs|GetEquipment|69|Found 0 Alpaca Observing Conditions
+2026-05-24T20:14:03.8913|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-05-24T20:14:04.3023|INFO|PHD2Client.cs|ConnectAsync|118|PHD2Client: Connected successfully!
+2026-05-24T20:14:04.3024|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|734|PHD2 Connection Status: Connected
+2026-05-24T20:14:04.3024|INFO|DitherStatisticsVM.cs|ConnectToPHD2|713|Successfully connected to PHD2!
+2026-05-24T20:14:04.3040|INFO|PHD2Client.cs|ReadEventsAsync|181|PHD2Client: Started reading events
+2026-05-24T20:14:04.3210|INFO|PHD2Client.cs|HandleVersion|366|PHD2Client: Connected to PHD2 version 2.6.14. (Message Protocol v1)
+2026-05-24T20:14:04.3217|INFO|PHD2Client.cs|ProcessEvent|257|PHD2: CalibrationComplete
+2026-05-24T20:14:04.3223|INFO|PHD2Client.cs|HandleAppState|376|PHD2Client: PHD2 AppState: Stopped
+2026-05-24T20:14:06.2879|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.SkyQuality GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-05-24T20:14:06.2953|INFO|AscomDevice.cs|GetProperty|527|Property ObservingConditions.StarFWHM GET is not implemented in this driver (SkyAlert Observing Conditions)
+2026-05-24T20:14:06.3094|INFO|WeatherDataVM.cs|ChooseWeatherData|150|Successfully connected Weather Device. Id: ASCOM.SkyAlert.ObservingConditions Name: SkyAlert Observing Conditions DisplayName: SkyAlert Observing Conditions (ASCOM) Driver Version: 1.7
+2026-05-24T20:14:08.3183|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-24T20:14:08.3446|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-24T20:14:09.0542|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-05-24T20:14:09.0546|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectAllEquipment
+2026-05-24T20:14:09.0552|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-24T20:14:09.0619|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-24T20:14:09.0639|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-24T20:14:09.0664|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-24T20:14:09.0669|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-24T20:14:09.0679|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-24T20:14:09.0681|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-24T20:14:09.6893|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-24T20:14:09.6898|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-05-24T20:14:09.8569|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Cool
+2026-05-24T20:14:09.8579|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: CoolCamera, Temperature: -5, Duration: 15
+2026-05-24T20:14:09.8617|INFO|CameraVM.cs|CoolCamera|138|Cooling Camera. Target: -5 Duration: 00:15:00
+2026-05-24T20:14:11.0554|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-05-24T20:16:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:21:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:26:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:29:53.2494|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: CoolCamera, Temperature: -5, Duration: 15
+2026-05-24T20:29:53.2497|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 21:18:31h, Offset: -15
+2026-05-24T20:31:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:36:55.0130|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:41:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:46:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:51:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T20:56:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:01:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:06:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:11:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:16:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:18:33.7317|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTime, Time: 21:18:31h, Offset: -15
+2026-05-24T21:18:33.7392|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[FINISHED]: 11
+2026-05-24T21:18:33.7399|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-24T21:18:33.7403|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-24T21:18:33.7457|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:8:17h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-24T21:18:33.7509|INFO|WhenCommon.cs|SequenceBlockInitialize|204|Initialize; starting watchdog
+2026-05-24T21:18:33.7594|INFO|WhenUnsafe.cs|CheckSafe|77|IsSafe is now FALSE; connected = True, IsSafe = False
+2026-05-24T21:18:33.7600|INFO|WhenCommon.cs|ShouldTrigger|378|ShouldTrigger TRUE from InterruptWhen, setting TriggerRunner
+2026-05-24T21:18:33.7603|INFO|WhenCommon.cs|InterruptWhen|322|Interrupting current Instruction Set
+2026-05-24T21:18:33.7664|INFO|WhenCommon.cs|InterruptWhen|332|Canceling sequence...
+2026-05-24T21:18:34.7730|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:35.7746|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:36.7751|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:37.7757|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:38.7775|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:39.7785|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:40.7795|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:41.7798|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:42.7806|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:43.7812|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:44.7819|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:45.7827|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:46.7840|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:47.7849|INFO|WhenCommon.cs|InterruptWhen|336|Delay 1000
+2026-05-24T21:18:47.8889|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-05-24T21:18:47.8915|INFO|Sequencer.cs|Start|85|Sequence run was cancelled
+2026-05-24T21:18:47.9078|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-05-24T21:18:48.7985|INFO|WhenCommon.cs|InterruptWhen|339|Sequence no longer running
+2026-05-24T21:18:48.8012|WARNING|WhenCommon.cs|CheckSlewing|263|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2026-05-24T21:18:48.8037|INFO|Sequence2VM.cs|StartSequence|543|Advanced Sequence starting
+2026-05-24T21:18:48.8763|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[CREATED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-24T21:18:48.8766|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-24T21:18:48.8767|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.StartAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-24T21:18:48.8768|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 1
+2026-05-24T21:18:48.8769|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:8:17h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-24T21:18:48.8773|INFO|WhenCommon.cs|SequenceBlockInitialize|204|Initialize; starting watchdog
+2026-05-24T21:18:48.8790|INFO|WhenCommon.cs|ShouldTrigger|382|ShouldTrigger TRUE, setting TriggerRunner
+2026-05-24T21:18:48.8816|INFO|SequenceTrigger.cs|Run|114|Starting Trigger: WhenUnsafe
+2026-05-24T21:18:48.8934|INFO|WhenCommon.cs|Execute|395|Execute 0
+2026-05-24T21:18:48.8938|INFO|WhenCommon.cs|Execute|409|When: running TriggerRunner, InFlight -> true, Triggered -> false
+2026-05-24T21:18:48.8939|WARNING|WhenCommon.cs|CheckSlewing|263|CheckSlewing, WhenUnsafe = True, Connected = True, CanSlew = True, info.Slewing = False
+2026-05-24T21:18:48.8941|INFO|SequenceItem.cs|Run|208|Starting Category: , Container: WhenPlugin.When.IfContainer, Strategy: SequentialStrategy, Items[CREATED]: 9
+2026-05-24T21:18:48.9012|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:48.9032|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-24T21:18:49.5812|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-24T21:18:49.5861|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:49.5867|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Unsafe
+2026-05-24T21:18:49.7835|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Unsafe
+2026-05-24T21:18:49.7847|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:49.7849|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-24T21:18:49.7942|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-24T21:18:49.7949|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-24T21:18:49.7956|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-24T21:18:49.7958|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-24T21:18:49.7961|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-24T21:18:49.7968|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:49.7978|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2026-05-24T21:18:49.8053|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-24T21:18:49.8056|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2026-05-24T21:18:49.8141|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:49.8385|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectEquipment, Selected device: Safety Monitor
+2026-05-24T21:18:49.9006|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-05-24T21:18:49.9254|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-24T21:18:49.9257|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectEquipment, Selected device: Safety Monitor
+2026-05-24T21:18:49.9262|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:18:49.9268|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-24T21:19:50.0537|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-24T21:19:50.0546|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:19:50.0559|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: ConnectEquipment, Selected device: Safety Monitor, Selected device id: ASCOM.GenericFile.SafetyMonitor
+2026-05-24T21:19:52.0648|INFO|SafetyMonitorChooserVM.cs|GetEquipment|71|Found 0 Alpaca Safety Monitors
+2026-05-24T21:19:52.0920|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-24T21:19:52.1728|INFO|SafetyMonitorVM.cs|Connect|175|Successfully connected Safety Monitor. Id: ASCOM.GenericFile.SafetyMonitor Name: Generic File driver DisplayName: Generic File driver (ASCOM) Driver Version: 6.4
+2026-05-24T21:19:52.1732|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: ConnectEquipment, Selected device: Safety Monitor, Selected device id: ASCOM.GenericFile.SafetyMonitor
+2026-05-24T21:19:52.1736|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:19:52.1737|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-24T21:19:54.1741|INFO|SafetyMonitorVM.cs|UpdateMonitorValues|95|SafetyMonitorInfo state changed to Unsafe
+2026-05-24T21:20:52.2025|INFO|SequenceItem.cs|Run|254|Finishing Category: Utility, Item: WaitForTimeSpan, Time: 60s
+2026-05-24T21:20:52.2033|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-24T21:20:52.2037|INFO|SequenceItem.cs|Run|208|Starting Category: Powerups (Safety), Item: OnceSafe
+2026-05-24T21:21:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:26:55.0144|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:31:55.0126|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:36:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:41:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:46:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:51:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T21:56:55.0129|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:01:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:06:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:11:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:16:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:21:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:26:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:31:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:36:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:41:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:46:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:51:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T22:56:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:01:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:06:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:11:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:16:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:21:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:26:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:31:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:36:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:41:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:46:55.0143|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:51:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-24T23:56:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:01:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:06:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:11:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:16:55.0130|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:21:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:26:55.0128|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:31:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:36:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:41:55.0123|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:46:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:51:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T00:56:55.0126|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:01:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:06:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:11:55.0127|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:16:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:21:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:26:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:31:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:36:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:41:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:46:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:51:55.0124|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T01:56:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:01:55.0125|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:06:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:11:55.0130|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:16:55.0122|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:21:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:26:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:31:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:36:55.0129|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:41:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:46:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:51:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T02:56:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:01:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:06:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:10:13.4006|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: The remote party closed the WebSocket connection without completing the close handshake.
+2026-05-25T03:10:18.4024|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:10:20.6530|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:10:25.6535|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:10:27.8356|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:10:32.8366|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:10:35.0111|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:10:40.0121|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:10:59.1221|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:11:04.1224|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:11:25.1498|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:11:30.1503|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:11:51.1903|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:11:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:11:56.1916|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:12:17.2391|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:12:22.2400|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:12:43.2853|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:12:48.2862|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:13:09.3182|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:13:14.3194|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:13:35.3772|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:13:40.3782|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:14:01.4193|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:14:06.4200|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:14:27.4664|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:14:32.4677|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:14:53.5117|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:14:58.5124|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:15:19.5453|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:15:24.5461|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:15:45.5838|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:15:50.5837|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:16:11.6249|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:16:16.6256|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:16:37.6748|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:16:42.6746|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:16:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:17:03.7212|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:17:08.7218|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:17:29.7719|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:17:34.7718|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:17:55.8162|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:18:00.8176|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:18:21.8566|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:18:26.8577|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:18:47.9174|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:18:52.9178|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:19:13.9559|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:19:18.9569|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:19:39.9918|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:19:44.9924|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:20:06.0308|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:20:11.0325|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:20:32.0841|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:20:37.0851|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:20:58.2002|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:21:03.2016|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:21:24.2444|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:21:29.2454|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:21:50.2989|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:21:55.0128|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:21:55.2998|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:22:16.3456|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:22:21.3462|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:22:42.4109|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:22:47.4100|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:23:08.4511|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:23:13.4510|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:23:34.4820|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:23:39.4829|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:24:00.5348|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:24:05.5351|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:24:26.5802|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:24:31.5812|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:24:52.6437|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:24:57.6453|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:25:18.6979|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:25:23.6990|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:25:44.7374|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:25:49.7377|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:26:10.7790|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:26:15.7803|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:26:36.8232|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:26:41.8241|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:26:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:27:02.8538|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:27:07.8545|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:27:28.9078|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:27:33.9093|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:27:54.9392|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:27:59.9407|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:28:21.0041|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:28:26.0046|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:28:47.0329|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:28:52.0346|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:29:13.0705|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:29:18.0713|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:29:39.0988|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:29:44.0989|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:29:46.2922|ERROR|StarfrontClient.cs|RunLoop|87|[Rockwood] WS error: Unable to connect to the remote server
+2026-05-25T03:29:51.2918|INFO|StarfrontClient.cs|RunLoop|68|[Rockwood] connecting to wss://api.starfront.space:443/ws/scope?key=***
+2026-05-25T03:29:53.0627|INFO|StarfrontClient.cs|RunLoop|71|[Rockwood] connected
+2026-05-25T03:31:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:36:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:41:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:46:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:51:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T03:56:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:01:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:06:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:11:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:16:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:21:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:26:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:31:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:36:55.0130|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:41:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:46:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:51:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T04:56:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:01:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:06:55.0128|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:11:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:16:55.0135|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:21:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:26:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:31:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:36:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:41:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:46:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:51:55.0136|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T05:56:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:01:55.0137|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:06:55.0133|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:08:17.7964|INFO|TimeCondition.cs|Check|254|TimeCondition finished.
+2026-05-25T06:08:17.7966|INFO|TimeCondition.cs|InterruptWhenTimeIsUp|63|Time limit exceeded - Interrupting current Instruction Set
+2026-05-25T06:08:17.8061|INFO|WhenCommon.cs|Execute|425|When: Execute done; InFlight -> false, Triggered false
+2026-05-25T06:08:17.8076|INFO|MeridianFlipTrigger.cs|ShouldTrigger|197|Meridian Flip - Telescope is at home position. Skip flip evaluation
+2026-05-25T06:08:17.8081|INFO|SequenceItem.cs|Run|208|Starting Category: Utility, Item: WaitForTime, Time: 21:18:31h, Offset: -15
+2026-05-25T06:08:17.8107|INFO|WhenCommon.cs|SequenceBlockTeardown|198|Teardown; shutting down watchdog
+2026-05-25T06:08:17.8114|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequentialContainer, Strategy: SequentialStrategy, Items[CREATED]: 12, Conditions: Condition: TimeCondition, Time: 6:8:17h, Condition: TargetSchedulerCondition mode=While Targets Remain Tonight, , Triggers: Trigger: CenterAfterDriftTrigger, DistanceArcMinutes: 1Trigger: WhenUnsafeCategory: Ground Station, Item: Failures to TelegramCategory: Connect, Item: ReconnectOnDownloadFailureTrigger: AutofocusAfterHFRIncreaseTrigger, Amount: 5Trigger: MeridianFlipTriggerCategory: Powerups (Misc), Item: DIYTriggerCategory: Ground Station, Item: Failures to PushoverTrigger: AutofocusAfterTemperatureChangeTrigger, Amount: 1.5°
+2026-05-25T06:08:17.8117|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.TargetAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 1
+2026-05-25T06:08:17.8122|INFO|SequenceItem.cs|Run|208|Starting Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[CREATED]: 9
+2026-05-25T06:08:17.8127|INFO|SequenceItem.cs|Run|208|Starting Category: Telescope, Item: FindHome
+2026-05-25T06:08:17.8171|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-25T06:08:17.8172|INFO|TelescopeVM.cs|FindHome|292|Mount ordered to locate home position
+2026-05-25T06:08:17.8177|INFO|TelescopeVM.cs|FindHome|336|Mount ordered to home but it is already at home
+2026-05-25T06:08:17.8177|INFO|TelescopeVM.cs|FindHome|348|Mount has located its home position
+2026-05-25T06:08:17.8180|INFO|SequenceItem.cs|Run|254|Finishing Category: Telescope, Item: FindHome
+2026-05-25T06:08:17.8188|INFO|SequenceItem.cs|Run|208|Starting Night Summary - End Session
+2026-05-25T06:08:17.8211|INFO|NightSummaryEndInstruction.cs|Execute|28|NightSummary: End Session instruction executing
+2026-05-25T06:08:32.8269|WARNING|SessionService.cs|EndSession|172|NightSummary: EndSession called but no active session — nothing to do
+2026-05-25T06:08:32.8270|INFO|NightSummaryEndInstruction.cs|Execute|39|NightSummary: Session ended successfully
+2026-05-25T06:08:32.8271|INFO|SequenceItem.cs|Run|254|Finishing Night Summary - End Session
+2026-05-25T06:08:32.8277|INFO|SequenceItem.cs|Run|208|Starting [EndSubframesSession]
+2026-05-25T06:08:32.8305|WARNING|EndSessionItem.cs|Execute|50|[Subframes] EndSessionItem: no active session to end.
+2026-05-25T06:08:32.8306|INFO|SequenceItem.cs|Run|254|Finishing [EndSubframesSession]
+2026-05-25T06:08:32.8324|INFO|SequenceItem.cs|Run|208|Starting Category: Camera, Item: WarmCamera, Duration: 30
+2026-05-25T06:08:32.8370|INFO|CameraVM.cs|WarmCamera|161|Warming Camera. Duration: 00:30:00
+2026-05-25T06:11:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:16:55.0132|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:21:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:26:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:31:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:36:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:40:38.3725|INFO|CameraVM.cs|WarmCamera|179|Could not reach warming temperature. Most likley due to ambient temperature being lower. Continuing...
+2026-05-25T06:40:58.3885|INFO|CameraVM.cs|WarmCamera|186|Turning cooler off
+2026-05-25T06:40:58.3906|INFO|SequenceItem.cs|Run|254|Finishing Category: Camera, Item: WarmCamera, Duration: 30
+2026-05-25T06:40:58.3909|INFO|SequenceItem.cs|Run|208|Starting Category: Guider, Item: StopGuiding
+2026-05-25T06:40:58.3972|INFO|PHD2Guider.cs|StopGuiding|704|Phd2 - Stop Guiding skipped, as the app is already in state Stopped
+2026-05-25T06:40:58.3976|INFO|SequenceItem.cs|Run|254|Finishing Category: Guider, Item: StopGuiding
+2026-05-25T06:40:58.3993|INFO|SequenceItem.cs|Run|208|Starting Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-05-25T06:40:58.4329|INFO|SequenceItem.cs|Run|254|Finishing Category: Phd2 Tools, Item: ShutdownPhd2Instruction
+2026-05-25T06:40:58.4341|INFO|SequenceItem.cs|Run|208|Starting Category: Connect, Item: DisconnectAllEquipment
+2026-05-25T06:40:58.4421|WARNING|PHD2Client.cs|ReadEventsAsync|189|PHD2Client: Connection closed by server
+2026-05-25T06:40:58.4423|INFO|DitherStatisticsVM.cs|OnPHD2ConnectionStatusChanged|737|PHD2 Connection Status: Connection lost
+2026-05-25T06:40:58.4423|INFO|PHD2Client.cs|ReadEventsAsync|205|PHD2Client: Stopped reading events
+2026-05-25T06:40:58.5360|INFO|CameraVM.cs|Disconnect|650|Disconnected Camera
+2026-05-25T06:40:58.5376|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EFW2.FilterWheel ZWO FilterWheel
+2026-05-25T06:40:58.5518|INFO|FilterWheelVM.cs|Disconnect|333|Disconnected Filter Wheel
+2026-05-25T06:40:58.5560|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.EAF.Focuser ZWO Focuser
+2026-05-25T06:40:58.6788|INFO|FocuserVM.cs|Disconnect|441|Disconnected Focuser
+2026-05-25T06:40:58.6793|INFO|DisconnectAllEquipment.cs|Execute|139|Rotator is already disconnected
+2026-05-25T06:40:58.6835|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.iOptron2017.Telescope iOptron CEM120,70,40,26, GEM, HEM, HAE, HAZ series and SkyHunter Mount
+2026-05-25T06:40:58.7452|INFO|TelescopeVM.cs|Disconnect|740|Disconnected mount
+2026-05-25T06:40:58.7456|INFO|DisconnectAllEquipment.cs|Execute|139|Guider is already disconnected
+2026-05-25T06:40:58.7457|INFO|DisconnectAllEquipment.cs|Execute|139|Switch is already disconnected
+2026-05-25T06:40:58.7457|INFO|DisconnectAllEquipment.cs|Execute|139|Flat Panel is already disconnected
+2026-05-25T06:40:58.7482|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.SkyAlert.ObservingConditions SkyAlert Observing Conditions
+2026-05-25T06:40:58.7576|INFO|WeatherDataVM.cs|Disconnect|305|Disconnected Weather Device
+2026-05-25T06:40:58.7579|INFO|DisconnectAllEquipment.cs|Execute|139|Dome is already disconnected
+2026-05-25T06:40:58.7596|INFO|AscomDevice.cs|Disconnect|378|Disconnecting from ASCOM.GenericFile.SafetyMonitor Generic File driver
+2026-05-25T06:40:58.7640|INFO|SafetyMonitorVM.cs|Disconnect|221|Disconnected Safety Monitor
+2026-05-25T06:40:58.7644|INFO|SequenceItem.cs|Run|254|Finishing Category: Connect, Item: DisconnectAllEquipment
+2026-05-25T06:40:58.7646|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-05-25T06:40:58.9700|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Pushover, Title: Disconnected
+2026-05-25T06:40:58.9702|INFO|SequenceItem.cs|Run|208|Starting Category: Ground Station, Item: Send to Telegram
+2026-05-25T06:40:59.6313|INFO|SequenceItem.cs|Run|254|Finishing Category: Ground Station, Item: Send to Telegram
+2026-05-25T06:40:59.6320|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.EndAreaContainer, Strategy: SequentialStrategy, Items[FINISHED]: 9
+2026-05-25T06:40:59.6324|INFO|SequenceItem.cs|Run|254|Finishing Category: * Instruction Set *, Container: NINA.Sequencer.Container.SequenceRootContainer, Strategy: SequentialStrategy, Items[FINISHED]: 3, Triggers: Category: Ground Station, Item: Failures to Telegram
+2026-05-25T06:40:59.6337|INFO|Sequence2VM.cs|StartSequence|548|Advanced Sequence finished
+2026-05-25T06:40:59.6349|INFO|WhenCommon.cs|InterruptWhen|350|Restarting sequence, Triggered -> true
+2026-05-25T06:41:03.4487|INFO|PHD2Client.cs|ConnectAsync|102|PHD2Client: Connecting to PHD2 at 127.0.0.1:4400...
+2026-05-25T06:41:05.4945|ERROR|PHD2Client.cs|ConnectAsync|132|PHD2Client: Connection failed: No connection could be made because the target machine actively refused it.
+2026-05-25T06:41:55.0193|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:46:55.0146|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:51:55.0275|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T06:56:55.0148|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:01:55.0238|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:06:55.0162|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:11:55.0129|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:16:55.0269|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:21:55.0190|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:26:55.0125|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:31:55.0164|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:36:55.0162|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:41:55.0246|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:46:55.0251|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:51:55.0170|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T07:56:55.0186|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:01:55.0190|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:06:55.0203|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:11:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:16:55.0200|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:21:55.0265|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:26:55.0185|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:31:55.0141|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:36:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:41:55.0253|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:46:55.0138|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:51:55.0176|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T08:56:55.0270|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:01:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:06:55.0183|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:11:55.0187|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:16:55.0194|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:21:55.0261|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:26:55.0252|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:31:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:36:55.0255|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:41:55.0206|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:46:55.0226|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:51:55.0262|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T09:56:55.0205|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:01:55.0245|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:06:55.0174|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:11:55.0170|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:16:55.0142|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:21:55.0202|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:26:55.0192|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:31:55.0218|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:36:55.0229|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:41:55.0221|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:46:55.0231|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:51:55.0161|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T10:56:55.0234|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:01:55.0253|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:06:55.0282|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:11:55.0149|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:16:55.0242|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:21:55.0181|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:26:55.0140|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:31:55.0134|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:36:55.0209|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:41:55.0159|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:46:55.0171|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:51:55.0276|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T11:56:55.0195|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:01:55.0182|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:06:55.0265|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:11:55.0259|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:16:55.0168|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:21:55.0254|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:26:55.0160|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:31:55.0262|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:36:55.0169|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:41:55.0202|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:46:55.0195|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:51:55.0277|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T12:56:55.0254|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:01:55.0208|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:06:55.0144|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:11:55.0139|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:16:55.0262|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:21:55.0143|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:26:55.0199|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:31:55.0186|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:36:55.0173|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:41:55.0131|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:46:55.0153|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:51:55.0211|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T13:56:55.0242|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:01:55.0242|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:06:55.0243|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:11:55.0125|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:16:55.0191|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:21:55.0170|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
+2026-05-25T14:26:55.0261|INFO|TsProgressReader.cs|ReadProgressDelta|75|[Subframes] TS progress delta: DB not found at C:\Users\nicka\AppData\Local\NINA\SchedulerPlugin — Target Scheduler not installed or DB path mismatch.
